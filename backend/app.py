@@ -225,16 +225,13 @@ def export_sales():
         output = io.StringIO()
         writer = csv.writer(output)
 
-        # Write headers
         writer.writerow([
             'Date', 'Stock Code', 'Quantity', 'Price', 'Brand', 'Revenue'
         ])
 
-        # Get sales data
         sales_rows = sales_handler.get_all_sales()
         writer.writerows(sales_rows)
 
-        # Prepare response
         output.seek(0)
         return Response(
             output.getvalue(),

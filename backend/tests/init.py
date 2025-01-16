@@ -30,7 +30,7 @@ def test_basic_operations():
 
         # Try an invalid operation to test error handling
         try:
-            nav_sys.increase_stock(-1)  # This should raise an error
+            nav_sys.increase_stock(-1)
         except StockError as e:
             logger.error(f"Stock error occurred: {str(e)}")
 
