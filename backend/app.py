@@ -8,6 +8,7 @@ from datetime import datetime
 from utils import setup_logger, StockFileHandler, StockError
 from models.nav_sys import NavSys
 from config import DevelopmentConfig
+from utils.sale_handler import SalesHandler
 
 app = Flask(__name__)
 app.config.from_object(DevelopmentConfig)
@@ -15,6 +16,7 @@ CORS(app)
 
 logger = setup_logger(__name__)
 file_handler = StockFileHandler()
+sales_handler = SalesHandler()
 
 @app.route('/api/items', methods=['GET'])
 def get_items():
@@ -184,7 +186,17 @@ def sell_item(stock_code):
             return jsonify({'error': 'Insufficient stock'}), 400
 
         if item.sell_stock(quantity):
+            # Save updated inventory
             file_handler.save_item(item)
+
+            # Record the sale
+            sales_handler.record_sale(
+                stock_code=stock_code,
+                quantity=quantity,
+                price=item.price,
+                brand=getattr(item, 'brand', 'N/A')
+            )
+
             logger.info(f"Sold {quantity} units of {stock_code}")
             return jsonify({
                 'message': f'Successfully sold {quantity} units',
@@ -194,6 +206,57 @@ def sell_item(stock_code):
     except Exception as e:
         logger.error(f"Error selling item: {str(e)}")
         return jsonify({'error': str(e)}), 400
+
+
+@app.route('/api/sales/history', methods=['GET'])
+def get_sales_history():
+    """Get sales history data"""
+    try:
+        sales_data = sales_handler.get_sales_history()
+        return jsonify(sales_data)
+    except Exception as e:
+        logger.error(f"Error getting sales history: {str(e)}")
+        return jsonify({'error': str(e)}), 500
+
+@app.route('/api/sales/export', methods=['GET'])
+def export_sales():
+    """Export sales history to CSV"""
+    try:
+        output = io.StringIO()
+        writer = csv.writer(output)
+
+        # Write headers
+        writer.writerow([
+            'Date', 'Stock Code', 'Quantity', 'Price', 'Brand', 'Revenue'
+        ])
+
+        # Get sales data
+        sales_rows = sales_handler.get_all_sales()
+        writer.writerows(sales_rows)
+
+        # Prepare response
+        output.seek(0)
+        return Response(
+            output.getvalue(),
+            mimetype='text/csv',
+            headers={
+                'Content-Disposition':
+                f'attachment; filename=sales_history_{datetime.now().strftime("%Y%m%d")}.csv'
+            }
+        )
+    except Exception as e:
+        logger.error(f"Error exporting sales: {str(e)}")
+        return jsonify({'error': str(e)}), 500
+
+@app.route('/api/sales/summary', methods=['GET'])
+def get_sales_summary():
+    """Get sales summary statistics"""
+    try:
+        summary = sales_handler.get_sales_summary()
+        return jsonify(summary)
+    except Exception as e:
+        logger.error(f"Error getting sales summary: {str(e)}")
+        return jsonify({'error': str(e)}), 500
 
 @app.route('/api/items/<stock_code>', methods=['DELETE'])
 def delete_item(stock_code):
@@ -246,6 +309,7 @@ def export_items():
     except Exception as e:
         logger.error(f"Error exporting items: {str(e)}")
         return jsonify({'error': str(e)}), 500
+
 
 if __name__ == '__main__':
     app.run(debug=True, port=5000)
