@@ -1,0 +1,251 @@
+# backend/app.py
+
+from flask import Flask, request, jsonify, Response
+from flask_cors import CORS
+import csv
+import io
+from datetime import datetime
+from utils import setup_logger, StockFileHandler, StockError
+from models.nav_sys import NavSys
+from config import DevelopmentConfig
+
+app = Flask(__name__)
+app.config.from_object(DevelopmentConfig)
+CORS(app)
+
+logger = setup_logger(__name__)
+file_handler = StockFileHandler()
+
+@app.route('/api/items', methods=['GET'])
+def get_items():
+    """Get items with filtering, sorting, and pagination"""
+    try:
+        # Get query parameters
+        page = int(request.args.get('page', 1))
+        per_page = int(request.args.get('per_page', 10))
+        search = request.args.get('search', '').lower()
+        brand_filter = request.args.get('brand', '').lower()
+        sort_by = request.args.get('sort_by', 'stock_code')
+        sort_order = request.args.get('sort_order', 'asc')
+
+        # Load all items
+        items = file_handler.load_items()
+
+        # Apply filters
+        filtered_items = items
+        if search:
+            filtered_items = [
+                item for item in filtered_items
+                if search in item.stock_code.lower() or
+                search in item.get_stock_name().lower()
+            ]
+
+        if brand_filter:
+            filtered_items = [
+                item for item in filtered_items
+                if hasattr(item, 'brand') and brand_filter in item.brand.lower()
+            ]
+
+        # Calculate statistics
+        stats = {
+            'total_items': len(items),
+            'total_value': sum(item.price * item.quantity for item in items),
+            'total_value_vat': sum(item.get_price_with_VAT() * item.quantity for item in items),
+            'low_stock_items': sum(1 for item in items if item.quantity < 10)
+        }
+
+        # Sort items
+        filtered_items.sort(
+            key=lambda x: getattr(x, sort_by, x.stock_code),
+            reverse=sort_order == 'desc'
+        )
+
+        # Paginate
+        total_items = len(filtered_items)
+        total_pages = (total_items + per_page - 1) // per_page
+        start_idx = (page - 1) * per_page
+        end_idx = min(start_idx + per_page, total_items)
+        paginated_items = filtered_items[start_idx:end_idx]
+
+        return jsonify({
+            'items': [item.to_dict() for item in paginated_items],
+            'pagination': {
+                'current_page': page,
+                'total_pages': total_pages,
+                'total_items': total_items,
+                'per_page': per_page
+            },
+            'statistics': stats
+        })
+
+    except Exception as e:
+        logger.error(f"Error getting items: {str(e)}")
+        return jsonify({'error': str(e)}), 500
+
+@app.route('/api/items', methods=['POST'])
+def add_item():
+    """Add a new stock item or update if it exists"""
+    try:
+        data = request.json
+
+        # Load existing items to check for duplicates
+        existing_items = file_handler.load_items()
+        existing_item = next((item for item in existing_items
+                            if item.stock_code == data['stock_code']), None)
+
+        if existing_item:
+            # If item exists, update its quantity instead of creating new
+            try:
+                # Add the new quantity to existing quantity
+                existing_item.increase_stock(int(data['quantity']))
+                # Update price if different
+                if float(data['price']) != existing_item.price:
+                    existing_item.price = float(data['price'])
+                # Update brand if different
+                if hasattr(existing_item, 'brand') and data['brand'] != existing_item.brand:
+                    existing_item._brand = data['brand']
+
+                file_handler.save_item(existing_item)
+                logger.info(f"Updated existing item: {existing_item.stock_code}")
+                return jsonify({
+                    'message': 'Item updated successfully',
+                    'item': existing_item.to_dict()
+                }), 200
+            except Exception as e:
+                logger.error(f"Error updating existing item: {str(e)}")
+                return jsonify({'error': str(e)}), 400
+        else:
+            # Create new item if it doesn't exist
+            nav_sys = NavSys(
+                data['stock_code'],
+                int(data['quantity']),
+                float(data['price']),
+                data['brand']
+            )
+            file_handler.save_item(nav_sys)
+            logger.info(f"Added new item: {nav_sys.stock_code}")
+            return jsonify({
+                'message': 'Item added successfully',
+                'item': nav_sys.to_dict()
+            }), 201
+
+    except Exception as e:
+        logger.error(f"Error in add_item: {str(e)}")
+        return jsonify({'error': str(e)}), 400
+
+@app.route('/api/items/<stock_code>', methods=['PUT'])
+def update_item(stock_code):
+    """Update an existing stock item"""
+    try:
+        data = request.json
+        items = file_handler.load_items()
+        item = next((item for item in items if item.stock_code == stock_code), None)
+
+        if not item:
+            return jsonify({'error': 'Item not found'}), 404
+
+        if 'price' in data:
+            # Validate price
+            new_price = float(data['price'])
+            if new_price <= 0:
+                return jsonify({'error': 'Price must be greater than 0'}), 400
+            item.price = new_price
+            logger.info(f"Updated price for {stock_code} to {new_price}")
+
+        if 'quantity' in data:
+            item.increase_stock(int(data['quantity']))
+
+        file_handler.save_item(item)
+        return jsonify({
+            'message': 'Item updated successfully',
+            'item': item.to_dict()
+        })
+    except ValueError as e:
+        logger.error(f"Invalid price value: {str(e)}")
+        return jsonify({'error': 'Invalid price value'}), 400
+    except Exception as e:
+        logger.error(f"Error updating item: {str(e)}")
+        return jsonify({'error': str(e)}), 400
+
+@app.route('/api/items/<stock_code>/sell', methods=['POST'])
+def sell_item(stock_code):
+    """Sell quantity of an item"""
+    try:
+        data = request.json
+        quantity = int(data['quantity'])
+
+        items = file_handler.load_items()
+        item = next((item for item in items if item.stock_code == stock_code), None)
+
+        if not item:
+            return jsonify({'error': 'Item not found'}), 404
+
+        if quantity > item.quantity:
+            return jsonify({'error': 'Insufficient stock'}), 400
+
+        if item.sell_stock(quantity):
+            file_handler.save_item(item)
+            logger.info(f"Sold {quantity} units of {stock_code}")
+            return jsonify({
+                'message': f'Successfully sold {quantity} units',
+                'item': item.to_dict()
+            })
+        return jsonify({'error': 'Failed to sell items'}), 400
+    except Exception as e:
+        logger.error(f"Error selling item: {str(e)}")
+        return jsonify({'error': str(e)}), 400
+
+@app.route('/api/items/<stock_code>', methods=['DELETE'])
+def delete_item(stock_code):
+    """Delete a stock item"""
+    try:
+        if file_handler.delete_item(stock_code):
+            logger.info(f"Deleted item: {stock_code}")
+            return jsonify({'message': 'Item deleted successfully'}), 200
+        return jsonify({'error': 'Item not found'}), 404
+    except Exception as e:
+        logger.error(f"Error deleting item: {str(e)}")
+        return jsonify({'error': str(e)}), 500
+
+@app.route('/api/items/export', methods=['GET'])
+def export_items():
+    """Export items to CSV"""
+    try:
+        items = file_handler.load_items()
+        output = io.StringIO()
+        writer = csv.writer(output)
+
+        # Write headers
+        writer.writerow([
+            'Stock Code', 'Name', 'Description', 'Quantity',
+            'Price', 'Price with VAT', 'Brand'
+        ])
+
+        # Write data
+        for item in items:
+            writer.writerow([
+                item.stock_code,
+                item.get_stock_name(),
+                item.get_stock_description(),
+                item.quantity,
+                item.price,
+                item.get_price_with_VAT(),
+                getattr(item, 'brand', 'N/A')
+            ])
+
+        # Prepare response
+        output.seek(0)
+        return Response(
+            output.getvalue(),
+            mimetype='text/csv',
+            headers={
+                'Content-Disposition':
+                f'attachment; filename=stock_items_{datetime.now().strftime("%Y%m%d")}.csv'
+            }
+        )
+    except Exception as e:
+        logger.error(f"Error exporting items: {str(e)}")
+        return jsonify({'error': str(e)}), 500
+
+if __name__ == '__main__':
+    app.run(debug=True, port=5000)

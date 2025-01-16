@@ -1,0 +1,66 @@
+2025-01-16 12:12:34 - root - INFO - Logger initialized. Log file: logs\app_20250116.log
+2025-01-16 12:12:34 - utils - INFO - Utils package initialized
+2025-01-16 12:12:34 - __main__ - INFO - Initializing file handler...
+2025-01-16 12:12:34 - models.stock_item - INFO - Created new stock item: NS105
+2025-01-16 12:12:34 - models.nav_sys - INFO - Created new NavSys item: NS105, brand: Garmin
+2025-01-16 12:12:34 - __main__ - INFO - Created new NavSys: NS105
+2025-01-16 12:12:34 - utils.file_handler - INFO - Saved item NS105 to CSV
+2025-01-16 12:12:34 - __main__ - INFO - Saved NavSys to CSV
+2025-01-16 12:12:34 - models.stock_item - INFO - Created new stock item: NS104
+2025-01-16 12:12:34 - models.nav_sys - INFO - Created new NavSys item: NS104, brand: Magellan
+2025-01-16 12:12:34 - models.stock_item - INFO - Created new stock item: NS105
+2025-01-16 12:12:34 - models.nav_sys - INFO - Created new NavSys item: NS105, brand: Garmin
+2025-01-16 12:12:34 - __main__ - INFO - Loaded 2 items from CSV
+2025-01-16 12:12:34 - models.stock_item - INFO - Increased stock for NS105 by 5
+2025-01-16 12:12:34 - __main__ - INFO - Increased stock. New quantity: 15
+2025-01-16 12:12:34 - models.stock_item - ERROR - Error increasing stock: Increased item must be greater than or equal to one
+2025-01-16 12:12:34 - __main__ - ERROR - Stock error occurred: The error was: Increased item must be greater than or equal to one
+2025-01-16 12:14:18 - root - INFO - Logger initialized. Log file: logs\app_20250116.log
+2025-01-16 12:14:18 - utils - INFO - Utils package initialized
+2025-01-16 12:14:18 - __main__ - INFO - Initializing file handler...
+2025-01-16 12:14:18 - models.stock_item - INFO - Created new stock item: NS105
+2025-01-16 12:14:18 - models.nav_sys - INFO - Created new NavSys item: NS105, brand: Garmin
+2025-01-16 12:14:18 - __main__ - INFO - Created new NavSys: NS105
+2025-01-16 12:14:18 - utils.file_handler - INFO - Saved item NS105 to CSV
+2025-01-16 12:14:18 - __main__ - INFO - Saved NavSys to CSV
+2025-01-16 12:14:18 - models.stock_item - INFO - Created new stock item: NS104
+2025-01-16 12:14:18 - models.nav_sys - INFO - Created new NavSys item: NS104, brand: Magellan
+2025-01-16 12:14:18 - models.stock_item - INFO - Created new stock item: NS105
+2025-01-16 12:14:18 - models.nav_sys - INFO - Created new NavSys item: NS105, brand: Garmin
+2025-01-16 12:14:18 - __main__ - INFO - Loaded 2 items from CSV
+2025-01-16 12:14:18 - models.stock_item - INFO - Increased stock for NS105 by 5
+2025-01-16 12:14:18 - __main__ - INFO - Increased stock. New quantity: 15
+2025-01-16 12:14:18 - models.stock_item - ERROR - Error increasing stock: Increased item must be greater than or equal to one
+2025-01-16 12:14:18 - __main__ - ERROR - Stock error occurred: The error was: Increased item must be greater than or equal to one
+2025-01-16 12:23:24 - root - INFO - Logger initialized. Log file: logs\app_20250116.log
+2025-01-16 12:23:24 - utils - INFO - Utils package initialized
+2025-01-16 12:23:24 - models.stock_item - INFO - Created new stock item: NS101
+2025-01-16 12:23:24 - models.nav_sys - INFO - Created new NavSys item: NS101, brand: TomTom
+2025-01-16 12:23:24 - models.stock_item - INFO - Created new stock item: NS102
+2025-01-16 12:23:24 - models.nav_sys - INFO - Created new NavSys item: NS102, brand: Garmin
+2025-01-16 12:23:24 - utils.file_handler - INFO - Saved item NS101 to CSV
+2025-01-16 12:23:24 - utils.file_handler - INFO - Saved item NS102 to CSV
+2025-01-16 12:23:24 - models.stock_item - INFO - Created new stock item: NS104
+2025-01-16 12:23:24 - models.nav_sys - INFO - Created new NavSys item: NS104, brand: Magellan
+2025-01-16 12:23:24 - models.stock_item - INFO - Created new stock item: NS105
+2025-01-16 12:23:24 - models.nav_sys - INFO - Created new NavSys item: NS105, brand: Garmin
+2025-01-16 12:23:24 - models.stock_item - INFO - Created new stock item: NS101
+2025-01-16 12:23:24 - models.nav_sys - INFO - Created new NavSys item: NS101, brand: TomTom
+2025-01-16 12:23:24 - models.stock_item - INFO - Created new stock item: NS102
+2025-01-16 12:23:24 - models.nav_sys - INFO - Created new NavSys item: NS102, brand: Garmin
+2025-01-16 12:23:24 - __main__ - INFO - Loaded 4 items
+2025-01-16 12:23:24 - models.stock_item - INFO - Increased stock for NS101 by 5
+2025-01-16 12:23:24 - models.stock_item - INFO - Sold 3 units of NS101
+2025-01-16 12:23:24 - models.stock_item - INFO - Updated price for NS101 to 249.99
+2025-01-16 12:23:24 - utils.file_handler - INFO - Saved item NS101 to CSV
+2025-01-16 12:23:24 - __main__ - INFO - Basic operations test completed successfully
+2025-01-16 12:23:24 - models.stock_item - ERROR - Error creating stock item: Stock code must be a non-empty string
+2025-01-16 12:23:24 - __main__ - INFO - Successfully caught invalid creation: Invalid parameters: Stock code must be a non-empty string
+2025-01-16 12:23:24 - models.stock_item - INFO - Created new stock item: NS103
+2025-01-16 12:23:24 - models.nav_sys - INFO - Created new NavSys item: NS103, brand: GeoVision
+2025-01-16 12:23:24 - models.stock_item - ERROR - Error increasing stock: Increased item must be greater than or equal to one
+2025-01-16 12:23:24 - __main__ - INFO - Successfully caught invalid stock increase: The error was: Increased item must be greater than or equal to one
+2025-01-16 12:23:24 - models.stock_item - ERROR - Error increasing stock: Stock cannot exceed 100 items
+2025-01-16 12:23:24 - __main__ - INFO - Successfully caught stock limit exceed: The error was: Stock cannot exceed 100 items
+2025-01-16 12:23:24 - __main__ - INFO - Successfully caught invalid price: Price cannot be negative
+2025-01-16 12:23:24 - __main__ - INFO - Error scenarios test completed successfully

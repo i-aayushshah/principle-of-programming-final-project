@@ -1,0 +1,6 @@
+item_type,stock_code,quantity,price,brand
+NavSys,NS103,12,199.99,GeoVision
+StockItem,W102,32,24.0,
+NavSys,NS235,10,15.0,COW
+NavSys,NS456,12,155.98,COW
+NavSys,NS234,10,456.0,COW
