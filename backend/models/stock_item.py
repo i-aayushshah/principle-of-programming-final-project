@@ -1,11 +1,12 @@
 # models/stock_item.py
 
 import logging
+from abc import ABC, abstractmethod
 from utils.exceptions import StockError
 
 logger = logging.getLogger(__name__)
 
-class StockItem:
+class StockItem(ABC):
     """Base class for all stock items in the car parts shop."""
 
     # Class variable shared by all instances

@@ -1,13 +1,13 @@
 # models/nav_sys.py
 
 import logging
-from models.stock_item import StockItem
+from .stock_item import StockItem
 from utils.exceptions import StockError
 
 logger = logging.getLogger(__name__)
 
 class NavSys(StockItem):
-    """Navigation System class that inherits from StockItem."""
+    """Navigation system stock item."""
 
     def __init__(self, stock_code: str, quantity: int, price: float, brand: str):
         """Initialize a navigation system item."""
@@ -23,7 +23,7 @@ class NavSys(StockItem):
     def _validate_brand(self, brand: str):
         """Validate brand parameter."""
         if not isinstance(brand, str) or not brand:
-            raise ValueError("Brand must be a non-empty string")
+            raise StockError("Brand must be a non-empty string")
 
     @property
     def brand(self) -> str:
@@ -33,9 +33,13 @@ class NavSys(StockItem):
     @brand.setter
     def brand(self, new_brand: str) -> None:
         """Set new brand."""
-        self._validate_brand(new_brand)
-        self._brand = new_brand
-        logger.info(f"Updated brand for {self.stock_code} to {new_brand}")
+        try:
+            self._validate_brand(new_brand)
+            self._brand = new_brand
+            logger.info(f"Updated brand for {self.stock_code} to {new_brand}")
+        except ValueError as e:
+            logger.error(f"Error setting brand: {str(e)}")
+            raise StockError(f"Invalid brand: {str(e)}")
 
     def get_stock_name(self) -> str:
         return "Navigation system"

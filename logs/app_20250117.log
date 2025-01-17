@@ -304,3 +304,1064 @@ Total unit in stock: 30
 2025-01-17 18:11:18 - models.stock_item - ERROR - Invalid price value: Price must be greater than 0
 2025-01-17 18:11:18 - __main__ - INFO - Successfully caught invalid price: Invalid price value: Price must be greater than 0
 2025-01-17 18:11:18 - __main__ - ERROR - Error scenarios test failed: Brand must be a non-empty string
+2025-01-17 19:25:07 - root - INFO - Logger initialized. Log file: logs\app_20250117.log
+2025-01-17 19:25:07 - utils - INFO - Utils package initialized
+2025-01-17 19:25:07 - models.stock_item - INFO - Created new stock item: NS101
+2025-01-17 19:25:07 - models.nav_sys - INFO - Created new NavSys item: NS101, brand: TomTom
+2025-01-17 19:25:07 - tests.test_nav_sys - INFO - Valid initialization test passed
+2025-01-17 19:25:07 - models.stock_item - ERROR - Error creating stock item: Stock code must be a non-empty string
+2025-01-17 19:25:07 - models.stock_item - ERROR - Error creating stock item: Quantity must be a non-negative integer
+2025-01-17 19:25:07 - models.stock_item - ERROR - Error creating stock item: Price must be a non-negative number
+2025-01-17 19:25:07 - models.stock_item - INFO - Created new stock item: NS101
+2025-01-17 19:25:07 - tests.test_nav_sys - INFO - Invalid initialization tests passed
+2025-01-17 19:25:07 - models.stock_item - INFO - Created new stock item: NS101
+2025-01-17 19:25:07 - models.nav_sys - INFO - Created new NavSys item: NS101, brand: TomTom
+2025-01-17 19:25:07 - models.stock_item - INFO - Increased stock for NS101 by 5
+2025-01-17 19:25:07 - models.stock_item - INFO - Sold 3 units of NS101
+2025-01-17 19:25:07 - models.stock_item - ERROR - Error increasing stock: Increased item must be greater than or equal to one
+2025-01-17 19:25:07 - models.stock_item - ERROR - Error increasing stock: Stock cannot exceed 100 items
+2025-01-17 19:25:07 - tests.test_nav_sys - INFO - Stock operations tests passed
+2025-01-17 19:25:07 - models.stock_item - INFO - Created new stock item: NS101
+2025-01-17 19:25:07 - models.nav_sys - INFO - Created new NavSys item: NS101, brand: TomTom
+2025-01-17 19:25:07 - models.stock_item - INFO - Updated price to 249.99
+2025-01-17 19:25:07 - models.stock_item - ERROR - Invalid price value: Price must be greater than 0
+2025-01-17 19:25:07 - tests.test_nav_sys - INFO - Price operations tests passed
+2025-01-17 19:25:07 - models.stock_item - INFO - Created new stock item: NS101
+2025-01-17 19:25:07 - models.nav_sys - INFO - Created new NavSys item: NS101, brand: TomTom
+2025-01-17 19:25:07 - tests.test_nav_sys - INFO - String representation test passed
+2025-01-17 19:25:07 - models.stock_item - INFO - Created new stock item: NS101
+2025-01-17 19:25:07 - models.nav_sys - INFO - Created new NavSys item: NS101, brand: TomTom
+2025-01-17 19:25:07 - tests.test_nav_sys - INFO - Data conversion test passed
+2025-01-17 19:25:07 - models.stock_item - INFO - Created new stock item: NS101
+2025-01-17 19:25:07 - models.nav_sys - INFO - Created new NavSys item: NS101, brand: TomTom
+2025-01-17 19:25:07 - tests.test_nav_sys - INFO - Brand operations tests passed
+2025-01-17 19:25:07 - models.stock_item - INFO - Created new stock item: NS101
+2025-01-17 19:25:07 - models.nav_sys - INFO - Created new NavSys item: NS101, brand: TomTom
+2025-01-17 19:25:07 - models.stock_item - INFO - Increased stock for NS101 by 5
+2025-01-17 19:25:07 - models.stock_item - INFO - Sold 3 units of NS101
+2025-01-17 19:25:07 - tests.test_operation - INFO - StockItem operations test completed successfully
+2025-01-17 19:25:07 - models.stock_item - INFO - Created new stock item: NS101
+2025-01-17 19:25:07 - models.nav_sys - INFO - Created new NavSys item: NS101, brand: TomTom
+2025-01-17 19:25:07 - models.stock_item - INFO - Created new stock item: NS102
+2025-01-17 19:25:07 - models.nav_sys - INFO - Created new NavSys item: NS102, brand: Garmin
+2025-01-17 19:25:07 - utils.file_handler - INFO - Updated existing item: NS101
+2025-01-17 19:25:07 - utils.file_handler - INFO - Updated existing item: NS102
+2025-01-17 19:25:07 - models.stock_item - INFO - Created new stock item: NS235
+2025-01-17 19:25:07 - models.nav_sys - INFO - Created new NavSys item: NS235, brand: COW
+2025-01-17 19:25:07 - models.stock_item - INFO - Created new stock item: NS456
+2025-01-17 19:25:07 - models.nav_sys - INFO - Created new NavSys item: NS456, brand: COW
+2025-01-17 19:25:07 - models.stock_item - INFO - Created new stock item: NS234
+2025-01-17 19:25:07 - models.nav_sys - INFO - Created new NavSys item: NS234, brand: TomTom
+2025-01-17 19:25:07 - models.stock_item - INFO - Created new stock item: NS789
+2025-01-17 19:25:07 - models.nav_sys - INFO - Created new NavSys item: NS789, brand: GeoVision
+2025-01-17 19:25:07 - models.stock_item - INFO - Created new stock item: NS333
+2025-01-17 19:25:07 - models.nav_sys - INFO - Created new NavSys item: NS333, brand: AlphaTech
+2025-01-17 19:25:07 - models.stock_item - INFO - Created new stock item: NS112
+2025-01-17 19:25:07 - models.nav_sys - INFO - Created new NavSys item: NS112, brand: GeoVision
+2025-01-17 19:25:07 - models.stock_item - INFO - Created new stock item: NS567
+2025-01-17 19:25:07 - models.nav_sys - INFO - Created new NavSys item: NS567, brand: COW
+2025-01-17 19:25:07 - models.stock_item - INFO - Created new stock item: NS678
+2025-01-17 19:25:07 - models.nav_sys - INFO - Created new NavSys item: NS678, brand: GeoVision
+2025-01-17 19:25:07 - models.stock_item - INFO - Created new stock item: NS890
+2025-01-17 19:25:07 - models.nav_sys - INFO - Created new NavSys item: NS890, brand: AlphaTech
+2025-01-17 19:25:07 - models.stock_item - INFO - Created new stock item: NS124
+2025-01-17 19:25:07 - models.nav_sys - INFO - Created new NavSys item: NS124, brand: COW
+2025-01-17 19:25:07 - models.stock_item - INFO - Created new stock item: NS234A
+2025-01-17 19:25:07 - models.nav_sys - INFO - Created new NavSys item: NS234A, brand: COW
+2025-01-17 19:25:07 - models.stock_item - INFO - Created new stock item: NS345
+2025-01-17 19:25:07 - models.nav_sys - INFO - Created new NavSys item: NS345, brand: COW
+2025-01-17 19:25:07 - models.stock_item - INFO - Created new stock item: NS555
+2025-01-17 19:25:07 - models.nav_sys - INFO - Created new NavSys item: NS555, brand: AlphaTech
+2025-01-17 19:25:07 - models.stock_item - INFO - Created new stock item: NS910
+2025-01-17 19:25:07 - models.nav_sys - INFO - Created new NavSys item: NS910, brand: COW
+2025-01-17 19:25:07 - models.stock_item - INFO - Created new stock item: NS321
+2025-01-17 19:25:07 - models.nav_sys - INFO - Created new NavSys item: NS321, brand: AlphaTech
+2025-01-17 19:25:07 - models.stock_item - INFO - Created new stock item: NS876
+2025-01-17 19:25:07 - models.nav_sys - INFO - Created new NavSys item: NS876, brand: COW
+2025-01-17 19:25:07 - models.stock_item - INFO - Created new stock item: NS223
+2025-01-17 19:25:07 - models.nav_sys - INFO - Created new NavSys item: NS223, brand: GeoVision
+2025-01-17 19:25:07 - models.stock_item - INFO - Created new stock item: NS445
+2025-01-17 19:25:07 - models.nav_sys - INFO - Created new NavSys item: NS445, brand: AlphaTech
+2025-01-17 19:25:07 - models.stock_item - INFO - Created new stock item: NS290
+2025-01-17 19:25:07 - models.nav_sys - INFO - Created new NavSys item: NS290, brand: COW
+2025-01-17 19:25:07 - models.stock_item - INFO - Created new stock item: NS302
+2025-01-17 19:25:07 - models.nav_sys - INFO - Created new NavSys item: NS302, brand: AlphaTech
+2025-01-17 19:25:07 - models.stock_item - INFO - Created new stock item: NS740
+2025-01-17 19:25:07 - models.nav_sys - INFO - Created new NavSys item: NS740, brand: COW
+2025-01-17 19:25:07 - models.stock_item - INFO - Created new stock item: NS650
+2025-01-17 19:25:07 - models.nav_sys - INFO - Created new NavSys item: NS650, brand: GeoVision
+2025-01-17 19:25:07 - models.stock_item - INFO - Created new stock item: NS890A
+2025-01-17 19:25:07 - models.nav_sys - INFO - Created new NavSys item: NS890A, brand: AlphaTech
+2025-01-17 19:25:07 - models.stock_item - INFO - Created new stock item: NS554
+2025-01-17 19:25:07 - models.nav_sys - INFO - Created new NavSys item: NS554, brand: COW
+2025-01-17 19:25:07 - models.stock_item - INFO - Created new stock item: NS765
+2025-01-17 19:25:07 - models.nav_sys - INFO - Created new NavSys item: NS765, brand: GeoVision
+2025-01-17 19:25:07 - models.stock_item - INFO - Created new stock item: NS456B
+2025-01-17 19:25:07 - models.nav_sys - INFO - Created new NavSys item: NS456B, brand: COW
+2025-01-17 19:25:07 - models.stock_item - INFO - Created new stock item: NS644
+2025-01-17 19:25:07 - models.nav_sys - INFO - Created new NavSys item: NS644, brand: GeoVision
+2025-01-17 19:25:07 - models.stock_item - INFO - Created new stock item: NS199
+2025-01-17 19:25:07 - models.nav_sys - INFO - Created new NavSys item: NS199, brand: COW
+2025-01-17 19:25:07 - models.stock_item - INFO - Created new stock item: NS543
+2025-01-17 19:25:07 - models.nav_sys - INFO - Created new NavSys item: NS543, brand: TomTom
+2025-01-17 19:25:07 - models.stock_item - INFO - Created new stock item: NS050
+2025-01-17 19:25:07 - models.nav_sys - INFO - Created new NavSys item: NS050, brand: COW
+2025-01-17 19:25:07 - models.stock_item - INFO - Created new stock item: NS123
+2025-01-17 19:25:07 - models.nav_sys - INFO - Created new NavSys item: NS123, brand: COW
+2025-01-17 19:25:07 - models.stock_item - INFO - Created new stock item: NS101
+2025-01-17 19:25:07 - models.nav_sys - INFO - Created new NavSys item: NS101, brand: TomTom
+2025-01-17 19:25:07 - models.stock_item - INFO - Created new stock item: NS102
+2025-01-17 19:25:07 - models.nav_sys - INFO - Created new NavSys item: NS102, brand: Garmin
+2025-01-17 19:25:07 - tests.test_operation - INFO - Loaded 33 items
+2025-01-17 19:25:07 - models.stock_item - INFO - Increased stock for NS101 by 5
+2025-01-17 19:25:07 - models.stock_item - INFO - Sold 3 units of NS101
+2025-01-17 19:25:07 - models.stock_item - INFO - Updated price to 249.99
+2025-01-17 19:25:07 - models.nav_sys - INFO - Updated brand for NS101 to Garmin
+2025-01-17 19:25:07 - utils.file_handler - INFO - Updated existing item: NS101
+2025-01-17 19:25:07 - tests.test_operation - INFO - NavSys operations test completed successfully
+2025-01-17 19:25:07 - models.stock_item - ERROR - Error creating stock item: Stock code must be a non-empty string
+2025-01-17 19:25:07 - tests.test_operation - INFO - Successfully caught invalid creation: Invalid parameters: Stock code must be a non-empty string
+2025-01-17 19:25:07 - models.stock_item - INFO - Created new stock item: NS103
+2025-01-17 19:25:07 - models.nav_sys - INFO - Created new NavSys item: NS103, brand: GeoVision
+2025-01-17 19:25:07 - models.stock_item - ERROR - Error increasing stock: Increased item must be greater than or equal to one
+2025-01-17 19:25:07 - tests.test_operation - INFO - Successfully caught invalid stock increase: The error was: Increased item must be greater than or equal to one
+2025-01-17 19:25:07 - models.stock_item - ERROR - Error increasing stock: Stock cannot exceed 100 items
+2025-01-17 19:25:07 - tests.test_operation - INFO - Successfully caught stock limit exceed: The error was: Stock cannot exceed 100 items
+2025-01-17 19:25:07 - models.stock_item - ERROR - Invalid price value: Price must be greater than 0
+2025-01-17 19:25:07 - tests.test_operation - INFO - Successfully caught invalid price: Invalid price value: Price must be greater than 0
+2025-01-17 19:25:07 - tests.test_operation - INFO - Successfully caught invalid brand: Brand must be a non-empty string
+2025-01-17 19:25:07 - tests.test_operation - INFO - Error scenarios test completed successfully
+2025-01-17 19:25:07 - models.stock_item - INFO - Created new stock item: NS104
+2025-01-17 19:25:07 - models.nav_sys - INFO - Created new NavSys item: NS104, brand: GeoVision
+2025-01-17 19:25:07 - utils.file_handler - INFO - Added new item: NS104
+2025-01-17 19:25:07 - models.stock_item - INFO - Created new stock item: NS235
+2025-01-17 19:25:07 - models.nav_sys - INFO - Created new NavSys item: NS235, brand: COW
+2025-01-17 19:25:07 - models.stock_item - INFO - Created new stock item: NS456
+2025-01-17 19:25:07 - models.nav_sys - INFO - Created new NavSys item: NS456, brand: COW
+2025-01-17 19:25:07 - models.stock_item - INFO - Created new stock item: NS234
+2025-01-17 19:25:07 - models.nav_sys - INFO - Created new NavSys item: NS234, brand: TomTom
+2025-01-17 19:25:07 - models.stock_item - INFO - Created new stock item: NS789
+2025-01-17 19:25:07 - models.nav_sys - INFO - Created new NavSys item: NS789, brand: GeoVision
+2025-01-17 19:25:07 - models.stock_item - INFO - Created new stock item: NS333
+2025-01-17 19:25:07 - models.nav_sys - INFO - Created new NavSys item: NS333, brand: AlphaTech
+2025-01-17 19:25:07 - models.stock_item - INFO - Created new stock item: NS112
+2025-01-17 19:25:07 - models.nav_sys - INFO - Created new NavSys item: NS112, brand: GeoVision
+2025-01-17 19:25:07 - models.stock_item - INFO - Created new stock item: NS567
+2025-01-17 19:25:07 - models.nav_sys - INFO - Created new NavSys item: NS567, brand: COW
+2025-01-17 19:25:07 - models.stock_item - INFO - Created new stock item: NS678
+2025-01-17 19:25:07 - models.nav_sys - INFO - Created new NavSys item: NS678, brand: GeoVision
+2025-01-17 19:25:07 - models.stock_item - INFO - Created new stock item: NS890
+2025-01-17 19:25:07 - models.nav_sys - INFO - Created new NavSys item: NS890, brand: AlphaTech
+2025-01-17 19:25:07 - models.stock_item - INFO - Created new stock item: NS124
+2025-01-17 19:25:07 - models.nav_sys - INFO - Created new NavSys item: NS124, brand: COW
+2025-01-17 19:25:07 - models.stock_item - INFO - Created new stock item: NS234A
+2025-01-17 19:25:07 - models.nav_sys - INFO - Created new NavSys item: NS234A, brand: COW
+2025-01-17 19:25:07 - models.stock_item - INFO - Created new stock item: NS345
+2025-01-17 19:25:07 - models.nav_sys - INFO - Created new NavSys item: NS345, brand: COW
+2025-01-17 19:25:07 - models.stock_item - INFO - Created new stock item: NS555
+2025-01-17 19:25:07 - models.nav_sys - INFO - Created new NavSys item: NS555, brand: AlphaTech
+2025-01-17 19:25:07 - models.stock_item - INFO - Created new stock item: NS910
+2025-01-17 19:25:07 - models.nav_sys - INFO - Created new NavSys item: NS910, brand: COW
+2025-01-17 19:25:07 - models.stock_item - INFO - Created new stock item: NS321
+2025-01-17 19:25:07 - models.nav_sys - INFO - Created new NavSys item: NS321, brand: AlphaTech
+2025-01-17 19:25:07 - models.stock_item - INFO - Created new stock item: NS876
+2025-01-17 19:25:07 - models.nav_sys - INFO - Created new NavSys item: NS876, brand: COW
+2025-01-17 19:25:07 - models.stock_item - INFO - Created new stock item: NS223
+2025-01-17 19:25:07 - models.nav_sys - INFO - Created new NavSys item: NS223, brand: GeoVision
+2025-01-17 19:25:07 - models.stock_item - INFO - Created new stock item: NS445
+2025-01-17 19:25:07 - models.nav_sys - INFO - Created new NavSys item: NS445, brand: AlphaTech
+2025-01-17 19:25:07 - models.stock_item - INFO - Created new stock item: NS290
+2025-01-17 19:25:07 - models.nav_sys - INFO - Created new NavSys item: NS290, brand: COW
+2025-01-17 19:25:07 - models.stock_item - INFO - Created new stock item: NS302
+2025-01-17 19:25:07 - models.nav_sys - INFO - Created new NavSys item: NS302, brand: AlphaTech
+2025-01-17 19:25:07 - models.stock_item - INFO - Created new stock item: NS740
+2025-01-17 19:25:07 - models.nav_sys - INFO - Created new NavSys item: NS740, brand: COW
+2025-01-17 19:25:07 - models.stock_item - INFO - Created new stock item: NS650
+2025-01-17 19:25:07 - models.nav_sys - INFO - Created new NavSys item: NS650, brand: GeoVision
+2025-01-17 19:25:07 - models.stock_item - INFO - Created new stock item: NS890A
+2025-01-17 19:25:07 - models.nav_sys - INFO - Created new NavSys item: NS890A, brand: AlphaTech
+2025-01-17 19:25:07 - models.stock_item - INFO - Created new stock item: NS554
+2025-01-17 19:25:07 - models.nav_sys - INFO - Created new NavSys item: NS554, brand: COW
+2025-01-17 19:25:07 - models.stock_item - INFO - Created new stock item: NS765
+2025-01-17 19:25:07 - models.nav_sys - INFO - Created new NavSys item: NS765, brand: GeoVision
+2025-01-17 19:25:07 - models.stock_item - INFO - Created new stock item: NS456B
+2025-01-17 19:25:07 - models.nav_sys - INFO - Created new NavSys item: NS456B, brand: COW
+2025-01-17 19:25:07 - models.stock_item - INFO - Created new stock item: NS644
+2025-01-17 19:25:07 - models.nav_sys - INFO - Created new NavSys item: NS644, brand: GeoVision
+2025-01-17 19:25:07 - models.stock_item - INFO - Created new stock item: NS199
+2025-01-17 19:25:07 - models.nav_sys - INFO - Created new NavSys item: NS199, brand: COW
+2025-01-17 19:25:07 - models.stock_item - INFO - Created new stock item: NS543
+2025-01-17 19:25:07 - models.nav_sys - INFO - Created new NavSys item: NS543, brand: TomTom
+2025-01-17 19:25:07 - models.stock_item - INFO - Created new stock item: NS050
+2025-01-17 19:25:07 - models.nav_sys - INFO - Created new NavSys item: NS050, brand: COW
+2025-01-17 19:25:07 - models.stock_item - INFO - Created new stock item: NS123
+2025-01-17 19:25:07 - models.nav_sys - INFO - Created new NavSys item: NS123, brand: COW
+2025-01-17 19:25:07 - models.stock_item - INFO - Created new stock item: NS101
+2025-01-17 19:25:07 - models.nav_sys - INFO - Created new NavSys item: NS101, brand: Garmin
+2025-01-17 19:25:07 - models.stock_item - INFO - Created new stock item: NS102
+2025-01-17 19:25:07 - models.nav_sys - INFO - Created new NavSys item: NS102, brand: Garmin
+2025-01-17 19:25:07 - models.stock_item - INFO - Created new stock item: NS104
+2025-01-17 19:25:07 - models.nav_sys - INFO - Created new NavSys item: NS104, brand: GeoVision
+2025-01-17 19:25:07 - utils.file_handler - INFO - Successfully deleted item: NS104
+2025-01-17 19:25:07 - tests.test_operation - INFO - File operations test completed successfully
+2025-01-17 19:25:07 - models.stock_item - INFO - Created new stock item: W101
+2025-01-17 19:25:07 - tests.test_stock_item - INFO - Valid initialization test passed
+2025-01-17 19:25:07 - models.stock_item - ERROR - Error creating stock item: Stock code must be a non-empty string
+2025-01-17 19:25:07 - models.stock_item - ERROR - Error creating stock item: Quantity must be a non-negative integer
+2025-01-17 19:25:07 - models.stock_item - ERROR - Error creating stock item: Price must be a non-negative number
+2025-01-17 19:25:07 - tests.test_stock_item - INFO - Invalid initialization tests passed
+2025-01-17 19:25:07 - models.stock_item - INFO - Created new stock item: W101
+2025-01-17 19:25:07 - models.stock_item - INFO - Increased stock for W101 by 5
+2025-01-17 19:25:07 - models.stock_item - INFO - Sold 3 units of W101
+2025-01-17 19:25:07 - models.stock_item - ERROR - Error increasing stock: Increased item must be greater than or equal to one
+2025-01-17 19:25:07 - models.stock_item - ERROR - Error increasing stock: Stock cannot exceed 100 items
+2025-01-17 19:25:07 - tests.test_stock_item - INFO - Stock operations tests passed
+2025-01-17 19:25:07 - models.stock_item - INFO - Created new stock item: W101
+2025-01-17 19:25:07 - models.stock_item - INFO - Updated price to 149.99
+2025-01-17 19:25:07 - models.stock_item - ERROR - Invalid price value: Price must be greater than 0
+2025-01-17 19:25:07 - tests.test_stock_item - INFO - Price operations tests passed
+2025-01-17 19:25:07 - models.stock_item - INFO - Created new stock item: W101
+2025-01-17 19:25:07 - tests.test_stock_item - INFO - String representation test passed
+2025-01-17 19:25:07 - models.stock_item - INFO - Created new stock item: W101
+2025-01-17 19:25:07 - tests.test_stock_item - INFO - Data conversion test passed
+2025-01-17 19:33:54 - root - INFO - Logger initialized. Log file: logs\app_20250117.log
+2025-01-17 19:33:54 - utils - INFO - Utils package initialized
+2025-01-17 19:33:54 - models.stock_item - INFO - Created new stock item: NS101
+2025-01-17 19:33:54 - models.nav_sys - INFO - Created new NavSys item: NS101, brand: TomTom
+2025-01-17 19:33:54 - tests.test_nav_sys - INFO - Valid initialization test passed
+2025-01-17 19:33:54 - models.stock_item - ERROR - Error creating stock item: Stock code must be a non-empty string
+2025-01-17 19:33:54 - models.stock_item - ERROR - Error creating stock item: Quantity must be a non-negative integer
+2025-01-17 19:33:54 - models.stock_item - ERROR - Error creating stock item: Price must be a non-negative number
+2025-01-17 19:33:54 - models.stock_item - INFO - Created new stock item: NS101
+2025-01-17 19:33:54 - tests.test_nav_sys - INFO - Invalid initialization tests passed
+2025-01-17 19:33:54 - models.stock_item - INFO - Created new stock item: NS101
+2025-01-17 19:33:54 - models.nav_sys - INFO - Created new NavSys item: NS101, brand: TomTom
+2025-01-17 19:33:54 - models.stock_item - INFO - Increased stock for NS101 by 5
+2025-01-17 19:33:54 - models.stock_item - INFO - Sold 3 units of NS101
+2025-01-17 19:33:54 - models.stock_item - ERROR - Error increasing stock: Increased item must be greater than or equal to one
+2025-01-17 19:33:54 - models.stock_item - ERROR - Error increasing stock: Stock cannot exceed 100 items
+2025-01-17 19:33:54 - tests.test_nav_sys - INFO - Stock operations tests passed
+2025-01-17 19:33:54 - models.stock_item - INFO - Created new stock item: NS101
+2025-01-17 19:33:54 - models.nav_sys - INFO - Created new NavSys item: NS101, brand: TomTom
+2025-01-17 19:33:54 - models.stock_item - INFO - Updated price to 249.99
+2025-01-17 19:33:54 - models.stock_item - ERROR - Invalid price value: Price must be greater than 0
+2025-01-17 19:33:54 - tests.test_nav_sys - INFO - Price operations tests passed
+2025-01-17 19:33:54 - models.stock_item - INFO - Created new stock item: NS101
+2025-01-17 19:33:54 - models.nav_sys - INFO - Created new NavSys item: NS101, brand: TomTom
+2025-01-17 19:33:54 - tests.test_nav_sys - INFO - String representation test passed
+2025-01-17 19:33:54 - models.stock_item - INFO - Created new stock item: NS101
+2025-01-17 19:33:54 - models.nav_sys - INFO - Created new NavSys item: NS101, brand: TomTom
+2025-01-17 19:33:54 - tests.test_nav_sys - INFO - Data conversion test passed
+2025-01-17 19:33:54 - models.stock_item - INFO - Created new stock item: NS101
+2025-01-17 19:33:54 - models.nav_sys - INFO - Created new NavSys item: NS101, brand: TomTom
+2025-01-17 19:33:54 - tests.test_nav_sys - INFO - Brand operations tests passed
+2025-01-17 19:33:54 - models.stock_item - INFO - Created new stock item: NS101
+2025-01-17 19:33:54 - models.nav_sys - INFO - Created new NavSys item: NS101, brand: TomTom
+2025-01-17 19:33:54 - models.stock_item - INFO - Increased stock for NS101 by 5
+2025-01-17 19:33:54 - models.stock_item - INFO - Sold 3 units of NS101
+2025-01-17 19:33:54 - tests.test_operation - INFO - StockItem operations test completed successfully
+2025-01-17 19:33:54 - models.stock_item - INFO - Created new stock item: NS101
+2025-01-17 19:33:54 - models.nav_sys - INFO - Created new NavSys item: NS101, brand: TomTom
+2025-01-17 19:33:54 - models.stock_item - INFO - Created new stock item: NS102
+2025-01-17 19:33:54 - models.nav_sys - INFO - Created new NavSys item: NS102, brand: Garmin
+2025-01-17 19:33:54 - utils.file_handler - INFO - Updated existing item: NS101
+2025-01-17 19:33:54 - utils.file_handler - INFO - Updated existing item: NS102
+2025-01-17 19:33:54 - models.stock_item - INFO - Created new stock item: NS235
+2025-01-17 19:33:54 - models.nav_sys - INFO - Created new NavSys item: NS235, brand: COW
+2025-01-17 19:33:54 - models.stock_item - INFO - Created new stock item: NS456
+2025-01-17 19:33:54 - models.nav_sys - INFO - Created new NavSys item: NS456, brand: COW
+2025-01-17 19:33:54 - models.stock_item - INFO - Created new stock item: NS234
+2025-01-17 19:33:54 - models.nav_sys - INFO - Created new NavSys item: NS234, brand: TomTom
+2025-01-17 19:33:54 - models.stock_item - INFO - Created new stock item: NS789
+2025-01-17 19:33:54 - models.nav_sys - INFO - Created new NavSys item: NS789, brand: GeoVision
+2025-01-17 19:33:54 - models.stock_item - INFO - Created new stock item: NS333
+2025-01-17 19:33:54 - models.nav_sys - INFO - Created new NavSys item: NS333, brand: AlphaTech
+2025-01-17 19:33:54 - models.stock_item - INFO - Created new stock item: NS112
+2025-01-17 19:33:54 - models.nav_sys - INFO - Created new NavSys item: NS112, brand: GeoVision
+2025-01-17 19:33:54 - models.stock_item - INFO - Created new stock item: NS567
+2025-01-17 19:33:54 - models.nav_sys - INFO - Created new NavSys item: NS567, brand: COW
+2025-01-17 19:33:54 - models.stock_item - INFO - Created new stock item: NS678
+2025-01-17 19:33:54 - models.nav_sys - INFO - Created new NavSys item: NS678, brand: GeoVision
+2025-01-17 19:33:54 - models.stock_item - INFO - Created new stock item: NS890
+2025-01-17 19:33:54 - models.nav_sys - INFO - Created new NavSys item: NS890, brand: AlphaTech
+2025-01-17 19:33:54 - models.stock_item - INFO - Created new stock item: NS124
+2025-01-17 19:33:54 - models.nav_sys - INFO - Created new NavSys item: NS124, brand: COW
+2025-01-17 19:33:54 - models.stock_item - INFO - Created new stock item: NS234A
+2025-01-17 19:33:54 - models.nav_sys - INFO - Created new NavSys item: NS234A, brand: COW
+2025-01-17 19:33:54 - models.stock_item - INFO - Created new stock item: NS345
+2025-01-17 19:33:54 - models.nav_sys - INFO - Created new NavSys item: NS345, brand: COW
+2025-01-17 19:33:54 - models.stock_item - INFO - Created new stock item: NS555
+2025-01-17 19:33:54 - models.nav_sys - INFO - Created new NavSys item: NS555, brand: AlphaTech
+2025-01-17 19:33:54 - models.stock_item - INFO - Created new stock item: NS910
+2025-01-17 19:33:54 - models.nav_sys - INFO - Created new NavSys item: NS910, brand: COW
+2025-01-17 19:33:54 - models.stock_item - INFO - Created new stock item: NS321
+2025-01-17 19:33:54 - models.nav_sys - INFO - Created new NavSys item: NS321, brand: AlphaTech
+2025-01-17 19:33:54 - models.stock_item - INFO - Created new stock item: NS876
+2025-01-17 19:33:54 - models.nav_sys - INFO - Created new NavSys item: NS876, brand: COW
+2025-01-17 19:33:54 - models.stock_item - INFO - Created new stock item: NS223
+2025-01-17 19:33:54 - models.nav_sys - INFO - Created new NavSys item: NS223, brand: GeoVision
+2025-01-17 19:33:54 - models.stock_item - INFO - Created new stock item: NS445
+2025-01-17 19:33:54 - models.nav_sys - INFO - Created new NavSys item: NS445, brand: AlphaTech
+2025-01-17 19:33:54 - models.stock_item - INFO - Created new stock item: NS290
+2025-01-17 19:33:54 - models.nav_sys - INFO - Created new NavSys item: NS290, brand: COW
+2025-01-17 19:33:54 - models.stock_item - INFO - Created new stock item: NS302
+2025-01-17 19:33:54 - models.nav_sys - INFO - Created new NavSys item: NS302, brand: AlphaTech
+2025-01-17 19:33:54 - models.stock_item - INFO - Created new stock item: NS740
+2025-01-17 19:33:54 - models.nav_sys - INFO - Created new NavSys item: NS740, brand: COW
+2025-01-17 19:33:54 - models.stock_item - INFO - Created new stock item: NS650
+2025-01-17 19:33:54 - models.nav_sys - INFO - Created new NavSys item: NS650, brand: GeoVision
+2025-01-17 19:33:54 - models.stock_item - INFO - Created new stock item: NS890A
+2025-01-17 19:33:54 - models.nav_sys - INFO - Created new NavSys item: NS890A, brand: AlphaTech
+2025-01-17 19:33:54 - models.stock_item - INFO - Created new stock item: NS554
+2025-01-17 19:33:54 - models.nav_sys - INFO - Created new NavSys item: NS554, brand: COW
+2025-01-17 19:33:54 - models.stock_item - INFO - Created new stock item: NS765
+2025-01-17 19:33:54 - models.nav_sys - INFO - Created new NavSys item: NS765, brand: GeoVision
+2025-01-17 19:33:54 - models.stock_item - INFO - Created new stock item: NS456B
+2025-01-17 19:33:54 - models.nav_sys - INFO - Created new NavSys item: NS456B, brand: COW
+2025-01-17 19:33:54 - models.stock_item - INFO - Created new stock item: NS644
+2025-01-17 19:33:54 - models.nav_sys - INFO - Created new NavSys item: NS644, brand: GeoVision
+2025-01-17 19:33:54 - models.stock_item - INFO - Created new stock item: NS199
+2025-01-17 19:33:54 - models.nav_sys - INFO - Created new NavSys item: NS199, brand: COW
+2025-01-17 19:33:54 - models.stock_item - INFO - Created new stock item: NS543
+2025-01-17 19:33:54 - models.nav_sys - INFO - Created new NavSys item: NS543, brand: TomTom
+2025-01-17 19:33:54 - models.stock_item - INFO - Created new stock item: NS050
+2025-01-17 19:33:54 - models.nav_sys - INFO - Created new NavSys item: NS050, brand: COW
+2025-01-17 19:33:54 - models.stock_item - INFO - Created new stock item: NS123
+2025-01-17 19:33:54 - models.nav_sys - INFO - Created new NavSys item: NS123, brand: COW
+2025-01-17 19:33:54 - models.stock_item - INFO - Created new stock item: NS101
+2025-01-17 19:33:54 - models.nav_sys - INFO - Created new NavSys item: NS101, brand: TomTom
+2025-01-17 19:33:54 - models.stock_item - INFO - Created new stock item: NS102
+2025-01-17 19:33:54 - models.nav_sys - INFO - Created new NavSys item: NS102, brand: Garmin
+2025-01-17 19:33:54 - models.stock_item - INFO - Created new stock item: NS001
+2025-01-17 19:33:54 - models.nav_sys - INFO - Created new NavSys item: NS001, brand: GeoVision
+2025-01-17 19:33:54 - tests.test_operation - INFO - Loaded 34 items
+2025-01-17 19:33:54 - models.stock_item - INFO - Increased stock for NS101 by 5
+2025-01-17 19:33:54 - models.stock_item - INFO - Sold 3 units of NS101
+2025-01-17 19:33:54 - models.stock_item - INFO - Updated price to 249.99
+2025-01-17 19:33:54 - models.nav_sys - INFO - Updated brand for NS101 to Garmin
+2025-01-17 19:33:54 - utils.file_handler - INFO - Updated existing item: NS101
+2025-01-17 19:33:54 - tests.test_operation - INFO - NavSys operations test completed successfully
+2025-01-17 19:33:54 - models.stock_item - ERROR - Error creating stock item: Stock code must be a non-empty string
+2025-01-17 19:33:54 - tests.test_operation - INFO - Successfully caught invalid creation: Invalid parameters: Stock code must be a non-empty string
+2025-01-17 19:33:54 - models.stock_item - INFO - Created new stock item: NS103
+2025-01-17 19:33:54 - models.nav_sys - INFO - Created new NavSys item: NS103, brand: GeoVision
+2025-01-17 19:33:54 - models.stock_item - ERROR - Error increasing stock: Increased item must be greater than or equal to one
+2025-01-17 19:33:54 - tests.test_operation - INFO - Successfully caught invalid stock increase: The error was: Increased item must be greater than or equal to one
+2025-01-17 19:33:54 - models.stock_item - ERROR - Error increasing stock: Stock cannot exceed 100 items
+2025-01-17 19:33:54 - tests.test_operation - INFO - Successfully caught stock limit exceed: The error was: Stock cannot exceed 100 items
+2025-01-17 19:33:54 - models.stock_item - ERROR - Invalid price value: Price must be greater than 0
+2025-01-17 19:33:54 - tests.test_operation - INFO - Successfully caught invalid price: Invalid price value: Price must be greater than 0
+2025-01-17 19:33:54 - tests.test_operation - INFO - Successfully caught invalid brand: Brand must be a non-empty string
+2025-01-17 19:33:54 - tests.test_operation - INFO - Error scenarios test completed successfully
+2025-01-17 19:33:54 - models.stock_item - INFO - Created new stock item: NS104
+2025-01-17 19:33:54 - models.nav_sys - INFO - Created new NavSys item: NS104, brand: GeoVision
+2025-01-17 19:33:54 - utils.file_handler - INFO - Added new item: NS104
+2025-01-17 19:33:54 - models.stock_item - INFO - Created new stock item: NS235
+2025-01-17 19:33:54 - models.nav_sys - INFO - Created new NavSys item: NS235, brand: COW
+2025-01-17 19:33:54 - models.stock_item - INFO - Created new stock item: NS456
+2025-01-17 19:33:54 - models.nav_sys - INFO - Created new NavSys item: NS456, brand: COW
+2025-01-17 19:33:54 - models.stock_item - INFO - Created new stock item: NS234
+2025-01-17 19:33:54 - models.nav_sys - INFO - Created new NavSys item: NS234, brand: TomTom
+2025-01-17 19:33:54 - models.stock_item - INFO - Created new stock item: NS789
+2025-01-17 19:33:54 - models.nav_sys - INFO - Created new NavSys item: NS789, brand: GeoVision
+2025-01-17 19:33:54 - models.stock_item - INFO - Created new stock item: NS333
+2025-01-17 19:33:54 - models.nav_sys - INFO - Created new NavSys item: NS333, brand: AlphaTech
+2025-01-17 19:33:54 - models.stock_item - INFO - Created new stock item: NS112
+2025-01-17 19:33:54 - models.nav_sys - INFO - Created new NavSys item: NS112, brand: GeoVision
+2025-01-17 19:33:54 - models.stock_item - INFO - Created new stock item: NS567
+2025-01-17 19:33:54 - models.nav_sys - INFO - Created new NavSys item: NS567, brand: COW
+2025-01-17 19:33:54 - models.stock_item - INFO - Created new stock item: NS678
+2025-01-17 19:33:54 - models.nav_sys - INFO - Created new NavSys item: NS678, brand: GeoVision
+2025-01-17 19:33:54 - models.stock_item - INFO - Created new stock item: NS890
+2025-01-17 19:33:54 - models.nav_sys - INFO - Created new NavSys item: NS890, brand: AlphaTech
+2025-01-17 19:33:54 - models.stock_item - INFO - Created new stock item: NS124
+2025-01-17 19:33:54 - models.nav_sys - INFO - Created new NavSys item: NS124, brand: COW
+2025-01-17 19:33:54 - models.stock_item - INFO - Created new stock item: NS234A
+2025-01-17 19:33:54 - models.nav_sys - INFO - Created new NavSys item: NS234A, brand: COW
+2025-01-17 19:33:54 - models.stock_item - INFO - Created new stock item: NS345
+2025-01-17 19:33:54 - models.nav_sys - INFO - Created new NavSys item: NS345, brand: COW
+2025-01-17 19:33:54 - models.stock_item - INFO - Created new stock item: NS555
+2025-01-17 19:33:54 - models.nav_sys - INFO - Created new NavSys item: NS555, brand: AlphaTech
+2025-01-17 19:33:54 - models.stock_item - INFO - Created new stock item: NS910
+2025-01-17 19:33:54 - models.nav_sys - INFO - Created new NavSys item: NS910, brand: COW
+2025-01-17 19:33:54 - models.stock_item - INFO - Created new stock item: NS321
+2025-01-17 19:33:54 - models.nav_sys - INFO - Created new NavSys item: NS321, brand: AlphaTech
+2025-01-17 19:33:54 - models.stock_item - INFO - Created new stock item: NS876
+2025-01-17 19:33:54 - models.nav_sys - INFO - Created new NavSys item: NS876, brand: COW
+2025-01-17 19:33:54 - models.stock_item - INFO - Created new stock item: NS223
+2025-01-17 19:33:54 - models.nav_sys - INFO - Created new NavSys item: NS223, brand: GeoVision
+2025-01-17 19:33:54 - models.stock_item - INFO - Created new stock item: NS445
+2025-01-17 19:33:54 - models.nav_sys - INFO - Created new NavSys item: NS445, brand: AlphaTech
+2025-01-17 19:33:54 - models.stock_item - INFO - Created new stock item: NS290
+2025-01-17 19:33:54 - models.nav_sys - INFO - Created new NavSys item: NS290, brand: COW
+2025-01-17 19:33:54 - models.stock_item - INFO - Created new stock item: NS302
+2025-01-17 19:33:54 - models.nav_sys - INFO - Created new NavSys item: NS302, brand: AlphaTech
+2025-01-17 19:33:54 - models.stock_item - INFO - Created new stock item: NS740
+2025-01-17 19:33:54 - models.nav_sys - INFO - Created new NavSys item: NS740, brand: COW
+2025-01-17 19:33:54 - models.stock_item - INFO - Created new stock item: NS650
+2025-01-17 19:33:54 - models.nav_sys - INFO - Created new NavSys item: NS650, brand: GeoVision
+2025-01-17 19:33:54 - models.stock_item - INFO - Created new stock item: NS890A
+2025-01-17 19:33:54 - models.nav_sys - INFO - Created new NavSys item: NS890A, brand: AlphaTech
+2025-01-17 19:33:54 - models.stock_item - INFO - Created new stock item: NS554
+2025-01-17 19:33:54 - models.nav_sys - INFO - Created new NavSys item: NS554, brand: COW
+2025-01-17 19:33:54 - models.stock_item - INFO - Created new stock item: NS765
+2025-01-17 19:33:54 - models.nav_sys - INFO - Created new NavSys item: NS765, brand: GeoVision
+2025-01-17 19:33:54 - models.stock_item - INFO - Created new stock item: NS456B
+2025-01-17 19:33:54 - models.nav_sys - INFO - Created new NavSys item: NS456B, brand: COW
+2025-01-17 19:33:54 - models.stock_item - INFO - Created new stock item: NS644
+2025-01-17 19:33:54 - models.nav_sys - INFO - Created new NavSys item: NS644, brand: GeoVision
+2025-01-17 19:33:54 - models.stock_item - INFO - Created new stock item: NS199
+2025-01-17 19:33:54 - models.nav_sys - INFO - Created new NavSys item: NS199, brand: COW
+2025-01-17 19:33:54 - models.stock_item - INFO - Created new stock item: NS543
+2025-01-17 19:33:54 - models.nav_sys - INFO - Created new NavSys item: NS543, brand: TomTom
+2025-01-17 19:33:54 - models.stock_item - INFO - Created new stock item: NS050
+2025-01-17 19:33:54 - models.nav_sys - INFO - Created new NavSys item: NS050, brand: COW
+2025-01-17 19:33:54 - models.stock_item - INFO - Created new stock item: NS123
+2025-01-17 19:33:54 - models.nav_sys - INFO - Created new NavSys item: NS123, brand: COW
+2025-01-17 19:33:54 - models.stock_item - INFO - Created new stock item: NS101
+2025-01-17 19:33:54 - models.nav_sys - INFO - Created new NavSys item: NS101, brand: Garmin
+2025-01-17 19:33:54 - models.stock_item - INFO - Created new stock item: NS102
+2025-01-17 19:33:54 - models.nav_sys - INFO - Created new NavSys item: NS102, brand: Garmin
+2025-01-17 19:33:54 - models.stock_item - INFO - Created new stock item: NS001
+2025-01-17 19:33:54 - models.nav_sys - INFO - Created new NavSys item: NS001, brand: GeoVision
+2025-01-17 19:33:54 - models.stock_item - INFO - Created new stock item: NS104
+2025-01-17 19:33:54 - models.nav_sys - INFO - Created new NavSys item: NS104, brand: GeoVision
+2025-01-17 19:33:54 - utils.file_handler - INFO - Successfully deleted item: NS104
+2025-01-17 19:33:54 - tests.test_operation - INFO - File operations test completed successfully
+2025-01-17 19:33:54 - models.stock_item - INFO - Created new stock item: W101
+2025-01-17 19:33:54 - tests.test_stock_item - INFO - Valid initialization test passed
+2025-01-17 19:33:54 - models.stock_item - ERROR - Error creating stock item: Stock code must be a non-empty string
+2025-01-17 19:33:54 - models.stock_item - ERROR - Error creating stock item: Quantity must be a non-negative integer
+2025-01-17 19:33:54 - models.stock_item - ERROR - Error creating stock item: Price must be a non-negative number
+2025-01-17 19:33:54 - tests.test_stock_item - INFO - Invalid initialization tests passed
+2025-01-17 19:33:54 - models.stock_item - INFO - Created new stock item: W101
+2025-01-17 19:33:54 - models.stock_item - INFO - Increased stock for W101 by 5
+2025-01-17 19:33:54 - models.stock_item - INFO - Sold 3 units of W101
+2025-01-17 19:33:54 - models.stock_item - ERROR - Error increasing stock: Increased item must be greater than or equal to one
+2025-01-17 19:33:54 - models.stock_item - ERROR - Error increasing stock: Stock cannot exceed 100 items
+2025-01-17 19:33:54 - tests.test_stock_item - INFO - Stock operations tests passed
+2025-01-17 19:33:54 - models.stock_item - INFO - Created new stock item: W101
+2025-01-17 19:33:54 - models.stock_item - INFO - Updated price to 149.99
+2025-01-17 19:33:54 - models.stock_item - ERROR - Invalid price value: Price must be greater than 0
+2025-01-17 19:33:54 - tests.test_stock_item - INFO - Price operations tests passed
+2025-01-17 19:33:54 - models.stock_item - INFO - Created new stock item: W101
+2025-01-17 19:33:54 - tests.test_stock_item - INFO - String representation test passed
+2025-01-17 19:33:54 - models.stock_item - INFO - Created new stock item: W101
+2025-01-17 19:33:54 - tests.test_stock_item - INFO - Data conversion test passed
+2025-01-17 19:36:38 - root - INFO - Logger initialized. Log file: logs\app_20250117.log
+2025-01-17 19:36:38 - utils - INFO - Utils package initialized
+2025-01-17 19:36:38 - models.stock_item - INFO - Created new stock item: NS101
+2025-01-17 19:36:38 - models.nav_sys - INFO - Created new NavSys item: NS101, brand: TomTom
+2025-01-17 19:36:38 - tests.test_nav_sys - INFO - Valid initialization test passed
+2025-01-17 19:36:38 - models.stock_item - ERROR - Error creating stock item: Stock code must be a non-empty string
+2025-01-17 19:36:38 - models.stock_item - ERROR - Error creating stock item: Quantity must be a non-negative integer
+2025-01-17 19:36:38 - models.stock_item - ERROR - Error creating stock item: Price must be a non-negative number
+2025-01-17 19:36:38 - models.stock_item - INFO - Created new stock item: NS101
+2025-01-17 19:36:38 - tests.test_nav_sys - INFO - Invalid initialization tests passed
+2025-01-17 19:36:38 - models.stock_item - INFO - Created new stock item: NS101
+2025-01-17 19:36:38 - models.nav_sys - INFO - Created new NavSys item: NS101, brand: TomTom
+2025-01-17 19:36:38 - models.stock_item - INFO - Increased stock for NS101 by 5
+2025-01-17 19:36:38 - models.stock_item - INFO - Sold 3 units of NS101
+2025-01-17 19:36:38 - models.stock_item - ERROR - Error increasing stock: Increased item must be greater than or equal to one
+2025-01-17 19:36:38 - models.stock_item - ERROR - Error increasing stock: Stock cannot exceed 100 items
+2025-01-17 19:36:38 - tests.test_nav_sys - INFO - Stock operations tests passed
+2025-01-17 19:36:38 - models.stock_item - INFO - Created new stock item: NS101
+2025-01-17 19:36:38 - models.nav_sys - INFO - Created new NavSys item: NS101, brand: TomTom
+2025-01-17 19:36:38 - models.stock_item - INFO - Updated price to 249.99
+2025-01-17 19:36:38 - models.stock_item - ERROR - Invalid price value: Price must be greater than 0
+2025-01-17 19:36:38 - tests.test_nav_sys - INFO - Price operations tests passed
+2025-01-17 19:36:38 - models.stock_item - INFO - Created new stock item: NS101
+2025-01-17 19:36:38 - models.nav_sys - INFO - Created new NavSys item: NS101, brand: TomTom
+2025-01-17 19:36:38 - tests.test_nav_sys - INFO - String representation test passed
+2025-01-17 19:36:38 - models.stock_item - INFO - Created new stock item: NS101
+2025-01-17 19:36:38 - models.nav_sys - INFO - Created new NavSys item: NS101, brand: TomTom
+2025-01-17 19:36:38 - tests.test_nav_sys - INFO - Data conversion test passed
+2025-01-17 19:36:38 - models.stock_item - INFO - Created new stock item: NS101
+2025-01-17 19:36:38 - models.nav_sys - INFO - Created new NavSys item: NS101, brand: TomTom
+2025-01-17 19:36:38 - tests.test_nav_sys - INFO - Brand operations tests passed
+2025-01-17 19:36:38 - models.stock_item - INFO - Created new stock item: NS101
+2025-01-17 19:36:38 - models.nav_sys - INFO - Created new NavSys item: NS101, brand: TomTom
+2025-01-17 19:36:38 - models.stock_item - INFO - Increased stock for NS101 by 5
+2025-01-17 19:36:38 - models.stock_item - INFO - Sold 3 units of NS101
+2025-01-17 19:36:38 - tests.test_operation - INFO - StockItem operations test completed successfully
+2025-01-17 19:36:38 - models.stock_item - INFO - Created new stock item: NS101
+2025-01-17 19:36:38 - models.nav_sys - INFO - Created new NavSys item: NS101, brand: TomTom
+2025-01-17 19:36:38 - models.stock_item - INFO - Created new stock item: NS102
+2025-01-17 19:36:38 - models.nav_sys - INFO - Created new NavSys item: NS102, brand: Garmin
+2025-01-17 19:36:38 - utils.file_handler - INFO - Updated existing item: NS101
+2025-01-17 19:36:38 - utils.file_handler - INFO - Updated existing item: NS102
+2025-01-17 19:36:38 - models.stock_item - INFO - Created new stock item: NS235
+2025-01-17 19:36:38 - models.nav_sys - INFO - Created new NavSys item: NS235, brand: COW
+2025-01-17 19:36:38 - models.stock_item - INFO - Created new stock item: NS456
+2025-01-17 19:36:38 - models.nav_sys - INFO - Created new NavSys item: NS456, brand: COW
+2025-01-17 19:36:38 - models.stock_item - INFO - Created new stock item: NS234
+2025-01-17 19:36:38 - models.nav_sys - INFO - Created new NavSys item: NS234, brand: TomTom
+2025-01-17 19:36:38 - models.stock_item - INFO - Created new stock item: NS789
+2025-01-17 19:36:38 - models.nav_sys - INFO - Created new NavSys item: NS789, brand: GeoVision
+2025-01-17 19:36:38 - models.stock_item - INFO - Created new stock item: NS333
+2025-01-17 19:36:38 - models.nav_sys - INFO - Created new NavSys item: NS333, brand: AlphaTech
+2025-01-17 19:36:38 - models.stock_item - INFO - Created new stock item: NS112
+2025-01-17 19:36:38 - models.nav_sys - INFO - Created new NavSys item: NS112, brand: GeoVision
+2025-01-17 19:36:38 - models.stock_item - INFO - Created new stock item: NS567
+2025-01-17 19:36:38 - models.nav_sys - INFO - Created new NavSys item: NS567, brand: COW
+2025-01-17 19:36:38 - models.stock_item - INFO - Created new stock item: NS678
+2025-01-17 19:36:38 - models.nav_sys - INFO - Created new NavSys item: NS678, brand: GeoVision
+2025-01-17 19:36:38 - models.stock_item - INFO - Created new stock item: NS890
+2025-01-17 19:36:38 - models.nav_sys - INFO - Created new NavSys item: NS890, brand: AlphaTech
+2025-01-17 19:36:38 - models.stock_item - INFO - Created new stock item: NS124
+2025-01-17 19:36:38 - models.nav_sys - INFO - Created new NavSys item: NS124, brand: COW
+2025-01-17 19:36:38 - models.stock_item - INFO - Created new stock item: NS234A
+2025-01-17 19:36:38 - models.nav_sys - INFO - Created new NavSys item: NS234A, brand: COW
+2025-01-17 19:36:38 - models.stock_item - INFO - Created new stock item: NS345
+2025-01-17 19:36:38 - models.nav_sys - INFO - Created new NavSys item: NS345, brand: COW
+2025-01-17 19:36:38 - models.stock_item - INFO - Created new stock item: NS555
+2025-01-17 19:36:38 - models.nav_sys - INFO - Created new NavSys item: NS555, brand: AlphaTech
+2025-01-17 19:36:38 - models.stock_item - INFO - Created new stock item: NS910
+2025-01-17 19:36:38 - models.nav_sys - INFO - Created new NavSys item: NS910, brand: COW
+2025-01-17 19:36:38 - models.stock_item - INFO - Created new stock item: NS321
+2025-01-17 19:36:38 - models.nav_sys - INFO - Created new NavSys item: NS321, brand: AlphaTech
+2025-01-17 19:36:38 - models.stock_item - INFO - Created new stock item: NS876
+2025-01-17 19:36:38 - models.nav_sys - INFO - Created new NavSys item: NS876, brand: COW
+2025-01-17 19:36:38 - models.stock_item - INFO - Created new stock item: NS223
+2025-01-17 19:36:38 - models.nav_sys - INFO - Created new NavSys item: NS223, brand: GeoVision
+2025-01-17 19:36:38 - models.stock_item - INFO - Created new stock item: NS445
+2025-01-17 19:36:38 - models.nav_sys - INFO - Created new NavSys item: NS445, brand: AlphaTech
+2025-01-17 19:36:38 - models.stock_item - INFO - Created new stock item: NS290
+2025-01-17 19:36:38 - models.nav_sys - INFO - Created new NavSys item: NS290, brand: COW
+2025-01-17 19:36:38 - models.stock_item - INFO - Created new stock item: NS302
+2025-01-17 19:36:38 - models.nav_sys - INFO - Created new NavSys item: NS302, brand: AlphaTech
+2025-01-17 19:36:38 - models.stock_item - INFO - Created new stock item: NS740
+2025-01-17 19:36:38 - models.nav_sys - INFO - Created new NavSys item: NS740, brand: COW
+2025-01-17 19:36:38 - models.stock_item - INFO - Created new stock item: NS650
+2025-01-17 19:36:38 - models.nav_sys - INFO - Created new NavSys item: NS650, brand: GeoVision
+2025-01-17 19:36:38 - models.stock_item - INFO - Created new stock item: NS890A
+2025-01-17 19:36:38 - models.nav_sys - INFO - Created new NavSys item: NS890A, brand: AlphaTech
+2025-01-17 19:36:38 - models.stock_item - INFO - Created new stock item: NS554
+2025-01-17 19:36:38 - models.nav_sys - INFO - Created new NavSys item: NS554, brand: COW
+2025-01-17 19:36:38 - models.stock_item - INFO - Created new stock item: NS765
+2025-01-17 19:36:38 - models.nav_sys - INFO - Created new NavSys item: NS765, brand: GeoVision
+2025-01-17 19:36:38 - models.stock_item - INFO - Created new stock item: NS456B
+2025-01-17 19:36:38 - models.nav_sys - INFO - Created new NavSys item: NS456B, brand: COW
+2025-01-17 19:36:38 - models.stock_item - INFO - Created new stock item: NS644
+2025-01-17 19:36:38 - models.nav_sys - INFO - Created new NavSys item: NS644, brand: GeoVision
+2025-01-17 19:36:38 - models.stock_item - INFO - Created new stock item: NS199
+2025-01-17 19:36:38 - models.nav_sys - INFO - Created new NavSys item: NS199, brand: COW
+2025-01-17 19:36:38 - models.stock_item - INFO - Created new stock item: NS543
+2025-01-17 19:36:38 - models.nav_sys - INFO - Created new NavSys item: NS543, brand: TomTom
+2025-01-17 19:36:38 - models.stock_item - INFO - Created new stock item: NS050
+2025-01-17 19:36:38 - models.nav_sys - INFO - Created new NavSys item: NS050, brand: COW
+2025-01-17 19:36:38 - models.stock_item - INFO - Created new stock item: NS123
+2025-01-17 19:36:38 - models.nav_sys - INFO - Created new NavSys item: NS123, brand: COW
+2025-01-17 19:36:38 - models.stock_item - INFO - Created new stock item: NS101
+2025-01-17 19:36:38 - models.nav_sys - INFO - Created new NavSys item: NS101, brand: TomTom
+2025-01-17 19:36:38 - models.stock_item - INFO - Created new stock item: NS102
+2025-01-17 19:36:38 - models.nav_sys - INFO - Created new NavSys item: NS102, brand: Garmin
+2025-01-17 19:36:38 - models.stock_item - INFO - Created new stock item: NS001
+2025-01-17 19:36:38 - models.nav_sys - INFO - Created new NavSys item: NS001, brand: GeoVision
+2025-01-17 19:36:38 - tests.test_operation - INFO - Loaded 34 items
+2025-01-17 19:36:38 - models.stock_item - INFO - Increased stock for NS101 by 5
+2025-01-17 19:36:38 - models.stock_item - INFO - Sold 3 units of NS101
+2025-01-17 19:36:38 - models.stock_item - INFO - Updated price to 249.99
+2025-01-17 19:36:38 - models.nav_sys - INFO - Updated brand for NS101 to Garmin
+2025-01-17 19:36:38 - utils.file_handler - INFO - Updated existing item: NS101
+2025-01-17 19:36:38 - tests.test_operation - INFO - NavSys operations test completed successfully
+2025-01-17 19:36:38 - models.stock_item - ERROR - Error creating stock item: Stock code must be a non-empty string
+2025-01-17 19:36:38 - tests.test_operation - INFO - Successfully caught invalid creation: Invalid parameters: Stock code must be a non-empty string
+2025-01-17 19:36:38 - models.stock_item - INFO - Created new stock item: NS103
+2025-01-17 19:36:38 - models.nav_sys - INFO - Created new NavSys item: NS103, brand: GeoVision
+2025-01-17 19:36:38 - models.stock_item - ERROR - Error increasing stock: Increased item must be greater than or equal to one
+2025-01-17 19:36:38 - tests.test_operation - INFO - Successfully caught invalid stock increase: The error was: Increased item must be greater than or equal to one
+2025-01-17 19:36:38 - models.stock_item - ERROR - Error increasing stock: Stock cannot exceed 100 items
+2025-01-17 19:36:38 - tests.test_operation - INFO - Successfully caught stock limit exceed: The error was: Stock cannot exceed 100 items
+2025-01-17 19:36:38 - models.stock_item - ERROR - Invalid price value: Price must be greater than 0
+2025-01-17 19:36:38 - tests.test_operation - INFO - Successfully caught invalid price: Invalid price value: Price must be greater than 0
+2025-01-17 19:36:38 - tests.test_operation - INFO - Successfully caught invalid brand: Brand must be a non-empty string
+2025-01-17 19:36:38 - tests.test_operation - INFO - Error scenarios test completed successfully
+2025-01-17 19:36:38 - models.stock_item - INFO - Created new stock item: NS104
+2025-01-17 19:36:38 - models.nav_sys - INFO - Created new NavSys item: NS104, brand: GeoVision
+2025-01-17 19:36:38 - utils.file_handler - INFO - Added new item: NS104
+2025-01-17 19:36:38 - models.stock_item - INFO - Created new stock item: NS235
+2025-01-17 19:36:38 - models.nav_sys - INFO - Created new NavSys item: NS235, brand: COW
+2025-01-17 19:36:38 - models.stock_item - INFO - Created new stock item: NS456
+2025-01-17 19:36:38 - models.nav_sys - INFO - Created new NavSys item: NS456, brand: COW
+2025-01-17 19:36:38 - models.stock_item - INFO - Created new stock item: NS234
+2025-01-17 19:36:38 - models.nav_sys - INFO - Created new NavSys item: NS234, brand: TomTom
+2025-01-17 19:36:38 - models.stock_item - INFO - Created new stock item: NS789
+2025-01-17 19:36:38 - models.nav_sys - INFO - Created new NavSys item: NS789, brand: GeoVision
+2025-01-17 19:36:38 - models.stock_item - INFO - Created new stock item: NS333
+2025-01-17 19:36:38 - models.nav_sys - INFO - Created new NavSys item: NS333, brand: AlphaTech
+2025-01-17 19:36:38 - models.stock_item - INFO - Created new stock item: NS112
+2025-01-17 19:36:38 - models.nav_sys - INFO - Created new NavSys item: NS112, brand: GeoVision
+2025-01-17 19:36:38 - models.stock_item - INFO - Created new stock item: NS567
+2025-01-17 19:36:38 - models.nav_sys - INFO - Created new NavSys item: NS567, brand: COW
+2025-01-17 19:36:38 - models.stock_item - INFO - Created new stock item: NS678
+2025-01-17 19:36:38 - models.nav_sys - INFO - Created new NavSys item: NS678, brand: GeoVision
+2025-01-17 19:36:38 - models.stock_item - INFO - Created new stock item: NS890
+2025-01-17 19:36:38 - models.nav_sys - INFO - Created new NavSys item: NS890, brand: AlphaTech
+2025-01-17 19:36:38 - models.stock_item - INFO - Created new stock item: NS124
+2025-01-17 19:36:38 - models.nav_sys - INFO - Created new NavSys item: NS124, brand: COW
+2025-01-17 19:36:38 - models.stock_item - INFO - Created new stock item: NS234A
+2025-01-17 19:36:38 - models.nav_sys - INFO - Created new NavSys item: NS234A, brand: COW
+2025-01-17 19:36:38 - models.stock_item - INFO - Created new stock item: NS345
+2025-01-17 19:36:38 - models.nav_sys - INFO - Created new NavSys item: NS345, brand: COW
+2025-01-17 19:36:38 - models.stock_item - INFO - Created new stock item: NS555
+2025-01-17 19:36:38 - models.nav_sys - INFO - Created new NavSys item: NS555, brand: AlphaTech
+2025-01-17 19:36:38 - models.stock_item - INFO - Created new stock item: NS910
+2025-01-17 19:36:38 - models.nav_sys - INFO - Created new NavSys item: NS910, brand: COW
+2025-01-17 19:36:38 - models.stock_item - INFO - Created new stock item: NS321
+2025-01-17 19:36:38 - models.nav_sys - INFO - Created new NavSys item: NS321, brand: AlphaTech
+2025-01-17 19:36:38 - models.stock_item - INFO - Created new stock item: NS876
+2025-01-17 19:36:38 - models.nav_sys - INFO - Created new NavSys item: NS876, brand: COW
+2025-01-17 19:36:38 - models.stock_item - INFO - Created new stock item: NS223
+2025-01-17 19:36:38 - models.nav_sys - INFO - Created new NavSys item: NS223, brand: GeoVision
+2025-01-17 19:36:38 - models.stock_item - INFO - Created new stock item: NS445
+2025-01-17 19:36:38 - models.nav_sys - INFO - Created new NavSys item: NS445, brand: AlphaTech
+2025-01-17 19:36:38 - models.stock_item - INFO - Created new stock item: NS290
+2025-01-17 19:36:38 - models.nav_sys - INFO - Created new NavSys item: NS290, brand: COW
+2025-01-17 19:36:38 - models.stock_item - INFO - Created new stock item: NS302
+2025-01-17 19:36:38 - models.nav_sys - INFO - Created new NavSys item: NS302, brand: AlphaTech
+2025-01-17 19:36:38 - models.stock_item - INFO - Created new stock item: NS740
+2025-01-17 19:36:38 - models.nav_sys - INFO - Created new NavSys item: NS740, brand: COW
+2025-01-17 19:36:38 - models.stock_item - INFO - Created new stock item: NS650
+2025-01-17 19:36:38 - models.nav_sys - INFO - Created new NavSys item: NS650, brand: GeoVision
+2025-01-17 19:36:38 - models.stock_item - INFO - Created new stock item: NS890A
+2025-01-17 19:36:38 - models.nav_sys - INFO - Created new NavSys item: NS890A, brand: AlphaTech
+2025-01-17 19:36:38 - models.stock_item - INFO - Created new stock item: NS554
+2025-01-17 19:36:38 - models.nav_sys - INFO - Created new NavSys item: NS554, brand: COW
+2025-01-17 19:36:38 - models.stock_item - INFO - Created new stock item: NS765
+2025-01-17 19:36:38 - models.nav_sys - INFO - Created new NavSys item: NS765, brand: GeoVision
+2025-01-17 19:36:38 - models.stock_item - INFO - Created new stock item: NS456B
+2025-01-17 19:36:38 - models.nav_sys - INFO - Created new NavSys item: NS456B, brand: COW
+2025-01-17 19:36:38 - models.stock_item - INFO - Created new stock item: NS644
+2025-01-17 19:36:38 - models.nav_sys - INFO - Created new NavSys item: NS644, brand: GeoVision
+2025-01-17 19:36:38 - models.stock_item - INFO - Created new stock item: NS199
+2025-01-17 19:36:38 - models.nav_sys - INFO - Created new NavSys item: NS199, brand: COW
+2025-01-17 19:36:38 - models.stock_item - INFO - Created new stock item: NS543
+2025-01-17 19:36:38 - models.nav_sys - INFO - Created new NavSys item: NS543, brand: TomTom
+2025-01-17 19:36:38 - models.stock_item - INFO - Created new stock item: NS050
+2025-01-17 19:36:38 - models.nav_sys - INFO - Created new NavSys item: NS050, brand: COW
+2025-01-17 19:36:38 - models.stock_item - INFO - Created new stock item: NS123
+2025-01-17 19:36:38 - models.nav_sys - INFO - Created new NavSys item: NS123, brand: COW
+2025-01-17 19:36:38 - models.stock_item - INFO - Created new stock item: NS101
+2025-01-17 19:36:38 - models.nav_sys - INFO - Created new NavSys item: NS101, brand: Garmin
+2025-01-17 19:36:38 - models.stock_item - INFO - Created new stock item: NS102
+2025-01-17 19:36:38 - models.nav_sys - INFO - Created new NavSys item: NS102, brand: Garmin
+2025-01-17 19:36:38 - models.stock_item - INFO - Created new stock item: NS001
+2025-01-17 19:36:38 - models.nav_sys - INFO - Created new NavSys item: NS001, brand: GeoVision
+2025-01-17 19:36:38 - models.stock_item - INFO - Created new stock item: NS104
+2025-01-17 19:36:38 - models.nav_sys - INFO - Created new NavSys item: NS104, brand: GeoVision
+2025-01-17 19:36:38 - utils.file_handler - INFO - Successfully deleted item: NS104
+2025-01-17 19:36:38 - tests.test_operation - INFO - File operations test completed successfully
+2025-01-17 19:36:38 - models.stock_item - INFO - Created new stock item: NS105
+2025-01-17 19:36:38 - models.nav_sys - INFO - Created new NavSys item: NS105, brand: GeoVision
+2025-01-17 19:36:38 - utils.file_handler - INFO - Added new item: NS105
+2025-01-17 19:36:38 - models.stock_item - ERROR - Error increasing stock: Stock cannot exceed 100 items
+2025-01-17 19:36:38 - tests.test_operation - INFO - Successfully caught quantity exceed limit
+2025-01-17 19:36:38 - models.stock_item - INFO - Increased stock for NS105 by 40
+2025-01-17 19:36:38 - models.stock_item - INFO - Increased stock for NS105 by 10
+2025-01-17 19:36:38 - models.stock_item - ERROR - Error increasing stock: Stock cannot exceed 100 items
+2025-01-17 19:36:38 - tests.test_operation - INFO - Successfully caught quantity exceed at limit
+2025-01-17 19:36:38 - tests.test_operation - INFO - Quantity limits test completed successfully
+2025-01-17 19:36:38 - models.stock_item - INFO - Created new stock item: W101
+2025-01-17 19:36:38 - tests.test_stock_item - INFO - Valid initialization test passed
+2025-01-17 19:36:38 - models.stock_item - ERROR - Error creating stock item: Stock code must be a non-empty string
+2025-01-17 19:36:38 - models.stock_item - ERROR - Error creating stock item: Quantity must be a non-negative integer
+2025-01-17 19:36:38 - models.stock_item - ERROR - Error creating stock item: Price must be a non-negative number
+2025-01-17 19:36:38 - tests.test_stock_item - INFO - Invalid initialization tests passed
+2025-01-17 19:36:38 - models.stock_item - INFO - Created new stock item: W101
+2025-01-17 19:36:38 - models.stock_item - INFO - Increased stock for W101 by 5
+2025-01-17 19:36:38 - models.stock_item - INFO - Sold 3 units of W101
+2025-01-17 19:36:38 - models.stock_item - ERROR - Error increasing stock: Increased item must be greater than or equal to one
+2025-01-17 19:36:38 - models.stock_item - ERROR - Error increasing stock: Stock cannot exceed 100 items
+2025-01-17 19:36:38 - tests.test_stock_item - INFO - Stock operations tests passed
+2025-01-17 19:36:38 - models.stock_item - INFO - Created new stock item: W101
+2025-01-17 19:36:38 - models.stock_item - INFO - Updated price to 149.99
+2025-01-17 19:36:38 - models.stock_item - ERROR - Invalid price value: Price must be greater than 0
+2025-01-17 19:36:38 - tests.test_stock_item - INFO - Price operations tests passed
+2025-01-17 19:36:38 - models.stock_item - INFO - Created new stock item: W101
+2025-01-17 19:36:38 - tests.test_stock_item - INFO - String representation test passed
+2025-01-17 19:36:38 - models.stock_item - INFO - Created new stock item: W101
+2025-01-17 19:36:38 - tests.test_stock_item - INFO - Data conversion test passed
+2025-01-17 19:42:33 - root - INFO - Logger initialized. Log file: logs\app_20250117.log
+2025-01-17 19:42:33 - utils - INFO - Utils package initialized
+2025-01-17 19:42:33 - models.stock_item - INFO - Created new stock item: NS101
+2025-01-17 19:42:33 - models.nav_sys - INFO - Created new NavSys item: NS101, brand: TomTom
+2025-01-17 19:42:33 - models.stock_item - INFO - Created new stock item: NS102
+2025-01-17 19:42:33 - models.nav_sys - INFO - Created new NavSys item: NS102, brand: Garmin
+2025-01-17 19:42:33 - utils.file_handler - INFO - Updated existing item: NS101
+2025-01-17 19:42:33 - utils.file_handler - INFO - Updated existing item: NS102
+2025-01-17 19:42:33 - models.stock_item - INFO - Created new stock item: NS235
+2025-01-17 19:42:33 - models.nav_sys - INFO - Created new NavSys item: NS235, brand: COW
+2025-01-17 19:42:33 - models.stock_item - INFO - Created new stock item: NS456
+2025-01-17 19:42:33 - models.nav_sys - INFO - Created new NavSys item: NS456, brand: COW
+2025-01-17 19:42:33 - models.stock_item - INFO - Created new stock item: NS234
+2025-01-17 19:42:33 - models.nav_sys - INFO - Created new NavSys item: NS234, brand: TomTom
+2025-01-17 19:42:33 - models.stock_item - INFO - Created new stock item: NS789
+2025-01-17 19:42:33 - models.nav_sys - INFO - Created new NavSys item: NS789, brand: GeoVision
+2025-01-17 19:42:33 - models.stock_item - INFO - Created new stock item: NS333
+2025-01-17 19:42:33 - models.nav_sys - INFO - Created new NavSys item: NS333, brand: AlphaTech
+2025-01-17 19:42:33 - models.stock_item - INFO - Created new stock item: NS112
+2025-01-17 19:42:33 - models.nav_sys - INFO - Created new NavSys item: NS112, brand: GeoVision
+2025-01-17 19:42:33 - models.stock_item - INFO - Created new stock item: NS567
+2025-01-17 19:42:33 - models.nav_sys - INFO - Created new NavSys item: NS567, brand: COW
+2025-01-17 19:42:33 - models.stock_item - INFO - Created new stock item: NS678
+2025-01-17 19:42:33 - models.nav_sys - INFO - Created new NavSys item: NS678, brand: GeoVision
+2025-01-17 19:42:33 - models.stock_item - INFO - Created new stock item: NS890
+2025-01-17 19:42:33 - models.nav_sys - INFO - Created new NavSys item: NS890, brand: AlphaTech
+2025-01-17 19:42:33 - models.stock_item - INFO - Created new stock item: NS124
+2025-01-17 19:42:33 - models.nav_sys - INFO - Created new NavSys item: NS124, brand: COW
+2025-01-17 19:42:33 - models.stock_item - INFO - Created new stock item: NS234A
+2025-01-17 19:42:33 - models.nav_sys - INFO - Created new NavSys item: NS234A, brand: COW
+2025-01-17 19:42:33 - models.stock_item - INFO - Created new stock item: NS345
+2025-01-17 19:42:33 - models.nav_sys - INFO - Created new NavSys item: NS345, brand: COW
+2025-01-17 19:42:33 - models.stock_item - INFO - Created new stock item: NS555
+2025-01-17 19:42:33 - models.nav_sys - INFO - Created new NavSys item: NS555, brand: AlphaTech
+2025-01-17 19:42:33 - models.stock_item - INFO - Created new stock item: NS910
+2025-01-17 19:42:33 - models.nav_sys - INFO - Created new NavSys item: NS910, brand: COW
+2025-01-17 19:42:33 - models.stock_item - INFO - Created new stock item: NS321
+2025-01-17 19:42:33 - models.nav_sys - INFO - Created new NavSys item: NS321, brand: AlphaTech
+2025-01-17 19:42:33 - models.stock_item - INFO - Created new stock item: NS876
+2025-01-17 19:42:33 - models.nav_sys - INFO - Created new NavSys item: NS876, brand: COW
+2025-01-17 19:42:33 - models.stock_item - INFO - Created new stock item: NS223
+2025-01-17 19:42:33 - models.nav_sys - INFO - Created new NavSys item: NS223, brand: GeoVision
+2025-01-17 19:42:33 - models.stock_item - INFO - Created new stock item: NS445
+2025-01-17 19:42:33 - models.nav_sys - INFO - Created new NavSys item: NS445, brand: AlphaTech
+2025-01-17 19:42:33 - models.stock_item - INFO - Created new stock item: NS290
+2025-01-17 19:42:33 - models.nav_sys - INFO - Created new NavSys item: NS290, brand: COW
+2025-01-17 19:42:33 - models.stock_item - INFO - Created new stock item: NS302
+2025-01-17 19:42:33 - models.nav_sys - INFO - Created new NavSys item: NS302, brand: AlphaTech
+2025-01-17 19:42:33 - models.stock_item - INFO - Created new stock item: NS740
+2025-01-17 19:42:33 - models.nav_sys - INFO - Created new NavSys item: NS740, brand: COW
+2025-01-17 19:42:33 - models.stock_item - INFO - Created new stock item: NS650
+2025-01-17 19:42:33 - models.nav_sys - INFO - Created new NavSys item: NS650, brand: GeoVision
+2025-01-17 19:42:33 - models.stock_item - INFO - Created new stock item: NS890A
+2025-01-17 19:42:33 - models.nav_sys - INFO - Created new NavSys item: NS890A, brand: AlphaTech
+2025-01-17 19:42:33 - models.stock_item - INFO - Created new stock item: NS554
+2025-01-17 19:42:33 - models.nav_sys - INFO - Created new NavSys item: NS554, brand: COW
+2025-01-17 19:42:33 - models.stock_item - INFO - Created new stock item: NS765
+2025-01-17 19:42:33 - models.nav_sys - INFO - Created new NavSys item: NS765, brand: GeoVision
+2025-01-17 19:42:33 - models.stock_item - INFO - Created new stock item: NS456B
+2025-01-17 19:42:33 - models.nav_sys - INFO - Created new NavSys item: NS456B, brand: COW
+2025-01-17 19:42:33 - models.stock_item - INFO - Created new stock item: NS644
+2025-01-17 19:42:33 - models.nav_sys - INFO - Created new NavSys item: NS644, brand: GeoVision
+2025-01-17 19:42:33 - models.stock_item - INFO - Created new stock item: NS199
+2025-01-17 19:42:33 - models.nav_sys - INFO - Created new NavSys item: NS199, brand: COW
+2025-01-17 19:42:33 - models.stock_item - INFO - Created new stock item: NS543
+2025-01-17 19:42:33 - models.nav_sys - INFO - Created new NavSys item: NS543, brand: TomTom
+2025-01-17 19:42:33 - models.stock_item - INFO - Created new stock item: NS050
+2025-01-17 19:42:33 - models.nav_sys - INFO - Created new NavSys item: NS050, brand: COW
+2025-01-17 19:42:33 - models.stock_item - INFO - Created new stock item: NS123
+2025-01-17 19:42:33 - models.nav_sys - INFO - Created new NavSys item: NS123, brand: COW
+2025-01-17 19:42:33 - models.stock_item - INFO - Created new stock item: NS101
+2025-01-17 19:42:33 - models.nav_sys - INFO - Created new NavSys item: NS101, brand: TomTom
+2025-01-17 19:42:33 - models.stock_item - INFO - Created new stock item: NS102
+2025-01-17 19:42:33 - models.nav_sys - INFO - Created new NavSys item: NS102, brand: Garmin
+2025-01-17 19:42:33 - models.stock_item - INFO - Created new stock item: NS001
+2025-01-17 19:42:33 - models.nav_sys - INFO - Created new NavSys item: NS001, brand: GeoVision
+2025-01-17 19:42:33 - models.stock_item - INFO - Created new stock item: NS105
+2025-01-17 19:42:33 - models.nav_sys - INFO - Created new NavSys item: NS105, brand: GeoVision
+2025-01-17 19:42:33 - models.stock_item - INFO - Increased stock for NS101 by 5
+2025-01-17 19:42:33 - models.stock_item - INFO - Sold 3 units of NS101
+2025-01-17 19:42:33 - models.stock_item - ERROR - Error increasing stock: Stock cannot exceed 100 items
+2025-01-17 19:42:33 - models.stock_item - INFO - Created new stock item: NS235
+2025-01-17 19:42:33 - models.nav_sys - INFO - Created new NavSys item: NS235, brand: COW
+2025-01-17 19:42:33 - models.stock_item - INFO - Created new stock item: NS456
+2025-01-17 19:42:33 - models.nav_sys - INFO - Created new NavSys item: NS456, brand: COW
+2025-01-17 19:42:33 - models.stock_item - INFO - Created new stock item: NS234
+2025-01-17 19:42:33 - models.nav_sys - INFO - Created new NavSys item: NS234, brand: TomTom
+2025-01-17 19:42:33 - models.stock_item - INFO - Created new stock item: NS789
+2025-01-17 19:42:33 - models.nav_sys - INFO - Created new NavSys item: NS789, brand: GeoVision
+2025-01-17 19:42:33 - models.stock_item - INFO - Created new stock item: NS333
+2025-01-17 19:42:33 - models.nav_sys - INFO - Created new NavSys item: NS333, brand: AlphaTech
+2025-01-17 19:42:33 - models.stock_item - INFO - Created new stock item: NS112
+2025-01-17 19:42:33 - models.nav_sys - INFO - Created new NavSys item: NS112, brand: GeoVision
+2025-01-17 19:42:33 - models.stock_item - INFO - Created new stock item: NS567
+2025-01-17 19:42:33 - models.nav_sys - INFO - Created new NavSys item: NS567, brand: COW
+2025-01-17 19:42:33 - models.stock_item - INFO - Created new stock item: NS678
+2025-01-17 19:42:33 - models.nav_sys - INFO - Created new NavSys item: NS678, brand: GeoVision
+2025-01-17 19:42:33 - models.stock_item - INFO - Created new stock item: NS890
+2025-01-17 19:42:33 - models.nav_sys - INFO - Created new NavSys item: NS890, brand: AlphaTech
+2025-01-17 19:42:33 - models.stock_item - INFO - Created new stock item: NS124
+2025-01-17 19:42:33 - models.nav_sys - INFO - Created new NavSys item: NS124, brand: COW
+2025-01-17 19:42:33 - models.stock_item - INFO - Created new stock item: NS234A
+2025-01-17 19:42:33 - models.nav_sys - INFO - Created new NavSys item: NS234A, brand: COW
+2025-01-17 19:42:33 - models.stock_item - INFO - Created new stock item: NS345
+2025-01-17 19:42:33 - models.nav_sys - INFO - Created new NavSys item: NS345, brand: COW
+2025-01-17 19:42:33 - models.stock_item - INFO - Created new stock item: NS555
+2025-01-17 19:42:33 - models.nav_sys - INFO - Created new NavSys item: NS555, brand: AlphaTech
+2025-01-17 19:42:33 - models.stock_item - INFO - Created new stock item: NS910
+2025-01-17 19:42:33 - models.nav_sys - INFO - Created new NavSys item: NS910, brand: COW
+2025-01-17 19:42:33 - models.stock_item - INFO - Created new stock item: NS321
+2025-01-17 19:42:33 - models.nav_sys - INFO - Created new NavSys item: NS321, brand: AlphaTech
+2025-01-17 19:42:33 - models.stock_item - INFO - Created new stock item: NS876
+2025-01-17 19:42:33 - models.nav_sys - INFO - Created new NavSys item: NS876, brand: COW
+2025-01-17 19:42:33 - models.stock_item - INFO - Created new stock item: NS223
+2025-01-17 19:42:33 - models.nav_sys - INFO - Created new NavSys item: NS223, brand: GeoVision
+2025-01-17 19:42:33 - models.stock_item - INFO - Created new stock item: NS445
+2025-01-17 19:42:33 - models.nav_sys - INFO - Created new NavSys item: NS445, brand: AlphaTech
+2025-01-17 19:42:33 - models.stock_item - INFO - Created new stock item: NS290
+2025-01-17 19:42:33 - models.nav_sys - INFO - Created new NavSys item: NS290, brand: COW
+2025-01-17 19:42:33 - models.stock_item - INFO - Created new stock item: NS302
+2025-01-17 19:42:33 - models.nav_sys - INFO - Created new NavSys item: NS302, brand: AlphaTech
+2025-01-17 19:42:33 - models.stock_item - INFO - Created new stock item: NS740
+2025-01-17 19:42:33 - models.nav_sys - INFO - Created new NavSys item: NS740, brand: COW
+2025-01-17 19:42:33 - models.stock_item - INFO - Created new stock item: NS650
+2025-01-17 19:42:33 - models.nav_sys - INFO - Created new NavSys item: NS650, brand: GeoVision
+2025-01-17 19:42:33 - models.stock_item - INFO - Created new stock item: NS890A
+2025-01-17 19:42:33 - models.nav_sys - INFO - Created new NavSys item: NS890A, brand: AlphaTech
+2025-01-17 19:42:33 - models.stock_item - INFO - Created new stock item: NS554
+2025-01-17 19:42:33 - models.nav_sys - INFO - Created new NavSys item: NS554, brand: COW
+2025-01-17 19:42:33 - models.stock_item - INFO - Created new stock item: NS765
+2025-01-17 19:42:33 - models.nav_sys - INFO - Created new NavSys item: NS765, brand: GeoVision
+2025-01-17 19:42:33 - models.stock_item - INFO - Created new stock item: NS456B
+2025-01-17 19:42:33 - models.nav_sys - INFO - Created new NavSys item: NS456B, brand: COW
+2025-01-17 19:42:33 - models.stock_item - INFO - Created new stock item: NS644
+2025-01-17 19:42:33 - models.nav_sys - INFO - Created new NavSys item: NS644, brand: GeoVision
+2025-01-17 19:42:33 - models.stock_item - INFO - Created new stock item: NS199
+2025-01-17 19:42:33 - models.nav_sys - INFO - Created new NavSys item: NS199, brand: COW
+2025-01-17 19:42:33 - models.stock_item - INFO - Created new stock item: NS543
+2025-01-17 19:42:33 - models.nav_sys - INFO - Created new NavSys item: NS543, brand: TomTom
+2025-01-17 19:42:33 - models.stock_item - INFO - Created new stock item: NS050
+2025-01-17 19:42:33 - models.nav_sys - INFO - Created new NavSys item: NS050, brand: COW
+2025-01-17 19:42:33 - models.stock_item - INFO - Created new stock item: NS123
+2025-01-17 19:42:33 - models.nav_sys - INFO - Created new NavSys item: NS123, brand: COW
+2025-01-17 19:42:33 - models.stock_item - INFO - Created new stock item: NS101
+2025-01-17 19:42:33 - models.nav_sys - INFO - Created new NavSys item: NS101, brand: TomTom
+2025-01-17 19:42:33 - models.stock_item - INFO - Created new stock item: NS102
+2025-01-17 19:42:33 - models.nav_sys - INFO - Created new NavSys item: NS102, brand: Garmin
+2025-01-17 19:42:33 - models.stock_item - INFO - Created new stock item: NS001
+2025-01-17 19:42:33 - models.nav_sys - INFO - Created new NavSys item: NS001, brand: GeoVision
+2025-01-17 19:42:33 - models.stock_item - INFO - Created new stock item: NS105
+2025-01-17 19:42:33 - models.nav_sys - INFO - Created new NavSys item: NS105, brand: GeoVision
+2025-01-17 19:43:39 - root - INFO - Logger initialized. Log file: logs\app_20250117.log
+2025-01-17 19:43:39 - utils - INFO - Utils package initialized
+2025-01-17 19:43:39 - models.stock_item - INFO - Created new stock item: NS101
+2025-01-17 19:43:39 - models.nav_sys - INFO - Created new NavSys item: NS101, brand: TomTom
+2025-01-17 19:43:39 - models.stock_item - INFO - Created new stock item: NS102
+2025-01-17 19:43:39 - models.nav_sys - INFO - Created new NavSys item: NS102, brand: Garmin
+2025-01-17 19:43:39 - utils.file_handler - INFO - Updated existing item: NS101
+2025-01-17 19:43:39 - utils.file_handler - INFO - Updated existing item: NS102
+2025-01-17 19:43:39 - models.stock_item - INFO - Created new stock item: NS235
+2025-01-17 19:43:39 - models.nav_sys - INFO - Created new NavSys item: NS235, brand: COW
+2025-01-17 19:43:39 - models.stock_item - INFO - Created new stock item: NS456
+2025-01-17 19:43:39 - models.nav_sys - INFO - Created new NavSys item: NS456, brand: COW
+2025-01-17 19:43:39 - models.stock_item - INFO - Created new stock item: NS234
+2025-01-17 19:43:39 - models.nav_sys - INFO - Created new NavSys item: NS234, brand: TomTom
+2025-01-17 19:43:39 - models.stock_item - INFO - Created new stock item: NS789
+2025-01-17 19:43:39 - models.nav_sys - INFO - Created new NavSys item: NS789, brand: GeoVision
+2025-01-17 19:43:39 - models.stock_item - INFO - Created new stock item: NS333
+2025-01-17 19:43:39 - models.nav_sys - INFO - Created new NavSys item: NS333, brand: AlphaTech
+2025-01-17 19:43:39 - models.stock_item - INFO - Created new stock item: NS112
+2025-01-17 19:43:39 - models.nav_sys - INFO - Created new NavSys item: NS112, brand: GeoVision
+2025-01-17 19:43:39 - models.stock_item - INFO - Created new stock item: NS567
+2025-01-17 19:43:39 - models.nav_sys - INFO - Created new NavSys item: NS567, brand: COW
+2025-01-17 19:43:39 - models.stock_item - INFO - Created new stock item: NS678
+2025-01-17 19:43:39 - models.nav_sys - INFO - Created new NavSys item: NS678, brand: GeoVision
+2025-01-17 19:43:39 - models.stock_item - INFO - Created new stock item: NS890
+2025-01-17 19:43:39 - models.nav_sys - INFO - Created new NavSys item: NS890, brand: AlphaTech
+2025-01-17 19:43:39 - models.stock_item - INFO - Created new stock item: NS124
+2025-01-17 19:43:39 - models.nav_sys - INFO - Created new NavSys item: NS124, brand: COW
+2025-01-17 19:43:39 - models.stock_item - INFO - Created new stock item: NS234A
+2025-01-17 19:43:39 - models.nav_sys - INFO - Created new NavSys item: NS234A, brand: COW
+2025-01-17 19:43:39 - models.stock_item - INFO - Created new stock item: NS345
+2025-01-17 19:43:39 - models.nav_sys - INFO - Created new NavSys item: NS345, brand: COW
+2025-01-17 19:43:39 - models.stock_item - INFO - Created new stock item: NS555
+2025-01-17 19:43:39 - models.nav_sys - INFO - Created new NavSys item: NS555, brand: AlphaTech
+2025-01-17 19:43:39 - models.stock_item - INFO - Created new stock item: NS910
+2025-01-17 19:43:39 - models.nav_sys - INFO - Created new NavSys item: NS910, brand: COW
+2025-01-17 19:43:39 - models.stock_item - INFO - Created new stock item: NS321
+2025-01-17 19:43:39 - models.nav_sys - INFO - Created new NavSys item: NS321, brand: AlphaTech
+2025-01-17 19:43:39 - models.stock_item - INFO - Created new stock item: NS876
+2025-01-17 19:43:39 - models.nav_sys - INFO - Created new NavSys item: NS876, brand: COW
+2025-01-17 19:43:39 - models.stock_item - INFO - Created new stock item: NS223
+2025-01-17 19:43:39 - models.nav_sys - INFO - Created new NavSys item: NS223, brand: GeoVision
+2025-01-17 19:43:39 - models.stock_item - INFO - Created new stock item: NS445
+2025-01-17 19:43:39 - models.nav_sys - INFO - Created new NavSys item: NS445, brand: AlphaTech
+2025-01-17 19:43:39 - models.stock_item - INFO - Created new stock item: NS290
+2025-01-17 19:43:39 - models.nav_sys - INFO - Created new NavSys item: NS290, brand: COW
+2025-01-17 19:43:39 - models.stock_item - INFO - Created new stock item: NS302
+2025-01-17 19:43:39 - models.nav_sys - INFO - Created new NavSys item: NS302, brand: AlphaTech
+2025-01-17 19:43:39 - models.stock_item - INFO - Created new stock item: NS740
+2025-01-17 19:43:39 - models.nav_sys - INFO - Created new NavSys item: NS740, brand: COW
+2025-01-17 19:43:39 - models.stock_item - INFO - Created new stock item: NS650
+2025-01-17 19:43:39 - models.nav_sys - INFO - Created new NavSys item: NS650, brand: GeoVision
+2025-01-17 19:43:39 - models.stock_item - INFO - Created new stock item: NS890A
+2025-01-17 19:43:39 - models.nav_sys - INFO - Created new NavSys item: NS890A, brand: AlphaTech
+2025-01-17 19:43:39 - models.stock_item - INFO - Created new stock item: NS554
+2025-01-17 19:43:39 - models.nav_sys - INFO - Created new NavSys item: NS554, brand: COW
+2025-01-17 19:43:39 - models.stock_item - INFO - Created new stock item: NS765
+2025-01-17 19:43:39 - models.nav_sys - INFO - Created new NavSys item: NS765, brand: GeoVision
+2025-01-17 19:43:39 - models.stock_item - INFO - Created new stock item: NS456B
+2025-01-17 19:43:39 - models.nav_sys - INFO - Created new NavSys item: NS456B, brand: COW
+2025-01-17 19:43:39 - models.stock_item - INFO - Created new stock item: NS644
+2025-01-17 19:43:39 - models.nav_sys - INFO - Created new NavSys item: NS644, brand: GeoVision
+2025-01-17 19:43:39 - models.stock_item - INFO - Created new stock item: NS199
+2025-01-17 19:43:39 - models.nav_sys - INFO - Created new NavSys item: NS199, brand: COW
+2025-01-17 19:43:39 - models.stock_item - INFO - Created new stock item: NS543
+2025-01-17 19:43:39 - models.nav_sys - INFO - Created new NavSys item: NS543, brand: TomTom
+2025-01-17 19:43:39 - models.stock_item - INFO - Created new stock item: NS050
+2025-01-17 19:43:39 - models.nav_sys - INFO - Created new NavSys item: NS050, brand: COW
+2025-01-17 19:43:39 - models.stock_item - INFO - Created new stock item: NS123
+2025-01-17 19:43:39 - models.nav_sys - INFO - Created new NavSys item: NS123, brand: COW
+2025-01-17 19:43:39 - models.stock_item - INFO - Created new stock item: NS101
+2025-01-17 19:43:39 - models.nav_sys - INFO - Created new NavSys item: NS101, brand: TomTom
+2025-01-17 19:43:39 - models.stock_item - INFO - Created new stock item: NS102
+2025-01-17 19:43:39 - models.nav_sys - INFO - Created new NavSys item: NS102, brand: Garmin
+2025-01-17 19:43:39 - models.stock_item - INFO - Created new stock item: NS001
+2025-01-17 19:43:39 - models.nav_sys - INFO - Created new NavSys item: NS001, brand: GeoVision
+2025-01-17 19:43:39 - models.stock_item - INFO - Created new stock item: NS105
+2025-01-17 19:43:39 - models.nav_sys - INFO - Created new NavSys item: NS105, brand: GeoVision
+2025-01-17 19:43:39 - models.stock_item - INFO - Increased stock for NS101 by 5
+2025-01-17 19:43:39 - models.stock_item - INFO - Sold 3 units of NS101
+2025-01-17 19:43:39 - models.stock_item - ERROR - Error increasing stock: Stock cannot exceed 100 items
+2025-01-17 19:43:39 - models.stock_item - INFO - Created new stock item: NS235
+2025-01-17 19:43:39 - models.nav_sys - INFO - Created new NavSys item: NS235, brand: COW
+2025-01-17 19:43:39 - models.stock_item - INFO - Created new stock item: NS456
+2025-01-17 19:43:39 - models.nav_sys - INFO - Created new NavSys item: NS456, brand: COW
+2025-01-17 19:43:39 - models.stock_item - INFO - Created new stock item: NS234
+2025-01-17 19:43:39 - models.nav_sys - INFO - Created new NavSys item: NS234, brand: TomTom
+2025-01-17 19:43:39 - models.stock_item - INFO - Created new stock item: NS789
+2025-01-17 19:43:39 - models.nav_sys - INFO - Created new NavSys item: NS789, brand: GeoVision
+2025-01-17 19:43:39 - models.stock_item - INFO - Created new stock item: NS333
+2025-01-17 19:43:39 - models.nav_sys - INFO - Created new NavSys item: NS333, brand: AlphaTech
+2025-01-17 19:43:39 - models.stock_item - INFO - Created new stock item: NS112
+2025-01-17 19:43:39 - models.nav_sys - INFO - Created new NavSys item: NS112, brand: GeoVision
+2025-01-17 19:43:39 - models.stock_item - INFO - Created new stock item: NS567
+2025-01-17 19:43:39 - models.nav_sys - INFO - Created new NavSys item: NS567, brand: COW
+2025-01-17 19:43:39 - models.stock_item - INFO - Created new stock item: NS678
+2025-01-17 19:43:39 - models.nav_sys - INFO - Created new NavSys item: NS678, brand: GeoVision
+2025-01-17 19:43:39 - models.stock_item - INFO - Created new stock item: NS890
+2025-01-17 19:43:39 - models.nav_sys - INFO - Created new NavSys item: NS890, brand: AlphaTech
+2025-01-17 19:43:39 - models.stock_item - INFO - Created new stock item: NS124
+2025-01-17 19:43:39 - models.nav_sys - INFO - Created new NavSys item: NS124, brand: COW
+2025-01-17 19:43:39 - models.stock_item - INFO - Created new stock item: NS234A
+2025-01-17 19:43:39 - models.nav_sys - INFO - Created new NavSys item: NS234A, brand: COW
+2025-01-17 19:43:39 - models.stock_item - INFO - Created new stock item: NS345
+2025-01-17 19:43:39 - models.nav_sys - INFO - Created new NavSys item: NS345, brand: COW
+2025-01-17 19:43:39 - models.stock_item - INFO - Created new stock item: NS555
+2025-01-17 19:43:39 - models.nav_sys - INFO - Created new NavSys item: NS555, brand: AlphaTech
+2025-01-17 19:43:39 - models.stock_item - INFO - Created new stock item: NS910
+2025-01-17 19:43:39 - models.nav_sys - INFO - Created new NavSys item: NS910, brand: COW
+2025-01-17 19:43:39 - models.stock_item - INFO - Created new stock item: NS321
+2025-01-17 19:43:39 - models.nav_sys - INFO - Created new NavSys item: NS321, brand: AlphaTech
+2025-01-17 19:43:39 - models.stock_item - INFO - Created new stock item: NS876
+2025-01-17 19:43:39 - models.nav_sys - INFO - Created new NavSys item: NS876, brand: COW
+2025-01-17 19:43:39 - models.stock_item - INFO - Created new stock item: NS223
+2025-01-17 19:43:39 - models.nav_sys - INFO - Created new NavSys item: NS223, brand: GeoVision
+2025-01-17 19:43:39 - models.stock_item - INFO - Created new stock item: NS445
+2025-01-17 19:43:39 - models.nav_sys - INFO - Created new NavSys item: NS445, brand: AlphaTech
+2025-01-17 19:43:39 - models.stock_item - INFO - Created new stock item: NS290
+2025-01-17 19:43:39 - models.nav_sys - INFO - Created new NavSys item: NS290, brand: COW
+2025-01-17 19:43:39 - models.stock_item - INFO - Created new stock item: NS302
+2025-01-17 19:43:39 - models.nav_sys - INFO - Created new NavSys item: NS302, brand: AlphaTech
+2025-01-17 19:43:39 - models.stock_item - INFO - Created new stock item: NS740
+2025-01-17 19:43:39 - models.nav_sys - INFO - Created new NavSys item: NS740, brand: COW
+2025-01-17 19:43:39 - models.stock_item - INFO - Created new stock item: NS650
+2025-01-17 19:43:39 - models.nav_sys - INFO - Created new NavSys item: NS650, brand: GeoVision
+2025-01-17 19:43:39 - models.stock_item - INFO - Created new stock item: NS890A
+2025-01-17 19:43:39 - models.nav_sys - INFO - Created new NavSys item: NS890A, brand: AlphaTech
+2025-01-17 19:43:39 - models.stock_item - INFO - Created new stock item: NS554
+2025-01-17 19:43:39 - models.nav_sys - INFO - Created new NavSys item: NS554, brand: COW
+2025-01-17 19:43:39 - models.stock_item - INFO - Created new stock item: NS765
+2025-01-17 19:43:39 - models.nav_sys - INFO - Created new NavSys item: NS765, brand: GeoVision
+2025-01-17 19:43:39 - models.stock_item - INFO - Created new stock item: NS456B
+2025-01-17 19:43:39 - models.nav_sys - INFO - Created new NavSys item: NS456B, brand: COW
+2025-01-17 19:43:39 - models.stock_item - INFO - Created new stock item: NS644
+2025-01-17 19:43:39 - models.nav_sys - INFO - Created new NavSys item: NS644, brand: GeoVision
+2025-01-17 19:43:39 - models.stock_item - INFO - Created new stock item: NS199
+2025-01-17 19:43:39 - models.nav_sys - INFO - Created new NavSys item: NS199, brand: COW
+2025-01-17 19:43:39 - models.stock_item - INFO - Created new stock item: NS543
+2025-01-17 19:43:39 - models.nav_sys - INFO - Created new NavSys item: NS543, brand: TomTom
+2025-01-17 19:43:39 - models.stock_item - INFO - Created new stock item: NS050
+2025-01-17 19:43:39 - models.nav_sys - INFO - Created new NavSys item: NS050, brand: COW
+2025-01-17 19:43:39 - models.stock_item - INFO - Created new stock item: NS123
+2025-01-17 19:43:39 - models.nav_sys - INFO - Created new NavSys item: NS123, brand: COW
+2025-01-17 19:43:39 - models.stock_item - INFO - Created new stock item: NS101
+2025-01-17 19:43:39 - models.nav_sys - INFO - Created new NavSys item: NS101, brand: TomTom
+2025-01-17 19:43:39 - models.stock_item - INFO - Created new stock item: NS102
+2025-01-17 19:43:39 - models.nav_sys - INFO - Created new NavSys item: NS102, brand: Garmin
+2025-01-17 19:43:39 - models.stock_item - INFO - Created new stock item: NS001
+2025-01-17 19:43:39 - models.nav_sys - INFO - Created new NavSys item: NS001, brand: GeoVision
+2025-01-17 19:43:39 - models.stock_item - INFO - Created new stock item: NS105
+2025-01-17 19:43:39 - models.nav_sys - INFO - Created new NavSys item: NS105, brand: GeoVision
+2025-01-17 19:44:26 - root - INFO - Logger initialized. Log file: logs\app_20250117.log
+2025-01-17 19:44:26 - utils - INFO - Utils package initialized
+2025-01-17 19:44:26 - models.stock_item - INFO - Created new stock item: NS101
+2025-01-17 19:44:26 - models.nav_sys - INFO - Created new NavSys item: NS101, brand: TomTom
+2025-01-17 19:44:26 - models.stock_item - INFO - Created new stock item: NS102
+2025-01-17 19:44:26 - models.nav_sys - INFO - Created new NavSys item: NS102, brand: Garmin
+2025-01-17 19:44:26 - utils.file_handler - INFO - Updated existing item: NS101
+2025-01-17 19:44:26 - utils.file_handler - INFO - Updated existing item: NS102
+2025-01-17 19:44:26 - models.stock_item - INFO - Created new stock item: NS235
+2025-01-17 19:44:26 - models.nav_sys - INFO - Created new NavSys item: NS235, brand: COW
+2025-01-17 19:44:26 - models.stock_item - INFO - Created new stock item: NS456
+2025-01-17 19:44:26 - models.nav_sys - INFO - Created new NavSys item: NS456, brand: COW
+2025-01-17 19:44:26 - models.stock_item - INFO - Created new stock item: NS234
+2025-01-17 19:44:26 - models.nav_sys - INFO - Created new NavSys item: NS234, brand: TomTom
+2025-01-17 19:44:26 - models.stock_item - INFO - Created new stock item: NS789
+2025-01-17 19:44:26 - models.nav_sys - INFO - Created new NavSys item: NS789, brand: GeoVision
+2025-01-17 19:44:26 - models.stock_item - INFO - Created new stock item: NS333
+2025-01-17 19:44:26 - models.nav_sys - INFO - Created new NavSys item: NS333, brand: AlphaTech
+2025-01-17 19:44:26 - models.stock_item - INFO - Created new stock item: NS112
+2025-01-17 19:44:26 - models.nav_sys - INFO - Created new NavSys item: NS112, brand: GeoVision
+2025-01-17 19:44:26 - models.stock_item - INFO - Created new stock item: NS567
+2025-01-17 19:44:26 - models.nav_sys - INFO - Created new NavSys item: NS567, brand: COW
+2025-01-17 19:44:26 - models.stock_item - INFO - Created new stock item: NS678
+2025-01-17 19:44:26 - models.nav_sys - INFO - Created new NavSys item: NS678, brand: GeoVision
+2025-01-17 19:44:26 - models.stock_item - INFO - Created new stock item: NS890
+2025-01-17 19:44:26 - models.nav_sys - INFO - Created new NavSys item: NS890, brand: AlphaTech
+2025-01-17 19:44:26 - models.stock_item - INFO - Created new stock item: NS124
+2025-01-17 19:44:26 - models.nav_sys - INFO - Created new NavSys item: NS124, brand: COW
+2025-01-17 19:44:26 - models.stock_item - INFO - Created new stock item: NS234A
+2025-01-17 19:44:26 - models.nav_sys - INFO - Created new NavSys item: NS234A, brand: COW
+2025-01-17 19:44:26 - models.stock_item - INFO - Created new stock item: NS345
+2025-01-17 19:44:26 - models.nav_sys - INFO - Created new NavSys item: NS345, brand: COW
+2025-01-17 19:44:26 - models.stock_item - INFO - Created new stock item: NS555
+2025-01-17 19:44:26 - models.nav_sys - INFO - Created new NavSys item: NS555, brand: AlphaTech
+2025-01-17 19:44:26 - models.stock_item - INFO - Created new stock item: NS910
+2025-01-17 19:44:26 - models.nav_sys - INFO - Created new NavSys item: NS910, brand: COW
+2025-01-17 19:44:26 - models.stock_item - INFO - Created new stock item: NS321
+2025-01-17 19:44:26 - models.nav_sys - INFO - Created new NavSys item: NS321, brand: AlphaTech
+2025-01-17 19:44:26 - models.stock_item - INFO - Created new stock item: NS876
+2025-01-17 19:44:26 - models.nav_sys - INFO - Created new NavSys item: NS876, brand: COW
+2025-01-17 19:44:26 - models.stock_item - INFO - Created new stock item: NS223
+2025-01-17 19:44:26 - models.nav_sys - INFO - Created new NavSys item: NS223, brand: GeoVision
+2025-01-17 19:44:26 - models.stock_item - INFO - Created new stock item: NS445
+2025-01-17 19:44:26 - models.nav_sys - INFO - Created new NavSys item: NS445, brand: AlphaTech
+2025-01-17 19:44:26 - models.stock_item - INFO - Created new stock item: NS290
+2025-01-17 19:44:26 - models.nav_sys - INFO - Created new NavSys item: NS290, brand: COW
+2025-01-17 19:44:26 - models.stock_item - INFO - Created new stock item: NS302
+2025-01-17 19:44:26 - models.nav_sys - INFO - Created new NavSys item: NS302, brand: AlphaTech
+2025-01-17 19:44:26 - models.stock_item - INFO - Created new stock item: NS740
+2025-01-17 19:44:26 - models.nav_sys - INFO - Created new NavSys item: NS740, brand: COW
+2025-01-17 19:44:26 - models.stock_item - INFO - Created new stock item: NS650
+2025-01-17 19:44:26 - models.nav_sys - INFO - Created new NavSys item: NS650, brand: GeoVision
+2025-01-17 19:44:26 - models.stock_item - INFO - Created new stock item: NS890A
+2025-01-17 19:44:26 - models.nav_sys - INFO - Created new NavSys item: NS890A, brand: AlphaTech
+2025-01-17 19:44:26 - models.stock_item - INFO - Created new stock item: NS554
+2025-01-17 19:44:26 - models.nav_sys - INFO - Created new NavSys item: NS554, brand: COW
+2025-01-17 19:44:26 - models.stock_item - INFO - Created new stock item: NS765
+2025-01-17 19:44:26 - models.nav_sys - INFO - Created new NavSys item: NS765, brand: GeoVision
+2025-01-17 19:44:26 - models.stock_item - INFO - Created new stock item: NS456B
+2025-01-17 19:44:26 - models.nav_sys - INFO - Created new NavSys item: NS456B, brand: COW
+2025-01-17 19:44:26 - models.stock_item - INFO - Created new stock item: NS644
+2025-01-17 19:44:26 - models.nav_sys - INFO - Created new NavSys item: NS644, brand: GeoVision
+2025-01-17 19:44:26 - models.stock_item - INFO - Created new stock item: NS199
+2025-01-17 19:44:26 - models.nav_sys - INFO - Created new NavSys item: NS199, brand: COW
+2025-01-17 19:44:26 - models.stock_item - INFO - Created new stock item: NS543
+2025-01-17 19:44:26 - models.nav_sys - INFO - Created new NavSys item: NS543, brand: TomTom
+2025-01-17 19:44:26 - models.stock_item - INFO - Created new stock item: NS050
+2025-01-17 19:44:26 - models.nav_sys - INFO - Created new NavSys item: NS050, brand: COW
+2025-01-17 19:44:26 - models.stock_item - INFO - Created new stock item: NS123
+2025-01-17 19:44:26 - models.nav_sys - INFO - Created new NavSys item: NS123, brand: COW
+2025-01-17 19:44:26 - models.stock_item - INFO - Created new stock item: NS101
+2025-01-17 19:44:26 - models.nav_sys - INFO - Created new NavSys item: NS101, brand: TomTom
+2025-01-17 19:44:26 - models.stock_item - INFO - Created new stock item: NS102
+2025-01-17 19:44:26 - models.nav_sys - INFO - Created new NavSys item: NS102, brand: Garmin
+2025-01-17 19:44:26 - models.stock_item - INFO - Created new stock item: NS001
+2025-01-17 19:44:26 - models.nav_sys - INFO - Created new NavSys item: NS001, brand: GeoVision
+2025-01-17 19:44:26 - models.stock_item - INFO - Created new stock item: NS105
+2025-01-17 19:44:26 - models.nav_sys - INFO - Created new NavSys item: NS105, brand: GeoVision
+2025-01-17 19:44:26 - models.stock_item - INFO - Increased stock for NS101 by 5
+2025-01-17 19:44:26 - models.stock_item - INFO - Sold 3 units of NS101
+2025-01-17 19:44:26 - models.stock_item - ERROR - Error increasing stock: Stock cannot exceed 100 items

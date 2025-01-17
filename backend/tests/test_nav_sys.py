@@ -1,16 +1,9 @@
 # backend/tests/test_nav_sys.py
 
 import pytest
-import sys
-import os
-from pathlib import Path
-
-backend_dir = Path(__file__).parent.parent
-sys.path.append(str(backend_dir))
-
 from models.nav_sys import NavSys
-from utils import setup_logger
 from utils.exceptions import StockError
+from utils.logger import setup_logger
 
 logger = setup_logger(__name__)
 

@@ -108,10 +108,20 @@ def add_item():
                             if item.stock_code == data['stock_code']), None)
 
         if existing_item:
-            # If item exists, update its quantity instead of creating new
+            # If item exists, validate the total quantity before updating
             try:
+                new_quantity = int(data['quantity'])
+                total_quantity = existing_item.quantity + new_quantity
+
+                # Check if total quantity would exceed limit
+                if total_quantity > 100:
+                    return jsonify({
+                        'error': f'Cannot add {new_quantity} items. Total quantity ({total_quantity}) would exceed 100 items limit'
+                    }), 400
+
                 # Add the new quantity to existing quantity
-                existing_item.increase_stock(int(data['quantity']))
+                existing_item.increase_stock(new_quantity)
+
                 # Update price if different
                 if float(data['price']) != existing_item.price:
                     existing_item.price = float(data['price'])
@@ -130,6 +140,12 @@ def add_item():
                 return jsonify({'error': str(e)}), 400
         else:
             # Create new item if it doesn't exist
+            # Validate initial quantity
+            if int(data['quantity']) > 100:
+                return jsonify({
+                    'error': 'Initial quantity cannot exceed 100 items'
+                }), 400
+
             nav_sys = NavSys(
                 data['stock_code'],
                 int(data['quantity']),

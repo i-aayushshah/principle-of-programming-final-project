@@ -1,15 +1,11 @@
 # backend/tests/test_operations.py
 
-import sys
-import os
+import pytest
 from pathlib import Path
-
-backend_dir = Path(__file__).parent.parent
-sys.path.append(str(backend_dir))
-
-from utils import setup_logger, StockFileHandler, StockError
+from utils.logger import setup_logger
+from utils.file_handler import StockFileHandler
+from utils.exceptions import StockError
 from models.nav_sys import NavSys
-from models.stock_item import StockItem
 
 logger = setup_logger(__name__)
 
@@ -17,22 +13,22 @@ def test_stock_item_operations():
     """Test StockItem class operations"""
     try:
         # Test initialization
-        item = StockItem("W101", 10, 99.99)
-        assert item.stock_code == "W101", "Stock code initialization failed"
-        assert item.quantity == 10, "Quantity initialization failed"
-        assert item.price == 99.99, "Price initialization failed"
+        nav = NavSys("NS101", 10, 199.99, "TomTom")
+        assert nav.stock_code == "NS101", "Stock code initialization failed"
+        assert nav.quantity == 10, "Quantity initialization failed"
+        assert nav.price == 199.99, "Price initialization failed"
 
         # Test stock operations
-        item.increase_stock(5)
-        assert item.quantity == 15, "Stock increase failed"
+        nav.increase_stock(5)
+        assert nav.quantity == 15, "Stock increase failed"
 
-        success = item.sell_stock(3)
-        assert success and item.quantity == 12, "Stock sale failed"
+        success = nav.sell_stock(3)
+        assert success and nav.quantity == 12, "Stock sale failed"
 
         # Test VAT calculations
-        assert item.get_VAT() == 17.5, "VAT rate incorrect"
-        expected_vat_price = 99.99 * (1 + 17.5/100)
-        assert item.get_price_with_VAT() == expected_vat_price, "VAT calculation failed"
+        assert nav.get_VAT() == 17.5, "VAT rate incorrect"
+        expected_vat_price = 199.99 * (1 + 17.5/100)
+        assert nav.get_price_with_VAT() == expected_vat_price, "VAT calculation failed"
 
         logger.info("StockItem operations test completed successfully")
 
@@ -87,40 +83,40 @@ def test_error_scenarios():
     """Test various error scenarios"""
     try:
         # Test invalid stock creation
-        try:
-            invalid_nav = NavSys("", -5, -100, "")  # Should raise error
-        except StockError as e:
-            logger.info(f"Successfully caught invalid creation: {str(e)}")
+        with pytest.raises(StockError) as exc_info:
+            invalid_nav = NavSys("", -5, -100, "")
+        assert "Stock code must be a non-empty string" in str(exc_info.value)
+        logger.info(f"Successfully caught invalid creation: {exc_info.value}")
 
         nav = NavSys("NS103", 10, 199.99, "GeoVision")
 
         # Test invalid stock increase
-        try:
-            nav.increase_stock(-1)  # Should raise error
-        except StockError as e:
-            logger.info(f"Successfully caught invalid stock increase: {str(e)}")
+        with pytest.raises(StockError) as exc_info:
+            nav.increase_stock(-1)
+        assert "must be greater than or equal to one" in str(exc_info.value)
+        logger.info(f"Successfully caught invalid stock increase: {exc_info.value}")
 
         # Test stock limit
-        try:
-            nav.increase_stock(200)  # Should raise error (exceed 100)
-        except StockError as e:
-            logger.info(f"Successfully caught stock limit exceed: {str(e)}")
+        with pytest.raises(StockError) as exc_info:
+            nav.increase_stock(200)
+        assert "Stock cannot exceed 100 items" in str(exc_info.value)
+        logger.info(f"Successfully caught stock limit exceed: {exc_info.value}")
 
         # Test invalid price
-        try:
-            nav.price = -50  # Should raise error
-        except ValueError as e:
-            logger.info(f"Successfully caught invalid price: {str(e)}")
+        with pytest.raises(ValueError) as exc_info:
+            nav.price = -50
+        assert "Price must be greater than 0" in str(exc_info.value)
+        logger.info(f"Successfully caught invalid price: {exc_info.value}")
 
         # Test selling more than available
-        result = nav.sell_stock(20)  # Should return False
+        result = nav.sell_stock(20)
         assert not result, "Overselling should return False"
 
         # Test invalid brand
-        try:
-            nav.brand = ""  # Should raise error
-        except StockError as e:
-            logger.info(f"Successfully caught invalid brand: {str(e)}")
+        with pytest.raises(StockError) as exc_info:
+            nav.brand = ""
+        assert "Brand must be a non-empty string" in str(exc_info.value)
+        logger.info(f"Successfully caught invalid brand: {exc_info.value}")
 
         logger.info("Error scenarios test completed successfully")
 
@@ -134,7 +130,7 @@ def test_file_operations():
         file_handler = StockFileHandler()
 
         # Test file creation
-        assert os.path.exists(file_handler.file_path), "CSV file not created"
+        assert file_handler.filename.exists(), "CSV file not created"
 
         # Test saving and loading
         nav = NavSys("NS104", 10, 299.99, "GeoVision")
@@ -153,6 +149,44 @@ def test_file_operations():
         logger.error(f"File operations test failed: {str(e)}")
         raise
 
+def test_quantity_limits():
+    """Test quantity limit validations"""
+    try:
+        file_handler = StockFileHandler()
+
+        # Test creating new item with quantity > 100
+        nav = NavSys("NS105", 50, 299.99, "GeoVision")
+        file_handler.save_item(nav)
+
+        # Try to increase quantity beyond limit
+        with pytest.raises(StockError) as exc_info:
+            nav.increase_stock(60)  # Would make total 110
+        assert "Stock cannot exceed 100 items" in str(exc_info.value)
+        logger.info("Successfully caught quantity exceed limit")
+
+        # Verify original quantity unchanged
+        assert nav.quantity == 50, "Quantity should remain unchanged after failed increase"
+
+        # Test valid quantity increase
+        nav.increase_stock(40)  # Total becomes 90
+        assert nav.quantity == 90, "Valid quantity increase failed"
+
+        # Test at limit
+        nav.increase_stock(10)  # Total becomes 100
+        assert nav.quantity == 100, "Increase to limit failed"
+
+        # Test exceeding limit
+        with pytest.raises(StockError) as exc_info:
+            nav.increase_stock(1)  # Try to exceed 100
+        assert "Stock cannot exceed 100 items" in str(exc_info.value)
+        logger.info("Successfully caught quantity exceed at limit")
+
+        logger.info("Quantity limits test completed successfully")
+
+    except Exception as e:
+        logger.error(f"Quantity limits test failed: {str(e)}")
+        raise
+
 def run_all_tests():
     """Run all test cases"""
     try:
@@ -167,6 +201,9 @@ def run_all_tests():
 
         print("\n=== Running File Operation Tests ===")
         test_file_operations()
+
+        print("\n=== Running Quantity Limits Tests ===")
+        test_quantity_limits()
 
         print("\n✅ All tests completed successfully!")
 
