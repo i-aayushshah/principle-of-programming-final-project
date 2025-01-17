@@ -65,7 +65,7 @@ class StockFileHandler:
                 logger.info(f"Added new item: {data['stock_code']}")
 
             # Write all data back
-            with open(self.filename, 'w', newline='') as file:
+            with open(self.filename, 'w', newline='', encoding='utf-8') as file:
                 writer = csv.writer(file)
                 writer.writerow(['item_type', 'stock_code', 'quantity', 'price', 'brand'])
                 writer.writerows(existing_data)
@@ -83,7 +83,7 @@ class StockFileHandler:
                 self._ensure_file_exists()
                 return []
 
-            with open(self.filename, 'r', newline='') as file:
+            with open(self.filename, 'r', newline='', encoding='utf-8') as file:
                 reader = csv.reader(file)
                 next(reader)  # Skip headers
                 return [row for row in reader]
@@ -162,7 +162,7 @@ class StockFileHandler:
                 logger.info(f"Item not found for deletion: {stock_code}")
                 return False
 
-            with open(self.filename, 'w', newline='') as file:
+            with open(self.filename, 'w', newline='', encoding='utf-8') as file:
                 writer = csv.writer(file)
                 writer.writerow(['item_type', 'stock_code', 'quantity', 'price', 'brand'])
                 writer.writerows(items)

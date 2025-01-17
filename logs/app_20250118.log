@@ -912,3 +912,668 @@
 2025-01-18 00:18:46 - models.stock_item - INFO - Increased stock for W101 by 25
 2025-01-18 00:18:46 - models.stock_item - INFO - Sold 15 units of W101
 2025-01-18 00:18:46 - tests.test_stock_item - INFO - Boundary condition tests passed
+2025-01-18 00:34:58 - root - INFO - Logger initialized. Log file: logs\app_20250118.log
+2025-01-18 00:34:58 - utils - INFO - Utils package initialized
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS101
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS101, brand: TomTom
+2025-01-18 00:34:58 - tests.test_nav_sys - INFO - Basic functionality tests passed
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS101
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS101
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS101
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS101
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS101, brand: TomTom
+2025-01-18 00:34:58 - tests.test_nav_sys - INFO - Brand validation tests passed
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS101
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS101, brand: TomTom
+2025-01-18 00:34:58 - models.nav_sys - INFO - Updated brand for NS101 to Garmin
+2025-01-18 00:34:58 - models.nav_sys - INFO - Updated brand for NS101 to Geo-Vision™ 2.0
+2025-01-18 00:34:58 - models.nav_sys - INFO - Updated brand for NS101 to   TomTom  
+2025-01-18 00:34:58 - models.nav_sys - INFO - Updated brand for NS101 to TomTom123
+2025-01-18 00:34:58 - tests.test_nav_sys - INFO - Brand operation tests passed
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS101
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS101, brand: TomTom
+2025-01-18 00:34:58 - models.stock_item - INFO - Increased stock for NS101 by 5
+2025-01-18 00:34:58 - models.stock_item - INFO - Sold 3 units of NS101
+2025-01-18 00:34:58 - models.stock_item - INFO - Updated price to 249.99
+2025-01-18 00:34:58 - tests.test_nav_sys - INFO - Inheritance behavior tests passed
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS101
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS101, brand: TomTom
+2025-01-18 00:34:58 - tests.test_nav_sys - INFO - Data conversion tests passed
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS101
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS101
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS101, brand: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS-101/A
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS-101/A, brand: Geo-Vision™
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS101
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS101, brand: TomTom
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS101
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS101, brand: TomTom
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS101
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS101, brand: TomTom
+2025-01-18 00:34:58 - models.stock_item - INFO - Updated price to 999999.99
+2025-01-18 00:34:58 - models.nav_sys - INFO - Updated brand for NS101 to 12345
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS101
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS101, brand: TomTom
+2025-01-18 00:34:58 - models.stock_item - INFO - Increased stock for NS101 by 100
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS101
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS101, brand: TomTom
+2025-01-18 00:34:58 - models.stock_item - INFO - Increased stock for NS101 by 25
+2025-01-18 00:34:58 - models.stock_item - INFO - Sold 15 units of NS101
+2025-01-18 00:34:58 - models.stock_item - INFO - Updated price to 299.99
+2025-01-18 00:34:58 - models.nav_sys - INFO - Updated brand for NS101 to Garmin
+2025-01-18 00:34:58 - tests.test_nav_sys - INFO - Edge cases tests passed
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS101
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS101, brand: TomTom
+2025-01-18 00:34:58 - utils.file_handler - INFO - Added new item: NS101
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS456
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS456, brand: COW
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS789
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS789, brand: GeoVision
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS333
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS101
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS101, brand: TomTom
+2025-01-18 00:34:58 - tests.test_operation - INFO - Basic operations test passed
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS101
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS101, brand: TomTom
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS102
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS102, brand: Garmin
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS103
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS103, brand: GeoVision
+2025-01-18 00:34:58 - utils.file_handler - INFO - Updated existing item: NS101
+2025-01-18 00:34:58 - utils.file_handler - INFO - Added new item: NS102
+2025-01-18 00:34:58 - utils.file_handler - INFO - Added new item: NS103
+2025-01-18 00:34:58 - models.stock_item - INFO - Increased stock for NS101 by 5
+2025-01-18 00:34:58 - models.stock_item - INFO - Updated price to 219.98900000000003
+2025-01-18 00:34:58 - utils.file_handler - INFO - Updated existing item: NS101
+2025-01-18 00:34:58 - models.stock_item - INFO - Increased stock for NS102 by 5
+2025-01-18 00:34:58 - models.stock_item - INFO - Updated price to 329.98900000000003
+2025-01-18 00:34:58 - utils.file_handler - INFO - Updated existing item: NS102
+2025-01-18 00:34:58 - models.stock_item - INFO - Increased stock for NS103 by 5
+2025-01-18 00:34:58 - models.stock_item - INFO - Updated price to 274.98900000000003
+2025-01-18 00:34:58 - utils.file_handler - INFO - Updated existing item: NS103
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS456
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS456, brand: COW
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS789
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS789, brand: GeoVision
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS333
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS101
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS101, brand: TomTom
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS102
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS102, brand: Garmin
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS103
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS103, brand: GeoVision
+2025-01-18 00:34:58 - tests.test_operation - INFO - Complex operations test passed
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS104
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS104, brand: TomTom
+2025-01-18 00:34:58 - utils.file_handler - INFO - Added new item: NS104
+2025-01-18 00:34:58 - models.stock_item - INFO - Increased stock for NS104 by 20
+2025-01-18 00:34:58 - utils.file_handler - INFO - Updated existing item: NS104
+2025-01-18 00:34:58 - models.stock_item - INFO - Updated price to 249.99
+2025-01-18 00:34:58 - utils.file_handler - INFO - Updated existing item: NS104
+2025-01-18 00:34:58 - models.stock_item - INFO - Sold 15 units of NS104
+2025-01-18 00:34:58 - utils.file_handler - INFO - Updated existing item: NS104
+2025-01-18 00:34:58 - models.nav_sys - INFO - Updated brand for NS104 to Garmin
+2025-01-18 00:34:58 - utils.file_handler - INFO - Updated existing item: NS104
+2025-01-18 00:34:58 - utils.file_handler - INFO - Successfully deleted item: NS104
+2025-01-18 00:34:58 - tests.test_operation - INFO - Lifecycle operations test passed
+2025-01-18 00:34:58 - models.stock_item - ERROR - Error creating stock item: Stock code must be a non-empty string
+2025-01-18 00:34:58 - models.stock_item - ERROR - Error creating stock item: Quantity must be a non-negative integer
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS105
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS105, brand: TomTom
+2025-01-18 00:34:58 - utils.file_handler - INFO - Added new item: NS105
+2025-01-18 00:34:58 - models.stock_item - ERROR - Error increasing stock: Increased item must be greater than or equal to one
+2025-01-18 00:34:58 - models.stock_item - ERROR - Error increasing stock: Stock cannot exceed 100 items
+2025-01-18 00:34:58 - tests.test_operation - INFO - Error handling test passed
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS200
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS200, brand: TomTom
+2025-01-18 00:34:58 - utils.file_handler - INFO - Added new item: NS200
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS201
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS201, brand: TomTom
+2025-01-18 00:34:58 - utils.file_handler - INFO - Added new item: NS201
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS202
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS202, brand: TomTom
+2025-01-18 00:34:58 - utils.file_handler - INFO - Added new item: NS202
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS203
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS203, brand: TomTom
+2025-01-18 00:34:58 - utils.file_handler - INFO - Added new item: NS203
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS204
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS204, brand: TomTom
+2025-01-18 00:34:58 - utils.file_handler - INFO - Added new item: NS204
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS205
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS205, brand: TomTom
+2025-01-18 00:34:58 - utils.file_handler - INFO - Added new item: NS205
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS206
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS206, brand: TomTom
+2025-01-18 00:34:58 - utils.file_handler - INFO - Added new item: NS206
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS207
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS207, brand: TomTom
+2025-01-18 00:34:58 - utils.file_handler - INFO - Added new item: NS207
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS208
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS208, brand: TomTom
+2025-01-18 00:34:58 - utils.file_handler - INFO - Added new item: NS208
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS209
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS209, brand: TomTom
+2025-01-18 00:34:58 - utils.file_handler - INFO - Added new item: NS209
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS210
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS210, brand: TomTom
+2025-01-18 00:34:58 - utils.file_handler - INFO - Added new item: NS210
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS211
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS211, brand: TomTom
+2025-01-18 00:34:58 - utils.file_handler - INFO - Added new item: NS211
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS212
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS212, brand: TomTom
+2025-01-18 00:34:58 - utils.file_handler - INFO - Added new item: NS212
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS213
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS213, brand: TomTom
+2025-01-18 00:34:58 - utils.file_handler - INFO - Added new item: NS213
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS214
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS214, brand: TomTom
+2025-01-18 00:34:58 - utils.file_handler - INFO - Added new item: NS214
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS215
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS215, brand: TomTom
+2025-01-18 00:34:58 - utils.file_handler - INFO - Added new item: NS215
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS216
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS216, brand: TomTom
+2025-01-18 00:34:58 - utils.file_handler - INFO - Added new item: NS216
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS217
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS217, brand: TomTom
+2025-01-18 00:34:58 - utils.file_handler - INFO - Added new item: NS217
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS218
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS218, brand: TomTom
+2025-01-18 00:34:58 - utils.file_handler - INFO - Added new item: NS218
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS219
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS219, brand: TomTom
+2025-01-18 00:34:58 - utils.file_handler - INFO - Added new item: NS219
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS220
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS220, brand: TomTom
+2025-01-18 00:34:58 - utils.file_handler - INFO - Added new item: NS220
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS221
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS221, brand: TomTom
+2025-01-18 00:34:58 - utils.file_handler - INFO - Added new item: NS221
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS222
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS222, brand: TomTom
+2025-01-18 00:34:58 - utils.file_handler - INFO - Added new item: NS222
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS223
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS223, brand: TomTom
+2025-01-18 00:34:58 - utils.file_handler - INFO - Added new item: NS223
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS224
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS224, brand: TomTom
+2025-01-18 00:34:58 - utils.file_handler - INFO - Added new item: NS224
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS225
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS225, brand: TomTom
+2025-01-18 00:34:58 - utils.file_handler - INFO - Added new item: NS225
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS226
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS226, brand: TomTom
+2025-01-18 00:34:58 - utils.file_handler - INFO - Added new item: NS226
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS227
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS227, brand: TomTom
+2025-01-18 00:34:58 - utils.file_handler - INFO - Added new item: NS227
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS228
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS228, brand: TomTom
+2025-01-18 00:34:58 - utils.file_handler - INFO - Added new item: NS228
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS229
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS229, brand: TomTom
+2025-01-18 00:34:58 - utils.file_handler - INFO - Added new item: NS229
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS230
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS230, brand: TomTom
+2025-01-18 00:34:58 - utils.file_handler - INFO - Added new item: NS230
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS231
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS231, brand: TomTom
+2025-01-18 00:34:58 - utils.file_handler - INFO - Added new item: NS231
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS232
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS232, brand: TomTom
+2025-01-18 00:34:58 - utils.file_handler - INFO - Added new item: NS232
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS233
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS233, brand: TomTom
+2025-01-18 00:34:58 - utils.file_handler - INFO - Added new item: NS233
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS234
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS234, brand: TomTom
+2025-01-18 00:34:58 - utils.file_handler - INFO - Added new item: NS234
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS235
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS235, brand: TomTom
+2025-01-18 00:34:58 - utils.file_handler - INFO - Added new item: NS235
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS236
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS236, brand: TomTom
+2025-01-18 00:34:58 - utils.file_handler - INFO - Added new item: NS236
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS237
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS237, brand: TomTom
+2025-01-18 00:34:58 - utils.file_handler - INFO - Added new item: NS237
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS238
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS238, brand: TomTom
+2025-01-18 00:34:58 - utils.file_handler - INFO - Added new item: NS238
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS239
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS239, brand: TomTom
+2025-01-18 00:34:58 - utils.file_handler - INFO - Added new item: NS239
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS240
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS240, brand: TomTom
+2025-01-18 00:34:58 - utils.file_handler - INFO - Added new item: NS240
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS241
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS241, brand: TomTom
+2025-01-18 00:34:58 - utils.file_handler - INFO - Added new item: NS241
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS242
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS242, brand: TomTom
+2025-01-18 00:34:58 - utils.file_handler - INFO - Added new item: NS242
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS243
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS243, brand: TomTom
+2025-01-18 00:34:58 - utils.file_handler - INFO - Added new item: NS243
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS244
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS244, brand: TomTom
+2025-01-18 00:34:58 - utils.file_handler - INFO - Added new item: NS244
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS245
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS245, brand: TomTom
+2025-01-18 00:34:58 - utils.file_handler - INFO - Added new item: NS245
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS246
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS246, brand: TomTom
+2025-01-18 00:34:58 - utils.file_handler - INFO - Added new item: NS246
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS247
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS247, brand: TomTom
+2025-01-18 00:34:58 - utils.file_handler - INFO - Added new item: NS247
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS248
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS248, brand: TomTom
+2025-01-18 00:34:58 - utils.file_handler - INFO - Added new item: NS248
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS249
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS249, brand: TomTom
+2025-01-18 00:34:58 - utils.file_handler - INFO - Added new item: NS249
+2025-01-18 00:34:58 - models.stock_item - INFO - Increased stock for NS200 by 5
+2025-01-18 00:34:58 - models.stock_item - INFO - Updated price to 219.98900000000003
+2025-01-18 00:34:58 - utils.file_handler - INFO - Updated existing item: NS200
+2025-01-18 00:34:58 - models.stock_item - INFO - Increased stock for NS201 by 5
+2025-01-18 00:34:58 - models.stock_item - INFO - Updated price to 219.98900000000003
+2025-01-18 00:34:58 - utils.file_handler - INFO - Updated existing item: NS201
+2025-01-18 00:34:58 - models.stock_item - INFO - Increased stock for NS202 by 5
+2025-01-18 00:34:58 - models.stock_item - INFO - Updated price to 219.98900000000003
+2025-01-18 00:34:58 - utils.file_handler - INFO - Updated existing item: NS202
+2025-01-18 00:34:58 - models.stock_item - INFO - Increased stock for NS203 by 5
+2025-01-18 00:34:58 - models.stock_item - INFO - Updated price to 219.98900000000003
+2025-01-18 00:34:58 - utils.file_handler - INFO - Updated existing item: NS203
+2025-01-18 00:34:58 - models.stock_item - INFO - Increased stock for NS204 by 5
+2025-01-18 00:34:58 - models.stock_item - INFO - Updated price to 219.98900000000003
+2025-01-18 00:34:58 - utils.file_handler - INFO - Updated existing item: NS204
+2025-01-18 00:34:58 - models.stock_item - INFO - Increased stock for NS205 by 5
+2025-01-18 00:34:58 - models.stock_item - INFO - Updated price to 219.98900000000003
+2025-01-18 00:34:58 - utils.file_handler - INFO - Updated existing item: NS205
+2025-01-18 00:34:58 - models.stock_item - INFO - Increased stock for NS206 by 5
+2025-01-18 00:34:58 - models.stock_item - INFO - Updated price to 219.98900000000003
+2025-01-18 00:34:58 - utils.file_handler - INFO - Updated existing item: NS206
+2025-01-18 00:34:58 - models.stock_item - INFO - Increased stock for NS207 by 5
+2025-01-18 00:34:58 - models.stock_item - INFO - Updated price to 219.98900000000003
+2025-01-18 00:34:58 - utils.file_handler - INFO - Updated existing item: NS207
+2025-01-18 00:34:58 - models.stock_item - INFO - Increased stock for NS208 by 5
+2025-01-18 00:34:58 - models.stock_item - INFO - Updated price to 219.98900000000003
+2025-01-18 00:34:58 - utils.file_handler - INFO - Updated existing item: NS208
+2025-01-18 00:34:58 - models.stock_item - INFO - Increased stock for NS209 by 5
+2025-01-18 00:34:58 - models.stock_item - INFO - Updated price to 219.98900000000003
+2025-01-18 00:34:58 - utils.file_handler - INFO - Updated existing item: NS209
+2025-01-18 00:34:58 - models.stock_item - INFO - Increased stock for NS210 by 5
+2025-01-18 00:34:58 - models.stock_item - INFO - Updated price to 219.98900000000003
+2025-01-18 00:34:58 - utils.file_handler - INFO - Updated existing item: NS210
+2025-01-18 00:34:58 - models.stock_item - INFO - Increased stock for NS211 by 5
+2025-01-18 00:34:58 - models.stock_item - INFO - Updated price to 219.98900000000003
+2025-01-18 00:34:58 - utils.file_handler - INFO - Updated existing item: NS211
+2025-01-18 00:34:58 - models.stock_item - INFO - Increased stock for NS212 by 5
+2025-01-18 00:34:58 - models.stock_item - INFO - Updated price to 219.98900000000003
+2025-01-18 00:34:58 - utils.file_handler - INFO - Updated existing item: NS212
+2025-01-18 00:34:58 - models.stock_item - INFO - Increased stock for NS213 by 5
+2025-01-18 00:34:58 - models.stock_item - INFO - Updated price to 219.98900000000003
+2025-01-18 00:34:58 - utils.file_handler - INFO - Updated existing item: NS213
+2025-01-18 00:34:58 - models.stock_item - INFO - Increased stock for NS214 by 5
+2025-01-18 00:34:58 - models.stock_item - INFO - Updated price to 219.98900000000003
+2025-01-18 00:34:58 - utils.file_handler - INFO - Updated existing item: NS214
+2025-01-18 00:34:58 - models.stock_item - INFO - Increased stock for NS215 by 5
+2025-01-18 00:34:58 - models.stock_item - INFO - Updated price to 219.98900000000003
+2025-01-18 00:34:58 - utils.file_handler - INFO - Updated existing item: NS215
+2025-01-18 00:34:58 - models.stock_item - INFO - Increased stock for NS216 by 5
+2025-01-18 00:34:58 - models.stock_item - INFO - Updated price to 219.98900000000003
+2025-01-18 00:34:58 - utils.file_handler - INFO - Updated existing item: NS216
+2025-01-18 00:34:58 - models.stock_item - INFO - Increased stock for NS217 by 5
+2025-01-18 00:34:58 - models.stock_item - INFO - Updated price to 219.98900000000003
+2025-01-18 00:34:58 - utils.file_handler - INFO - Updated existing item: NS217
+2025-01-18 00:34:58 - models.stock_item - INFO - Increased stock for NS218 by 5
+2025-01-18 00:34:58 - models.stock_item - INFO - Updated price to 219.98900000000003
+2025-01-18 00:34:58 - utils.file_handler - INFO - Updated existing item: NS218
+2025-01-18 00:34:58 - models.stock_item - INFO - Increased stock for NS219 by 5
+2025-01-18 00:34:58 - models.stock_item - INFO - Updated price to 219.98900000000003
+2025-01-18 00:34:58 - utils.file_handler - INFO - Updated existing item: NS219
+2025-01-18 00:34:58 - models.stock_item - INFO - Increased stock for NS220 by 5
+2025-01-18 00:34:58 - models.stock_item - INFO - Updated price to 219.98900000000003
+2025-01-18 00:34:58 - utils.file_handler - INFO - Updated existing item: NS220
+2025-01-18 00:34:58 - models.stock_item - INFO - Increased stock for NS221 by 5
+2025-01-18 00:34:58 - models.stock_item - INFO - Updated price to 219.98900000000003
+2025-01-18 00:34:58 - utils.file_handler - INFO - Updated existing item: NS221
+2025-01-18 00:34:58 - models.stock_item - INFO - Increased stock for NS222 by 5
+2025-01-18 00:34:58 - models.stock_item - INFO - Updated price to 219.98900000000003
+2025-01-18 00:34:58 - utils.file_handler - INFO - Updated existing item: NS222
+2025-01-18 00:34:58 - models.stock_item - INFO - Increased stock for NS223 by 5
+2025-01-18 00:34:58 - models.stock_item - INFO - Updated price to 219.98900000000003
+2025-01-18 00:34:58 - utils.file_handler - INFO - Updated existing item: NS223
+2025-01-18 00:34:58 - models.stock_item - INFO - Increased stock for NS224 by 5
+2025-01-18 00:34:58 - models.stock_item - INFO - Updated price to 219.98900000000003
+2025-01-18 00:34:58 - utils.file_handler - INFO - Updated existing item: NS224
+2025-01-18 00:34:58 - models.stock_item - INFO - Increased stock for NS225 by 5
+2025-01-18 00:34:58 - models.stock_item - INFO - Updated price to 219.98900000000003
+2025-01-18 00:34:58 - utils.file_handler - INFO - Updated existing item: NS225
+2025-01-18 00:34:58 - models.stock_item - INFO - Increased stock for NS226 by 5
+2025-01-18 00:34:58 - models.stock_item - INFO - Updated price to 219.98900000000003
+2025-01-18 00:34:58 - utils.file_handler - INFO - Updated existing item: NS226
+2025-01-18 00:34:58 - models.stock_item - INFO - Increased stock for NS227 by 5
+2025-01-18 00:34:58 - models.stock_item - INFO - Updated price to 219.98900000000003
+2025-01-18 00:34:58 - utils.file_handler - INFO - Updated existing item: NS227
+2025-01-18 00:34:58 - models.stock_item - INFO - Increased stock for NS228 by 5
+2025-01-18 00:34:58 - models.stock_item - INFO - Updated price to 219.98900000000003
+2025-01-18 00:34:58 - utils.file_handler - INFO - Updated existing item: NS228
+2025-01-18 00:34:58 - models.stock_item - INFO - Increased stock for NS229 by 5
+2025-01-18 00:34:58 - models.stock_item - INFO - Updated price to 219.98900000000003
+2025-01-18 00:34:58 - utils.file_handler - INFO - Updated existing item: NS229
+2025-01-18 00:34:58 - models.stock_item - INFO - Increased stock for NS230 by 5
+2025-01-18 00:34:58 - models.stock_item - INFO - Updated price to 219.98900000000003
+2025-01-18 00:34:58 - utils.file_handler - INFO - Updated existing item: NS230
+2025-01-18 00:34:58 - models.stock_item - INFO - Increased stock for NS231 by 5
+2025-01-18 00:34:58 - models.stock_item - INFO - Updated price to 219.98900000000003
+2025-01-18 00:34:58 - utils.file_handler - INFO - Updated existing item: NS231
+2025-01-18 00:34:58 - models.stock_item - INFO - Increased stock for NS232 by 5
+2025-01-18 00:34:58 - models.stock_item - INFO - Updated price to 219.98900000000003
+2025-01-18 00:34:58 - utils.file_handler - INFO - Updated existing item: NS232
+2025-01-18 00:34:58 - models.stock_item - INFO - Increased stock for NS233 by 5
+2025-01-18 00:34:58 - models.stock_item - INFO - Updated price to 219.98900000000003
+2025-01-18 00:34:58 - utils.file_handler - INFO - Updated existing item: NS233
+2025-01-18 00:34:58 - models.stock_item - INFO - Increased stock for NS234 by 5
+2025-01-18 00:34:58 - models.stock_item - INFO - Updated price to 219.98900000000003
+2025-01-18 00:34:58 - utils.file_handler - INFO - Updated existing item: NS234
+2025-01-18 00:34:58 - models.stock_item - INFO - Increased stock for NS235 by 5
+2025-01-18 00:34:58 - models.stock_item - INFO - Updated price to 219.98900000000003
+2025-01-18 00:34:58 - utils.file_handler - INFO - Updated existing item: NS235
+2025-01-18 00:34:58 - models.stock_item - INFO - Increased stock for NS236 by 5
+2025-01-18 00:34:58 - models.stock_item - INFO - Updated price to 219.98900000000003
+2025-01-18 00:34:58 - utils.file_handler - INFO - Updated existing item: NS236
+2025-01-18 00:34:58 - models.stock_item - INFO - Increased stock for NS237 by 5
+2025-01-18 00:34:58 - models.stock_item - INFO - Updated price to 219.98900000000003
+2025-01-18 00:34:58 - utils.file_handler - INFO - Updated existing item: NS237
+2025-01-18 00:34:58 - models.stock_item - INFO - Increased stock for NS238 by 5
+2025-01-18 00:34:58 - models.stock_item - INFO - Updated price to 219.98900000000003
+2025-01-18 00:34:58 - utils.file_handler - INFO - Updated existing item: NS238
+2025-01-18 00:34:58 - models.stock_item - INFO - Increased stock for NS239 by 5
+2025-01-18 00:34:58 - models.stock_item - INFO - Updated price to 219.98900000000003
+2025-01-18 00:34:58 - utils.file_handler - INFO - Updated existing item: NS239
+2025-01-18 00:34:58 - models.stock_item - INFO - Increased stock for NS240 by 5
+2025-01-18 00:34:58 - models.stock_item - INFO - Updated price to 219.98900000000003
+2025-01-18 00:34:58 - utils.file_handler - INFO - Updated existing item: NS240
+2025-01-18 00:34:58 - models.stock_item - INFO - Increased stock for NS241 by 5
+2025-01-18 00:34:58 - models.stock_item - INFO - Updated price to 219.98900000000003
+2025-01-18 00:34:58 - utils.file_handler - INFO - Updated existing item: NS241
+2025-01-18 00:34:58 - models.stock_item - INFO - Increased stock for NS242 by 5
+2025-01-18 00:34:58 - models.stock_item - INFO - Updated price to 219.98900000000003
+2025-01-18 00:34:58 - utils.file_handler - INFO - Updated existing item: NS242
+2025-01-18 00:34:58 - models.stock_item - INFO - Increased stock for NS243 by 5
+2025-01-18 00:34:58 - models.stock_item - INFO - Updated price to 219.98900000000003
+2025-01-18 00:34:58 - utils.file_handler - INFO - Updated existing item: NS243
+2025-01-18 00:34:58 - models.stock_item - INFO - Increased stock for NS244 by 5
+2025-01-18 00:34:58 - models.stock_item - INFO - Updated price to 219.98900000000003
+2025-01-18 00:34:58 - utils.file_handler - INFO - Updated existing item: NS244
+2025-01-18 00:34:58 - models.stock_item - INFO - Increased stock for NS245 by 5
+2025-01-18 00:34:58 - models.stock_item - INFO - Updated price to 219.98900000000003
+2025-01-18 00:34:58 - utils.file_handler - INFO - Updated existing item: NS245
+2025-01-18 00:34:58 - models.stock_item - INFO - Increased stock for NS246 by 5
+2025-01-18 00:34:58 - models.stock_item - INFO - Updated price to 219.98900000000003
+2025-01-18 00:34:58 - utils.file_handler - INFO - Updated existing item: NS246
+2025-01-18 00:34:58 - models.stock_item - INFO - Increased stock for NS247 by 5
+2025-01-18 00:34:58 - models.stock_item - INFO - Updated price to 219.98900000000003
+2025-01-18 00:34:58 - utils.file_handler - INFO - Updated existing item: NS247
+2025-01-18 00:34:58 - models.stock_item - INFO - Increased stock for NS248 by 5
+2025-01-18 00:34:58 - models.stock_item - INFO - Updated price to 219.98900000000003
+2025-01-18 00:34:58 - utils.file_handler - INFO - Updated existing item: NS248
+2025-01-18 00:34:58 - models.stock_item - INFO - Increased stock for NS249 by 5
+2025-01-18 00:34:58 - models.stock_item - INFO - Updated price to 219.98900000000003
+2025-01-18 00:34:58 - utils.file_handler - INFO - Updated existing item: NS249
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS456
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS456, brand: COW
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS789
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS789, brand: GeoVision
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS333
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS101
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS101, brand: TomTom
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS102
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS102, brand: Garmin
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS103
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS103, brand: GeoVision
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS105
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS105, brand: TomTom
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS200
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS200, brand: TomTom
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS201
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS201, brand: TomTom
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS202
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS202, brand: TomTom
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS203
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS203, brand: TomTom
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS204
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS204, brand: TomTom
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS205
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS205, brand: TomTom
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS206
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS206, brand: TomTom
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS207
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS207, brand: TomTom
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS208
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS208, brand: TomTom
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS209
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS209, brand: TomTom
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS210
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS210, brand: TomTom
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS211
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS211, brand: TomTom
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS212
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS212, brand: TomTom
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS213
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS213, brand: TomTom
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS214
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS214, brand: TomTom
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS215
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS215, brand: TomTom
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS216
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS216, brand: TomTom
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS217
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS217, brand: TomTom
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS218
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS218, brand: TomTom
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS219
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS219, brand: TomTom
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS220
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS220, brand: TomTom
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS221
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS221, brand: TomTom
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS222
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS222, brand: TomTom
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS223
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS223, brand: TomTom
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS224
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS224, brand: TomTom
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS225
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS225, brand: TomTom
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS226
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS226, brand: TomTom
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS227
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS227, brand: TomTom
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS228
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS228, brand: TomTom
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS229
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS229, brand: TomTom
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS230
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS230, brand: TomTom
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS231
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS231, brand: TomTom
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS232
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS232, brand: TomTom
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS233
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS233, brand: TomTom
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS234
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS234, brand: TomTom
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS235
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS235, brand: TomTom
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS236
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS236, brand: TomTom
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS237
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS237, brand: TomTom
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS238
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS238, brand: TomTom
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS239
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS239, brand: TomTom
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS240
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS240, brand: TomTom
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS241
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS241, brand: TomTom
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS242
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS242, brand: TomTom
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS243
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS243, brand: TomTom
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS244
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS244, brand: TomTom
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS245
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS245, brand: TomTom
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS246
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS246, brand: TomTom
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS247
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS247, brand: TomTom
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS248
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS248, brand: TomTom
+2025-01-18 00:34:58 - models.stock_item - INFO - Created new stock item: NS249
+2025-01-18 00:34:58 - models.nav_sys - INFO - Created new NavSys item: NS249, brand: TomTom
+2025-01-18 00:34:58 - utils.file_handler - INFO - Successfully deleted item: NS200
+2025-01-18 00:34:58 - utils.file_handler - INFO - Successfully deleted item: NS201
+2025-01-18 00:34:58 - utils.file_handler - INFO - Successfully deleted item: NS202
+2025-01-18 00:34:58 - utils.file_handler - INFO - Successfully deleted item: NS203
+2025-01-18 00:34:58 - utils.file_handler - INFO - Successfully deleted item: NS204
+2025-01-18 00:34:59 - utils.file_handler - INFO - Successfully deleted item: NS205
+2025-01-18 00:34:59 - utils.file_handler - INFO - Successfully deleted item: NS206
+2025-01-18 00:34:59 - utils.file_handler - INFO - Successfully deleted item: NS207
+2025-01-18 00:34:59 - utils.file_handler - INFO - Successfully deleted item: NS208
+2025-01-18 00:34:59 - utils.file_handler - INFO - Successfully deleted item: NS209
+2025-01-18 00:34:59 - utils.file_handler - INFO - Successfully deleted item: NS210
+2025-01-18 00:34:59 - utils.file_handler - INFO - Successfully deleted item: NS211
+2025-01-18 00:34:59 - utils.file_handler - INFO - Successfully deleted item: NS212
+2025-01-18 00:34:59 - utils.file_handler - INFO - Successfully deleted item: NS213
+2025-01-18 00:34:59 - utils.file_handler - INFO - Successfully deleted item: NS214
+2025-01-18 00:34:59 - utils.file_handler - INFO - Successfully deleted item: NS215
+2025-01-18 00:34:59 - utils.file_handler - INFO - Successfully deleted item: NS216
+2025-01-18 00:34:59 - utils.file_handler - INFO - Successfully deleted item: NS217
+2025-01-18 00:34:59 - utils.file_handler - INFO - Successfully deleted item: NS218
+2025-01-18 00:34:59 - utils.file_handler - INFO - Successfully deleted item: NS219
+2025-01-18 00:34:59 - utils.file_handler - INFO - Successfully deleted item: NS220
+2025-01-18 00:34:59 - utils.file_handler - INFO - Successfully deleted item: NS221
+2025-01-18 00:34:59 - utils.file_handler - INFO - Successfully deleted item: NS222
+2025-01-18 00:34:59 - utils.file_handler - INFO - Successfully deleted item: NS223
+2025-01-18 00:34:59 - utils.file_handler - INFO - Successfully deleted item: NS224
+2025-01-18 00:34:59 - utils.file_handler - INFO - Successfully deleted item: NS225
+2025-01-18 00:34:59 - utils.file_handler - INFO - Successfully deleted item: NS226
+2025-01-18 00:34:59 - utils.file_handler - INFO - Successfully deleted item: NS227
+2025-01-18 00:34:59 - utils.file_handler - INFO - Successfully deleted item: NS228
+2025-01-18 00:34:59 - utils.file_handler - INFO - Successfully deleted item: NS229
+2025-01-18 00:34:59 - utils.file_handler - INFO - Successfully deleted item: NS230
+2025-01-18 00:34:59 - utils.file_handler - INFO - Successfully deleted item: NS231
+2025-01-18 00:34:59 - utils.file_handler - INFO - Successfully deleted item: NS232
+2025-01-18 00:34:59 - utils.file_handler - INFO - Successfully deleted item: NS233
+2025-01-18 00:34:59 - utils.file_handler - INFO - Successfully deleted item: NS234
+2025-01-18 00:34:59 - utils.file_handler - INFO - Successfully deleted item: NS235
+2025-01-18 00:34:59 - utils.file_handler - INFO - Successfully deleted item: NS236
+2025-01-18 00:34:59 - utils.file_handler - INFO - Successfully deleted item: NS237
+2025-01-18 00:34:59 - utils.file_handler - INFO - Successfully deleted item: NS238
+2025-01-18 00:34:59 - utils.file_handler - INFO - Successfully deleted item: NS239
+2025-01-18 00:34:59 - utils.file_handler - INFO - Successfully deleted item: NS240
+2025-01-18 00:34:59 - utils.file_handler - INFO - Successfully deleted item: NS241
+2025-01-18 00:34:59 - utils.file_handler - INFO - Successfully deleted item: NS242
+2025-01-18 00:34:59 - utils.file_handler - INFO - Successfully deleted item: NS243
+2025-01-18 00:34:59 - utils.file_handler - INFO - Successfully deleted item: NS244
+2025-01-18 00:34:59 - utils.file_handler - INFO - Successfully deleted item: NS245
+2025-01-18 00:34:59 - utils.file_handler - INFO - Successfully deleted item: NS246
+2025-01-18 00:34:59 - utils.file_handler - INFO - Successfully deleted item: NS247
+2025-01-18 00:34:59 - utils.file_handler - INFO - Successfully deleted item: NS248
+2025-01-18 00:34:59 - utils.file_handler - INFO - Successfully deleted item: NS249
+2025-01-18 00:34:59 - tests.test_operation - INFO - Bulk operations test passed
+2025-01-18 00:34:59 - models.stock_item - INFO - Created new stock item: NS301
+2025-01-18 00:34:59 - models.nav_sys - INFO - Created new NavSys item: NS301, brand: TomTom
+2025-01-18 00:34:59 - utils.file_handler - INFO - Added new item: NS301
+2025-01-18 00:34:59 - models.stock_item - INFO - Increased stock for NS301 by 10
+2025-01-18 00:34:59 - models.stock_item - ERROR - Error increasing stock: Stock cannot exceed 100 items
+2025-01-18 00:34:59 - models.stock_item - INFO - Updated price to 0.01
+2025-01-18 00:34:59 - models.stock_item - INFO - Updated price to 999999.99
+2025-01-18 00:34:59 - utils.file_handler - INFO - Updated existing item: NS301
+2025-01-18 00:34:59 - tests.test_operation - INFO - Boundary operations test passed
+2025-01-18 00:34:59 - models.stock_item - INFO - Created new stock item: NS401
+2025-01-18 00:34:59 - models.nav_sys - INFO - Created new NavSys item: NS401, brand: TomTom
+2025-01-18 00:34:59 - utils.file_handler - INFO - Added new item: NS401
+2025-01-18 00:34:59 - models.stock_item - INFO - Increased stock for NS401 by 5
+2025-01-18 00:34:59 - models.stock_item - INFO - Updated price to 249.99
+2025-01-18 00:34:59 - models.nav_sys - INFO - Updated brand for NS401 to Garmin
+2025-01-18 00:34:59 - utils.file_handler - INFO - Updated existing item: NS401
+2025-01-18 00:34:59 - models.stock_item - INFO - Created new stock item: NS456
+2025-01-18 00:34:59 - models.nav_sys - INFO - Created new NavSys item: NS456, brand: COW
+2025-01-18 00:34:59 - models.stock_item - INFO - Created new stock item: NS789
+2025-01-18 00:34:59 - models.nav_sys - INFO - Created new NavSys item: NS789, brand: GeoVision
+2025-01-18 00:34:59 - models.stock_item - INFO - Created new stock item: NS333
+2025-01-18 00:34:59 - models.stock_item - INFO - Created new stock item: NS101
+2025-01-18 00:34:59 - models.nav_sys - INFO - Created new NavSys item: NS101, brand: TomTom
+2025-01-18 00:34:59 - models.stock_item - INFO - Created new stock item: NS102
+2025-01-18 00:34:59 - models.nav_sys - INFO - Created new NavSys item: NS102, brand: Garmin
+2025-01-18 00:34:59 - models.stock_item - INFO - Created new stock item: NS103
+2025-01-18 00:34:59 - models.nav_sys - INFO - Created new NavSys item: NS103, brand: GeoVision
+2025-01-18 00:34:59 - models.stock_item - INFO - Created new stock item: NS105
+2025-01-18 00:34:59 - models.nav_sys - INFO - Created new NavSys item: NS105, brand: TomTom
+2025-01-18 00:34:59 - models.stock_item - INFO - Created new stock item: NS301
+2025-01-18 00:34:59 - models.nav_sys - INFO - Created new NavSys item: NS301, brand: TomTom
+2025-01-18 00:34:59 - models.stock_item - INFO - Created new stock item: NS401
+2025-01-18 00:34:59 - models.nav_sys - INFO - Created new NavSys item: NS401, brand: Garmin
+2025-01-18 00:34:59 - utils.file_handler - INFO - Successfully deleted item: NS401
+2025-01-18 00:34:59 - models.stock_item - INFO - Created new stock item: NS456
+2025-01-18 00:34:59 - models.nav_sys - INFO - Created new NavSys item: NS456, brand: COW
+2025-01-18 00:34:59 - models.stock_item - INFO - Created new stock item: NS789
+2025-01-18 00:34:59 - models.nav_sys - INFO - Created new NavSys item: NS789, brand: GeoVision
+2025-01-18 00:34:59 - models.stock_item - INFO - Created new stock item: NS333
+2025-01-18 00:34:59 - models.stock_item - INFO - Created new stock item: NS101
+2025-01-18 00:34:59 - models.nav_sys - INFO - Created new NavSys item: NS101, brand: TomTom
+2025-01-18 00:34:59 - models.stock_item - INFO - Created new stock item: NS102
+2025-01-18 00:34:59 - models.nav_sys - INFO - Created new NavSys item: NS102, brand: Garmin
+2025-01-18 00:34:59 - models.stock_item - INFO - Created new stock item: NS103
+2025-01-18 00:34:59 - models.nav_sys - INFO - Created new NavSys item: NS103, brand: GeoVision
+2025-01-18 00:34:59 - models.stock_item - INFO - Created new stock item: NS105
+2025-01-18 00:34:59 - models.nav_sys - INFO - Created new NavSys item: NS105, brand: TomTom
+2025-01-18 00:34:59 - models.stock_item - INFO - Created new stock item: NS301
+2025-01-18 00:34:59 - models.nav_sys - INFO - Created new NavSys item: NS301, brand: TomTom
+2025-01-18 00:34:59 - tests.test_operation - INFO - Data persistence test passed
+2025-01-18 00:34:59 - models.stock_item - INFO - Created new stock item: W101
+2025-01-18 00:34:59 - tests.test_stock_item - INFO - Basic functionality tests passed
+2025-01-18 00:34:59 - models.stock_item - ERROR - Error creating stock item: Stock code must be a non-empty string
+2025-01-18 00:34:59 - models.stock_item - ERROR - Error creating stock item: Quantity must be a non-negative integer
+2025-01-18 00:34:59 - models.stock_item - ERROR - Error creating stock item: Price must be a non-negative number
+2025-01-18 00:34:59 - models.stock_item - ERROR - Error creating stock item: Stock code must be a non-empty string
+2025-01-18 00:34:59 - models.stock_item - ERROR - Error creating stock item: Quantity must be a non-negative integer
+2025-01-18 00:34:59 - tests.test_stock_item - INFO - Validation tests passed
+2025-01-18 00:34:59 - models.stock_item - INFO - Created new stock item: W101
+2025-01-18 00:34:59 - models.stock_item - INFO - Increased stock for W101 by 10
+2025-01-18 00:34:59 - models.stock_item - ERROR - Error increasing stock: Stock cannot exceed 100 items
+2025-01-18 00:34:59 - models.stock_item - INFO - Sold 5 units of W101
+2025-01-18 00:34:59 - models.stock_item - ERROR - Error selling stock: Amount must be greater than zero
+2025-01-18 00:34:59 - tests.test_stock_item - INFO - Stock operation tests passed
+2025-01-18 00:34:59 - models.stock_item - INFO - Created new stock item: W101
+2025-01-18 00:34:59 - models.stock_item - INFO - Updated price to 149.99
+2025-01-18 00:34:59 - models.stock_item - ERROR - Invalid price value: Price must be greater than 0
+2025-01-18 00:34:59 - models.stock_item - ERROR - Invalid price value: Price must be greater than 0
+2025-01-18 00:34:59 - models.stock_item - INFO - Updated price to 999999.99
+2025-01-18 00:34:59 - models.stock_item - INFO - Updated price to 0.01
+2025-01-18 00:34:59 - tests.test_stock_item - INFO - Price operation tests passed
+2025-01-18 00:34:59 - models.stock_item - INFO - Created new stock item: W101
+2025-01-18 00:34:59 - tests.test_stock_item - INFO - Data conversion tests passed
+2025-01-18 00:34:59 - models.stock_item - INFO - Created new stock item: W101
+2025-01-18 00:34:59 - models.stock_item - INFO - Created new stock item: W101
+2025-01-18 00:34:59 - models.stock_item - INFO - Created new stock item: W-101_A/B
+2025-01-18 00:34:59 - models.stock_item - INFO - Created new stock item: W101
+2025-01-18 00:34:59 - models.stock_item - INFO - Created new stock item: W101
+2025-01-18 00:34:59 - models.stock_item - ERROR - Error increasing stock: Stock cannot exceed 100 items
+2025-01-18 00:34:59 - tests.test_stock_item - INFO - Edge case tests passed
+2025-01-18 00:34:59 - models.stock_item - INFO - Created new stock item: W101
+2025-01-18 00:34:59 - models.stock_item - INFO - Created new stock item: W101
+2025-01-18 00:34:59 - models.stock_item - INFO - Increased stock for W101 by 100
+2025-01-18 00:34:59 - models.stock_item - INFO - Updated price to 0.01
+2025-01-18 00:34:59 - models.stock_item - INFO - Updated price to 123.45
+2025-01-18 00:34:59 - models.stock_item - INFO - Created new stock item: W101
+2025-01-18 00:34:59 - models.stock_item - INFO - Increased stock for W101 by 25
+2025-01-18 00:34:59 - models.stock_item - INFO - Sold 15 units of W101
+2025-01-18 00:34:59 - tests.test_stock_item - INFO - Boundary condition tests passed

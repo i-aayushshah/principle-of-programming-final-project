@@ -5566,3 +5566,568 @@
 2025-01-18 00:18:13 - models.stock_item - INFO - Created new stock item: NS105
 2025-01-18 00:18:13 - models.nav_sys - INFO - Created new NavSys item: NS105, brand: CAT
 2025-01-18 00:18:13 - werkzeug - INFO - 127.0.0.1 - - [18/Jan/2025 00:18:13] "GET /api/items?search=&brand=&sort_by=stock_code&sort_order=asc&page=1&per_page=6 HTTP/1.1" 200 -
+2025-01-18 00:22:44 - werkzeug - INFO - 127.0.0.1 - - [18/Jan/2025 00:22:44] "OPTIONS /api/items/NS067 HTTP/1.1" 200 -
+2025-01-18 00:22:45 - models.stock_item - INFO - Created new stock item: NS456
+2025-01-18 00:22:45 - models.nav_sys - INFO - Created new NavSys item: NS456, brand: COW
+2025-01-18 00:22:45 - models.stock_item - INFO - Created new stock item: NS789
+2025-01-18 00:22:45 - models.nav_sys - INFO - Created new NavSys item: NS789, brand: GeoVision
+2025-01-18 00:22:45 - models.stock_item - INFO - Created new stock item: NS333
+2025-01-18 00:22:45 - models.nav_sys - INFO - Created new NavSys item: NS333, brand: AlphaTech
+2025-01-18 00:22:45 - models.stock_item - INFO - Created new stock item: NS112
+2025-01-18 00:22:45 - models.nav_sys - INFO - Created new NavSys item: NS112, brand: GeoVision
+2025-01-18 00:22:45 - models.stock_item - INFO - Created new stock item: NS567
+2025-01-18 00:22:45 - models.nav_sys - INFO - Created new NavSys item: NS567, brand: COW
+2025-01-18 00:22:45 - models.stock_item - INFO - Created new stock item: NS678
+2025-01-18 00:22:45 - models.nav_sys - INFO - Created new NavSys item: NS678, brand: GeoVision
+2025-01-18 00:22:45 - models.stock_item - INFO - Created new stock item: NS890
+2025-01-18 00:22:45 - models.nav_sys - INFO - Created new NavSys item: NS890, brand: AlphaTech
+2025-01-18 00:22:45 - models.stock_item - INFO - Created new stock item: NS124
+2025-01-18 00:22:45 - models.nav_sys - INFO - Created new NavSys item: NS124, brand: COW
+2025-01-18 00:22:45 - models.stock_item - INFO - Created new stock item: NS234A
+2025-01-18 00:22:45 - models.nav_sys - INFO - Created new NavSys item: NS234A, brand: COW
+2025-01-18 00:22:45 - models.stock_item - INFO - Created new stock item: NS345
+2025-01-18 00:22:45 - models.nav_sys - INFO - Created new NavSys item: NS345, brand: COW
+2025-01-18 00:22:45 - models.stock_item - INFO - Created new stock item: NS555
+2025-01-18 00:22:45 - models.nav_sys - INFO - Created new NavSys item: NS555, brand: AlphaTech
+2025-01-18 00:22:45 - models.stock_item - INFO - Created new stock item: NS910
+2025-01-18 00:22:45 - models.nav_sys - INFO - Created new NavSys item: NS910, brand: COW
+2025-01-18 00:22:45 - models.stock_item - INFO - Created new stock item: NS321
+2025-01-18 00:22:45 - models.nav_sys - INFO - Created new NavSys item: NS321, brand: AlphaTech
+2025-01-18 00:22:45 - models.stock_item - INFO - Created new stock item: NS876
+2025-01-18 00:22:45 - models.nav_sys - INFO - Created new NavSys item: NS876, brand: COW
+2025-01-18 00:22:45 - models.stock_item - INFO - Created new stock item: NS445
+2025-01-18 00:22:45 - models.nav_sys - INFO - Created new NavSys item: NS445, brand: AlphaTech
+2025-01-18 00:22:45 - models.stock_item - INFO - Created new stock item: NS290
+2025-01-18 00:22:45 - models.nav_sys - INFO - Created new NavSys item: NS290, brand: COW
+2025-01-18 00:22:45 - models.stock_item - INFO - Created new stock item: NS302
+2025-01-18 00:22:45 - models.nav_sys - INFO - Created new NavSys item: NS302, brand: AlphaTech
+2025-01-18 00:22:45 - models.stock_item - INFO - Created new stock item: NS650
+2025-01-18 00:22:45 - models.nav_sys - INFO - Created new NavSys item: NS650, brand: GeoVision
+2025-01-18 00:22:45 - models.stock_item - INFO - Created new stock item: NS890A
+2025-01-18 00:22:45 - models.nav_sys - INFO - Created new NavSys item: NS890A, brand: AlphaTech
+2025-01-18 00:22:45 - models.stock_item - INFO - Created new stock item: NS554
+2025-01-18 00:22:45 - models.nav_sys - INFO - Created new NavSys item: NS554, brand: COW
+2025-01-18 00:22:45 - models.stock_item - INFO - Created new stock item: NS765
+2025-01-18 00:22:45 - models.nav_sys - INFO - Created new NavSys item: NS765, brand: GeoVision
+2025-01-18 00:22:45 - models.stock_item - INFO - Created new stock item: NS456B
+2025-01-18 00:22:45 - models.nav_sys - INFO - Created new NavSys item: NS456B, brand: COW
+2025-01-18 00:22:45 - models.stock_item - INFO - Created new stock item: NS644
+2025-01-18 00:22:45 - models.nav_sys - INFO - Created new NavSys item: NS644, brand: GeoVision
+2025-01-18 00:22:45 - models.stock_item - INFO - Created new stock item: NS199
+2025-01-18 00:22:45 - models.nav_sys - INFO - Created new NavSys item: NS199, brand: COW
+2025-01-18 00:22:45 - models.stock_item - INFO - Created new stock item: NS543
+2025-01-18 00:22:45 - models.nav_sys - INFO - Created new NavSys item: NS543, brand: TomTom
+2025-01-18 00:22:45 - models.stock_item - INFO - Created new stock item: NS123
+2025-01-18 00:22:45 - models.nav_sys - INFO - Created new NavSys item: NS123, brand: COW
+2025-01-18 00:22:45 - models.stock_item - INFO - Created new stock item: NS067
+2025-01-18 00:22:45 - models.nav_sys - INFO - Created new NavSys item: NS067, brand: COW
+2025-01-18 00:22:45 - models.stock_item - INFO - Created new stock item: NS105
+2025-01-18 00:22:45 - models.nav_sys - INFO - Created new NavSys item: NS105, brand: TomTom
+2025-01-18 00:22:45 - models.stock_item - INFO - Created new stock item: NS101
+2025-01-18 00:22:45 - models.nav_sys - INFO - Created new NavSys item: NS101, brand: TomTom
+2025-01-18 00:22:45 - models.stock_item - INFO - Created new stock item: NS102
+2025-01-18 00:22:45 - models.nav_sys - INFO - Created new NavSys item: NS102, brand: Garmin
+2025-01-18 00:22:45 - models.stock_item - INFO - Created new stock item: NS103
+2025-01-18 00:22:45 - models.nav_sys - INFO - Created new NavSys item: NS103, brand: GeoVision
+2025-01-18 00:22:45 - models.stock_item - INFO - Created new stock item: NS301
+2025-01-18 00:22:45 - models.nav_sys - INFO - Created new NavSys item: NS301, brand: TomTom
+2025-01-18 00:22:45 - utils.file_handler - INFO - Updated existing item: NS067
+2025-01-18 00:22:45 - utils.file_handler - ERROR - Error saving item: 'charmap' codec can't encode characters in position 22-25: character maps to <undefined>
+2025-01-18 00:22:45 - __main__ - ERROR - Error updating item: Failed to save item: 'charmap' codec can't encode characters in position 22-25: character maps to <undefined>
+2025-01-18 00:22:45 - werkzeug - INFO - 127.0.0.1 - - [18/Jan/2025 00:22:45] "[31m[1mPUT /api/items/NS067 HTTP/1.1[0m" 400 -
+2025-01-18 00:22:52 - werkzeug - INFO - 127.0.0.1 - - [18/Jan/2025 00:22:52] "OPTIONS /api/items/NS067 HTTP/1.1" 200 -
+2025-01-18 00:22:52 - models.stock_item - INFO - Created new stock item: NS456
+2025-01-18 00:22:52 - models.nav_sys - INFO - Created new NavSys item: NS456, brand: COW
+2025-01-18 00:22:52 - models.stock_item - INFO - Created new stock item: NS789
+2025-01-18 00:22:52 - models.nav_sys - INFO - Created new NavSys item: NS789, brand: GeoVision
+2025-01-18 00:22:52 - models.stock_item - INFO - Created new stock item: NS333
+2025-01-18 00:22:52 - models.nav_sys - INFO - Created new NavSys item: NS333, brand: AlphaTech
+2025-01-18 00:22:52 - models.stock_item - INFO - Created new stock item: NS112
+2025-01-18 00:22:52 - models.nav_sys - INFO - Created new NavSys item: NS112, brand: GeoVision
+2025-01-18 00:22:52 - models.stock_item - INFO - Created new stock item: NS567
+2025-01-18 00:22:52 - models.nav_sys - INFO - Created new NavSys item: NS567, brand: COW
+2025-01-18 00:22:52 - models.stock_item - INFO - Created new stock item: NS678
+2025-01-18 00:22:52 - models.nav_sys - INFO - Created new NavSys item: NS678, brand: GeoVision
+2025-01-18 00:22:52 - models.stock_item - INFO - Created new stock item: NS890
+2025-01-18 00:22:52 - models.nav_sys - INFO - Created new NavSys item: NS890, brand: AlphaTech
+2025-01-18 00:22:52 - models.stock_item - INFO - Created new stock item: NS124
+2025-01-18 00:22:52 - models.nav_sys - INFO - Created new NavSys item: NS124, brand: COW
+2025-01-18 00:22:52 - models.stock_item - INFO - Created new stock item: NS234A
+2025-01-18 00:22:52 - models.nav_sys - INFO - Created new NavSys item: NS234A, brand: COW
+2025-01-18 00:22:52 - models.stock_item - INFO - Created new stock item: NS345
+2025-01-18 00:22:52 - models.nav_sys - INFO - Created new NavSys item: NS345, brand: COW
+2025-01-18 00:22:52 - models.stock_item - INFO - Created new stock item: NS555
+2025-01-18 00:22:52 - models.nav_sys - INFO - Created new NavSys item: NS555, brand: AlphaTech
+2025-01-18 00:22:52 - models.stock_item - INFO - Created new stock item: NS910
+2025-01-18 00:22:52 - models.nav_sys - INFO - Created new NavSys item: NS910, brand: COW
+2025-01-18 00:22:52 - models.stock_item - INFO - Created new stock item: NS321
+2025-01-18 00:22:52 - models.nav_sys - INFO - Created new NavSys item: NS321, brand: AlphaTech
+2025-01-18 00:22:52 - models.stock_item - INFO - Created new stock item: NS876
+2025-01-18 00:22:52 - models.nav_sys - INFO - Created new NavSys item: NS876, brand: COW
+2025-01-18 00:22:52 - models.stock_item - INFO - Created new stock item: NS445
+2025-01-18 00:22:52 - models.nav_sys - INFO - Created new NavSys item: NS445, brand: AlphaTech
+2025-01-18 00:22:52 - models.stock_item - INFO - Created new stock item: NS290
+2025-01-18 00:22:52 - models.nav_sys - INFO - Created new NavSys item: NS290, brand: COW
+2025-01-18 00:22:52 - models.stock_item - INFO - Created new stock item: NS302
+2025-01-18 00:22:52 - models.nav_sys - INFO - Created new NavSys item: NS302, brand: AlphaTech
+2025-01-18 00:22:52 - models.stock_item - INFO - Created new stock item: NS650
+2025-01-18 00:22:52 - models.nav_sys - INFO - Created new NavSys item: NS650, brand: GeoVision
+2025-01-18 00:22:52 - models.stock_item - INFO - Created new stock item: NS890A
+2025-01-18 00:22:52 - models.nav_sys - INFO - Created new NavSys item: NS890A, brand: AlphaTech
+2025-01-18 00:22:52 - models.stock_item - INFO - Created new stock item: NS554
+2025-01-18 00:22:52 - models.nav_sys - INFO - Created new NavSys item: NS554, brand: COW
+2025-01-18 00:22:52 - models.stock_item - INFO - Created new stock item: NS765
+2025-01-18 00:22:52 - models.nav_sys - INFO - Created new NavSys item: NS765, brand: GeoVision
+2025-01-18 00:22:52 - models.stock_item - INFO - Created new stock item: NS456B
+2025-01-18 00:22:52 - models.nav_sys - INFO - Created new NavSys item: NS456B, brand: COW
+2025-01-18 00:22:52 - models.stock_item - INFO - Created new stock item: NS644
+2025-01-18 00:22:52 - models.nav_sys - INFO - Created new NavSys item: NS644, brand: GeoVision
+2025-01-18 00:22:52 - models.stock_item - INFO - Created new stock item: NS199
+2025-01-18 00:22:52 - models.nav_sys - INFO - Created new NavSys item: NS199, brand: COW
+2025-01-18 00:22:52 - models.stock_item - INFO - Created new stock item: NS543
+2025-01-18 00:22:52 - models.nav_sys - INFO - Created new NavSys item: NS543, brand: TomTom
+2025-01-18 00:22:52 - models.stock_item - INFO - Created new stock item: NS123
+2025-01-18 00:22:52 - models.nav_sys - INFO - Created new NavSys item: NS123, brand: COW
+2025-01-18 00:22:52 - werkzeug - INFO - 127.0.0.1 - - [18/Jan/2025 00:22:52] "[33mPUT /api/items/NS067 HTTP/1.1[0m" 404 -
+2025-01-18 00:22:58 - werkzeug - INFO - 127.0.0.1 - - [18/Jan/2025 00:22:58] "OPTIONS /api/items/NS067 HTTP/1.1" 200 -
+2025-01-18 00:22:58 - models.stock_item - INFO - Created new stock item: NS456
+2025-01-18 00:22:58 - models.nav_sys - INFO - Created new NavSys item: NS456, brand: COW
+2025-01-18 00:22:58 - models.stock_item - INFO - Created new stock item: NS789
+2025-01-18 00:22:58 - models.nav_sys - INFO - Created new NavSys item: NS789, brand: GeoVision
+2025-01-18 00:22:58 - models.stock_item - INFO - Created new stock item: NS333
+2025-01-18 00:22:58 - models.nav_sys - INFO - Created new NavSys item: NS333, brand: AlphaTech
+2025-01-18 00:22:58 - models.stock_item - INFO - Created new stock item: NS112
+2025-01-18 00:22:58 - models.nav_sys - INFO - Created new NavSys item: NS112, brand: GeoVision
+2025-01-18 00:22:58 - models.stock_item - INFO - Created new stock item: NS567
+2025-01-18 00:22:58 - models.nav_sys - INFO - Created new NavSys item: NS567, brand: COW
+2025-01-18 00:22:58 - models.stock_item - INFO - Created new stock item: NS678
+2025-01-18 00:22:58 - models.nav_sys - INFO - Created new NavSys item: NS678, brand: GeoVision
+2025-01-18 00:22:58 - models.stock_item - INFO - Created new stock item: NS890
+2025-01-18 00:22:58 - models.nav_sys - INFO - Created new NavSys item: NS890, brand: AlphaTech
+2025-01-18 00:22:58 - models.stock_item - INFO - Created new stock item: NS124
+2025-01-18 00:22:58 - models.nav_sys - INFO - Created new NavSys item: NS124, brand: COW
+2025-01-18 00:22:58 - models.stock_item - INFO - Created new stock item: NS234A
+2025-01-18 00:22:58 - models.nav_sys - INFO - Created new NavSys item: NS234A, brand: COW
+2025-01-18 00:22:58 - models.stock_item - INFO - Created new stock item: NS345
+2025-01-18 00:22:58 - models.nav_sys - INFO - Created new NavSys item: NS345, brand: COW
+2025-01-18 00:22:58 - models.stock_item - INFO - Created new stock item: NS555
+2025-01-18 00:22:58 - models.nav_sys - INFO - Created new NavSys item: NS555, brand: AlphaTech
+2025-01-18 00:22:58 - models.stock_item - INFO - Created new stock item: NS910
+2025-01-18 00:22:58 - models.nav_sys - INFO - Created new NavSys item: NS910, brand: COW
+2025-01-18 00:22:58 - models.stock_item - INFO - Created new stock item: NS321
+2025-01-18 00:22:58 - models.nav_sys - INFO - Created new NavSys item: NS321, brand: AlphaTech
+2025-01-18 00:22:58 - models.stock_item - INFO - Created new stock item: NS876
+2025-01-18 00:22:58 - models.nav_sys - INFO - Created new NavSys item: NS876, brand: COW
+2025-01-18 00:22:58 - models.stock_item - INFO - Created new stock item: NS445
+2025-01-18 00:22:58 - models.nav_sys - INFO - Created new NavSys item: NS445, brand: AlphaTech
+2025-01-18 00:22:58 - models.stock_item - INFO - Created new stock item: NS290
+2025-01-18 00:22:58 - models.nav_sys - INFO - Created new NavSys item: NS290, brand: COW
+2025-01-18 00:22:58 - models.stock_item - INFO - Created new stock item: NS302
+2025-01-18 00:22:58 - models.nav_sys - INFO - Created new NavSys item: NS302, brand: AlphaTech
+2025-01-18 00:22:58 - models.stock_item - INFO - Created new stock item: NS650
+2025-01-18 00:22:58 - models.nav_sys - INFO - Created new NavSys item: NS650, brand: GeoVision
+2025-01-18 00:22:58 - models.stock_item - INFO - Created new stock item: NS890A
+2025-01-18 00:22:58 - models.nav_sys - INFO - Created new NavSys item: NS890A, brand: AlphaTech
+2025-01-18 00:22:58 - models.stock_item - INFO - Created new stock item: NS554
+2025-01-18 00:22:58 - models.nav_sys - INFO - Created new NavSys item: NS554, brand: COW
+2025-01-18 00:22:58 - models.stock_item - INFO - Created new stock item: NS765
+2025-01-18 00:22:58 - models.nav_sys - INFO - Created new NavSys item: NS765, brand: GeoVision
+2025-01-18 00:22:58 - models.stock_item - INFO - Created new stock item: NS456B
+2025-01-18 00:22:58 - models.nav_sys - INFO - Created new NavSys item: NS456B, brand: COW
+2025-01-18 00:22:58 - models.stock_item - INFO - Created new stock item: NS644
+2025-01-18 00:22:58 - models.nav_sys - INFO - Created new NavSys item: NS644, brand: GeoVision
+2025-01-18 00:22:58 - models.stock_item - INFO - Created new stock item: NS199
+2025-01-18 00:22:58 - models.nav_sys - INFO - Created new NavSys item: NS199, brand: COW
+2025-01-18 00:22:58 - models.stock_item - INFO - Created new stock item: NS543
+2025-01-18 00:22:58 - models.nav_sys - INFO - Created new NavSys item: NS543, brand: TomTom
+2025-01-18 00:22:58 - models.stock_item - INFO - Created new stock item: NS123
+2025-01-18 00:22:58 - models.nav_sys - INFO - Created new NavSys item: NS123, brand: COW
+2025-01-18 00:22:58 - werkzeug - INFO - 127.0.0.1 - - [18/Jan/2025 00:22:58] "[33mPUT /api/items/NS067 HTTP/1.1[0m" 404 -
+2025-01-18 00:23:02 - models.stock_item - INFO - Created new stock item: NS456
+2025-01-18 00:23:02 - models.nav_sys - INFO - Created new NavSys item: NS456, brand: COW
+2025-01-18 00:23:02 - models.stock_item - INFO - Created new stock item: NS789
+2025-01-18 00:23:02 - models.nav_sys - INFO - Created new NavSys item: NS789, brand: GeoVision
+2025-01-18 00:23:02 - models.stock_item - INFO - Created new stock item: NS333
+2025-01-18 00:23:02 - models.nav_sys - INFO - Created new NavSys item: NS333, brand: AlphaTech
+2025-01-18 00:23:02 - models.stock_item - INFO - Created new stock item: NS112
+2025-01-18 00:23:02 - models.nav_sys - INFO - Created new NavSys item: NS112, brand: GeoVision
+2025-01-18 00:23:02 - models.stock_item - INFO - Created new stock item: NS567
+2025-01-18 00:23:02 - models.nav_sys - INFO - Created new NavSys item: NS567, brand: COW
+2025-01-18 00:23:02 - models.stock_item - INFO - Created new stock item: NS678
+2025-01-18 00:23:02 - models.nav_sys - INFO - Created new NavSys item: NS678, brand: GeoVision
+2025-01-18 00:23:02 - models.stock_item - INFO - Created new stock item: NS890
+2025-01-18 00:23:02 - models.nav_sys - INFO - Created new NavSys item: NS890, brand: AlphaTech
+2025-01-18 00:23:02 - models.stock_item - INFO - Created new stock item: NS124
+2025-01-18 00:23:02 - models.nav_sys - INFO - Created new NavSys item: NS124, brand: COW
+2025-01-18 00:23:02 - models.stock_item - INFO - Created new stock item: NS234A
+2025-01-18 00:23:02 - models.nav_sys - INFO - Created new NavSys item: NS234A, brand: COW
+2025-01-18 00:23:02 - models.stock_item - INFO - Created new stock item: NS345
+2025-01-18 00:23:02 - models.nav_sys - INFO - Created new NavSys item: NS345, brand: COW
+2025-01-18 00:23:02 - models.stock_item - INFO - Created new stock item: NS555
+2025-01-18 00:23:02 - models.nav_sys - INFO - Created new NavSys item: NS555, brand: AlphaTech
+2025-01-18 00:23:02 - models.stock_item - INFO - Created new stock item: NS910
+2025-01-18 00:23:02 - models.nav_sys - INFO - Created new NavSys item: NS910, brand: COW
+2025-01-18 00:23:02 - models.stock_item - INFO - Created new stock item: NS321
+2025-01-18 00:23:02 - models.nav_sys - INFO - Created new NavSys item: NS321, brand: AlphaTech
+2025-01-18 00:23:02 - models.stock_item - INFO - Created new stock item: NS876
+2025-01-18 00:23:02 - models.nav_sys - INFO - Created new NavSys item: NS876, brand: COW
+2025-01-18 00:23:02 - models.stock_item - INFO - Created new stock item: NS445
+2025-01-18 00:23:02 - models.nav_sys - INFO - Created new NavSys item: NS445, brand: AlphaTech
+2025-01-18 00:23:02 - models.stock_item - INFO - Created new stock item: NS290
+2025-01-18 00:23:02 - models.nav_sys - INFO - Created new NavSys item: NS290, brand: COW
+2025-01-18 00:23:02 - models.stock_item - INFO - Created new stock item: NS302
+2025-01-18 00:23:02 - models.nav_sys - INFO - Created new NavSys item: NS302, brand: AlphaTech
+2025-01-18 00:23:02 - models.stock_item - INFO - Created new stock item: NS650
+2025-01-18 00:23:02 - models.nav_sys - INFO - Created new NavSys item: NS650, brand: GeoVision
+2025-01-18 00:23:02 - models.stock_item - INFO - Created new stock item: NS890A
+2025-01-18 00:23:02 - models.nav_sys - INFO - Created new NavSys item: NS890A, brand: AlphaTech
+2025-01-18 00:23:02 - models.stock_item - INFO - Created new stock item: NS554
+2025-01-18 00:23:02 - models.nav_sys - INFO - Created new NavSys item: NS554, brand: COW
+2025-01-18 00:23:02 - models.stock_item - INFO - Created new stock item: NS765
+2025-01-18 00:23:02 - models.nav_sys - INFO - Created new NavSys item: NS765, brand: GeoVision
+2025-01-18 00:23:02 - models.stock_item - INFO - Created new stock item: NS456B
+2025-01-18 00:23:02 - models.nav_sys - INFO - Created new NavSys item: NS456B, brand: COW
+2025-01-18 00:23:02 - models.stock_item - INFO - Created new stock item: NS644
+2025-01-18 00:23:02 - models.nav_sys - INFO - Created new NavSys item: NS644, brand: GeoVision
+2025-01-18 00:23:02 - models.stock_item - INFO - Created new stock item: NS199
+2025-01-18 00:23:02 - models.nav_sys - INFO - Created new NavSys item: NS199, brand: COW
+2025-01-18 00:23:02 - models.stock_item - INFO - Created new stock item: NS543
+2025-01-18 00:23:02 - models.nav_sys - INFO - Created new NavSys item: NS543, brand: TomTom
+2025-01-18 00:23:02 - models.stock_item - INFO - Created new stock item: NS123
+2025-01-18 00:23:02 - models.nav_sys - INFO - Created new NavSys item: NS123, brand: COW
+2025-01-18 00:23:02 - werkzeug - INFO - 127.0.0.1 - - [18/Jan/2025 00:23:02] "GET /api/items?search=&brand=&sort_by=stock_code&sort_order=asc&page=1&per_page=6 HTTP/1.1" 200 -
+2025-01-18 00:23:03 - models.stock_item - INFO - Created new stock item: NS456
+2025-01-18 00:23:03 - models.nav_sys - INFO - Created new NavSys item: NS456, brand: COW
+2025-01-18 00:23:03 - models.stock_item - INFO - Created new stock item: NS789
+2025-01-18 00:23:03 - models.nav_sys - INFO - Created new NavSys item: NS789, brand: GeoVision
+2025-01-18 00:23:03 - models.stock_item - INFO - Created new stock item: NS333
+2025-01-18 00:23:03 - models.nav_sys - INFO - Created new NavSys item: NS333, brand: AlphaTech
+2025-01-18 00:23:03 - models.stock_item - INFO - Created new stock item: NS112
+2025-01-18 00:23:03 - models.nav_sys - INFO - Created new NavSys item: NS112, brand: GeoVision
+2025-01-18 00:23:03 - models.stock_item - INFO - Created new stock item: NS567
+2025-01-18 00:23:03 - models.nav_sys - INFO - Created new NavSys item: NS567, brand: COW
+2025-01-18 00:23:03 - models.stock_item - INFO - Created new stock item: NS678
+2025-01-18 00:23:03 - models.nav_sys - INFO - Created new NavSys item: NS678, brand: GeoVision
+2025-01-18 00:23:03 - models.stock_item - INFO - Created new stock item: NS890
+2025-01-18 00:23:03 - models.nav_sys - INFO - Created new NavSys item: NS890, brand: AlphaTech
+2025-01-18 00:23:03 - models.stock_item - INFO - Created new stock item: NS124
+2025-01-18 00:23:03 - models.nav_sys - INFO - Created new NavSys item: NS124, brand: COW
+2025-01-18 00:23:03 - models.stock_item - INFO - Created new stock item: NS234A
+2025-01-18 00:23:03 - models.nav_sys - INFO - Created new NavSys item: NS234A, brand: COW
+2025-01-18 00:23:03 - models.stock_item - INFO - Created new stock item: NS345
+2025-01-18 00:23:03 - models.nav_sys - INFO - Created new NavSys item: NS345, brand: COW
+2025-01-18 00:23:03 - models.stock_item - INFO - Created new stock item: NS555
+2025-01-18 00:23:03 - models.nav_sys - INFO - Created new NavSys item: NS555, brand: AlphaTech
+2025-01-18 00:23:03 - models.stock_item - INFO - Created new stock item: NS910
+2025-01-18 00:23:03 - models.nav_sys - INFO - Created new NavSys item: NS910, brand: COW
+2025-01-18 00:23:03 - models.stock_item - INFO - Created new stock item: NS321
+2025-01-18 00:23:03 - models.nav_sys - INFO - Created new NavSys item: NS321, brand: AlphaTech
+2025-01-18 00:23:03 - models.stock_item - INFO - Created new stock item: NS876
+2025-01-18 00:23:03 - models.nav_sys - INFO - Created new NavSys item: NS876, brand: COW
+2025-01-18 00:23:03 - models.stock_item - INFO - Created new stock item: NS445
+2025-01-18 00:23:03 - models.nav_sys - INFO - Created new NavSys item: NS445, brand: AlphaTech
+2025-01-18 00:23:03 - models.stock_item - INFO - Created new stock item: NS290
+2025-01-18 00:23:03 - models.nav_sys - INFO - Created new NavSys item: NS290, brand: COW
+2025-01-18 00:23:03 - models.stock_item - INFO - Created new stock item: NS302
+2025-01-18 00:23:03 - models.nav_sys - INFO - Created new NavSys item: NS302, brand: AlphaTech
+2025-01-18 00:23:03 - models.stock_item - INFO - Created new stock item: NS650
+2025-01-18 00:23:03 - models.nav_sys - INFO - Created new NavSys item: NS650, brand: GeoVision
+2025-01-18 00:23:03 - models.stock_item - INFO - Created new stock item: NS890A
+2025-01-18 00:23:03 - models.nav_sys - INFO - Created new NavSys item: NS890A, brand: AlphaTech
+2025-01-18 00:23:03 - models.stock_item - INFO - Created new stock item: NS554
+2025-01-18 00:23:03 - models.nav_sys - INFO - Created new NavSys item: NS554, brand: COW
+2025-01-18 00:23:03 - models.stock_item - INFO - Created new stock item: NS765
+2025-01-18 00:23:03 - models.nav_sys - INFO - Created new NavSys item: NS765, brand: GeoVision
+2025-01-18 00:23:03 - models.stock_item - INFO - Created new stock item: NS456B
+2025-01-18 00:23:03 - models.nav_sys - INFO - Created new NavSys item: NS456B, brand: COW
+2025-01-18 00:23:03 - models.stock_item - INFO - Created new stock item: NS644
+2025-01-18 00:23:03 - models.nav_sys - INFO - Created new NavSys item: NS644, brand: GeoVision
+2025-01-18 00:23:03 - models.stock_item - INFO - Created new stock item: NS199
+2025-01-18 00:23:03 - models.nav_sys - INFO - Created new NavSys item: NS199, brand: COW
+2025-01-18 00:23:03 - models.stock_item - INFO - Created new stock item: NS543
+2025-01-18 00:23:03 - models.nav_sys - INFO - Created new NavSys item: NS543, brand: TomTom
+2025-01-18 00:23:03 - models.stock_item - INFO - Created new stock item: NS123
+2025-01-18 00:23:03 - models.nav_sys - INFO - Created new NavSys item: NS123, brand: COW
+2025-01-18 00:23:03 - werkzeug - INFO - 127.0.0.1 - - [18/Jan/2025 00:23:03] "GET /api/items?search=&brand=&sort_by=stock_code&sort_order=asc&page=1&per_page=6 HTTP/1.1" 200 -
+2025-01-18 00:23:25 - models.stock_item - INFO - Created new stock item: NS456
+2025-01-18 00:23:25 - models.nav_sys - INFO - Created new NavSys item: NS456, brand: COW
+2025-01-18 00:23:25 - models.stock_item - INFO - Created new stock item: NS789
+2025-01-18 00:23:25 - models.nav_sys - INFO - Created new NavSys item: NS789, brand: GeoVision
+2025-01-18 00:23:25 - models.stock_item - INFO - Created new stock item: NS333
+2025-01-18 00:23:25 - models.nav_sys - INFO - Created new NavSys item: NS333, brand: AlphaTech
+2025-01-18 00:23:25 - models.stock_item - INFO - Created new stock item: NS112
+2025-01-18 00:23:25 - models.nav_sys - INFO - Created new NavSys item: NS112, brand: GeoVision
+2025-01-18 00:23:25 - models.stock_item - INFO - Created new stock item: NS567
+2025-01-18 00:23:25 - models.nav_sys - INFO - Created new NavSys item: NS567, brand: COW
+2025-01-18 00:23:25 - models.stock_item - INFO - Created new stock item: NS678
+2025-01-18 00:23:25 - models.nav_sys - INFO - Created new NavSys item: NS678, brand: GeoVision
+2025-01-18 00:23:25 - models.stock_item - INFO - Created new stock item: NS890
+2025-01-18 00:23:25 - models.nav_sys - INFO - Created new NavSys item: NS890, brand: AlphaTech
+2025-01-18 00:23:25 - models.stock_item - INFO - Created new stock item: NS124
+2025-01-18 00:23:25 - models.nav_sys - INFO - Created new NavSys item: NS124, brand: COW
+2025-01-18 00:23:25 - models.stock_item - INFO - Created new stock item: NS234A
+2025-01-18 00:23:25 - models.nav_sys - INFO - Created new NavSys item: NS234A, brand: COW
+2025-01-18 00:23:25 - models.stock_item - INFO - Created new stock item: NS345
+2025-01-18 00:23:25 - models.nav_sys - INFO - Created new NavSys item: NS345, brand: COW
+2025-01-18 00:23:25 - models.stock_item - INFO - Created new stock item: NS555
+2025-01-18 00:23:25 - models.nav_sys - INFO - Created new NavSys item: NS555, brand: AlphaTech
+2025-01-18 00:23:25 - models.stock_item - INFO - Created new stock item: NS910
+2025-01-18 00:23:25 - models.nav_sys - INFO - Created new NavSys item: NS910, brand: COW
+2025-01-18 00:23:25 - models.stock_item - INFO - Created new stock item: NS321
+2025-01-18 00:23:25 - models.nav_sys - INFO - Created new NavSys item: NS321, brand: AlphaTech
+2025-01-18 00:23:25 - models.stock_item - INFO - Created new stock item: NS876
+2025-01-18 00:23:25 - models.nav_sys - INFO - Created new NavSys item: NS876, brand: COW
+2025-01-18 00:23:25 - models.stock_item - INFO - Created new stock item: NS445
+2025-01-18 00:23:25 - models.nav_sys - INFO - Created new NavSys item: NS445, brand: AlphaTech
+2025-01-18 00:23:25 - models.stock_item - INFO - Created new stock item: NS290
+2025-01-18 00:23:25 - models.nav_sys - INFO - Created new NavSys item: NS290, brand: COW
+2025-01-18 00:23:25 - models.stock_item - INFO - Created new stock item: NS302
+2025-01-18 00:23:25 - models.nav_sys - INFO - Created new NavSys item: NS302, brand: AlphaTech
+2025-01-18 00:23:25 - models.stock_item - INFO - Created new stock item: NS650
+2025-01-18 00:23:25 - models.nav_sys - INFO - Created new NavSys item: NS650, brand: GeoVision
+2025-01-18 00:23:25 - models.stock_item - INFO - Created new stock item: NS890A
+2025-01-18 00:23:25 - models.nav_sys - INFO - Created new NavSys item: NS890A, brand: AlphaTech
+2025-01-18 00:23:25 - models.stock_item - INFO - Created new stock item: NS554
+2025-01-18 00:23:25 - models.nav_sys - INFO - Created new NavSys item: NS554, brand: COW
+2025-01-18 00:23:25 - models.stock_item - INFO - Created new stock item: NS765
+2025-01-18 00:23:25 - models.nav_sys - INFO - Created new NavSys item: NS765, brand: GeoVision
+2025-01-18 00:23:25 - models.stock_item - INFO - Created new stock item: NS456B
+2025-01-18 00:23:25 - models.nav_sys - INFO - Created new NavSys item: NS456B, brand: COW
+2025-01-18 00:23:25 - models.stock_item - INFO - Created new stock item: NS644
+2025-01-18 00:23:25 - models.nav_sys - INFO - Created new NavSys item: NS644, brand: GeoVision
+2025-01-18 00:23:25 - models.stock_item - INFO - Created new stock item: NS199
+2025-01-18 00:23:25 - models.nav_sys - INFO - Created new NavSys item: NS199, brand: COW
+2025-01-18 00:23:25 - models.stock_item - INFO - Created new stock item: NS543
+2025-01-18 00:23:25 - models.nav_sys - INFO - Created new NavSys item: NS543, brand: TomTom
+2025-01-18 00:23:25 - models.stock_item - INFO - Created new stock item: NS123
+2025-01-18 00:23:25 - models.nav_sys - INFO - Created new NavSys item: NS123, brand: COW
+2025-01-18 00:23:25 - werkzeug - INFO - 127.0.0.1 - - [18/Jan/2025 00:23:25] "GET /api/items?search=&brand=&sort_by=stock_code&sort_order=asc&page=1&per_page=6 HTTP/1.1" 200 -
+2025-01-18 00:23:25 - models.stock_item - INFO - Created new stock item: NS456
+2025-01-18 00:23:25 - models.nav_sys - INFO - Created new NavSys item: NS456, brand: COW
+2025-01-18 00:23:25 - models.stock_item - INFO - Created new stock item: NS789
+2025-01-18 00:23:25 - models.nav_sys - INFO - Created new NavSys item: NS789, brand: GeoVision
+2025-01-18 00:23:25 - models.stock_item - INFO - Created new stock item: NS333
+2025-01-18 00:23:25 - models.nav_sys - INFO - Created new NavSys item: NS333, brand: AlphaTech
+2025-01-18 00:23:25 - models.stock_item - INFO - Created new stock item: NS112
+2025-01-18 00:23:25 - models.nav_sys - INFO - Created new NavSys item: NS112, brand: GeoVision
+2025-01-18 00:23:25 - models.stock_item - INFO - Created new stock item: NS567
+2025-01-18 00:23:25 - models.nav_sys - INFO - Created new NavSys item: NS567, brand: COW
+2025-01-18 00:23:25 - models.stock_item - INFO - Created new stock item: NS678
+2025-01-18 00:23:25 - models.nav_sys - INFO - Created new NavSys item: NS678, brand: GeoVision
+2025-01-18 00:23:25 - models.stock_item - INFO - Created new stock item: NS890
+2025-01-18 00:23:25 - models.nav_sys - INFO - Created new NavSys item: NS890, brand: AlphaTech
+2025-01-18 00:23:25 - models.stock_item - INFO - Created new stock item: NS124
+2025-01-18 00:23:25 - models.nav_sys - INFO - Created new NavSys item: NS124, brand: COW
+2025-01-18 00:23:25 - models.stock_item - INFO - Created new stock item: NS234A
+2025-01-18 00:23:25 - models.nav_sys - INFO - Created new NavSys item: NS234A, brand: COW
+2025-01-18 00:23:25 - models.stock_item - INFO - Created new stock item: NS345
+2025-01-18 00:23:25 - models.nav_sys - INFO - Created new NavSys item: NS345, brand: COW
+2025-01-18 00:23:25 - models.stock_item - INFO - Created new stock item: NS555
+2025-01-18 00:23:25 - models.nav_sys - INFO - Created new NavSys item: NS555, brand: AlphaTech
+2025-01-18 00:23:25 - models.stock_item - INFO - Created new stock item: NS910
+2025-01-18 00:23:25 - models.nav_sys - INFO - Created new NavSys item: NS910, brand: COW
+2025-01-18 00:23:25 - models.stock_item - INFO - Created new stock item: NS321
+2025-01-18 00:23:25 - models.nav_sys - INFO - Created new NavSys item: NS321, brand: AlphaTech
+2025-01-18 00:23:25 - models.stock_item - INFO - Created new stock item: NS876
+2025-01-18 00:23:25 - models.nav_sys - INFO - Created new NavSys item: NS876, brand: COW
+2025-01-18 00:23:25 - models.stock_item - INFO - Created new stock item: NS445
+2025-01-18 00:23:25 - models.nav_sys - INFO - Created new NavSys item: NS445, brand: AlphaTech
+2025-01-18 00:23:25 - models.stock_item - INFO - Created new stock item: NS290
+2025-01-18 00:23:25 - models.nav_sys - INFO - Created new NavSys item: NS290, brand: COW
+2025-01-18 00:23:25 - models.stock_item - INFO - Created new stock item: NS302
+2025-01-18 00:23:25 - models.nav_sys - INFO - Created new NavSys item: NS302, brand: AlphaTech
+2025-01-18 00:23:25 - models.stock_item - INFO - Created new stock item: NS650
+2025-01-18 00:23:25 - models.nav_sys - INFO - Created new NavSys item: NS650, brand: GeoVision
+2025-01-18 00:23:25 - models.stock_item - INFO - Created new stock item: NS890A
+2025-01-18 00:23:25 - models.nav_sys - INFO - Created new NavSys item: NS890A, brand: AlphaTech
+2025-01-18 00:23:25 - models.stock_item - INFO - Created new stock item: NS554
+2025-01-18 00:23:25 - models.nav_sys - INFO - Created new NavSys item: NS554, brand: COW
+2025-01-18 00:23:25 - models.stock_item - INFO - Created new stock item: NS765
+2025-01-18 00:23:25 - models.nav_sys - INFO - Created new NavSys item: NS765, brand: GeoVision
+2025-01-18 00:23:25 - models.stock_item - INFO - Created new stock item: NS456B
+2025-01-18 00:23:25 - models.nav_sys - INFO - Created new NavSys item: NS456B, brand: COW
+2025-01-18 00:23:25 - models.stock_item - INFO - Created new stock item: NS644
+2025-01-18 00:23:25 - models.nav_sys - INFO - Created new NavSys item: NS644, brand: GeoVision
+2025-01-18 00:23:25 - models.stock_item - INFO - Created new stock item: NS199
+2025-01-18 00:23:25 - models.nav_sys - INFO - Created new NavSys item: NS199, brand: COW
+2025-01-18 00:23:25 - models.stock_item - INFO - Created new stock item: NS543
+2025-01-18 00:23:25 - models.nav_sys - INFO - Created new NavSys item: NS543, brand: TomTom
+2025-01-18 00:23:25 - models.stock_item - INFO - Created new stock item: NS123
+2025-01-18 00:23:25 - models.nav_sys - INFO - Created new NavSys item: NS123, brand: COW
+2025-01-18 00:23:25 - werkzeug - INFO - 127.0.0.1 - - [18/Jan/2025 00:23:25] "GET /api/items?search=&brand=&sort_by=stock_code&sort_order=asc&page=1&per_page=6 HTTP/1.1" 200 -
+2025-01-18 00:23:31 - werkzeug - INFO - 127.0.0.1 - - [18/Jan/2025 00:23:31] "OPTIONS /api/items/NS112 HTTP/1.1" 200 -
+2025-01-18 00:23:31 - models.stock_item - INFO - Created new stock item: NS456
+2025-01-18 00:23:31 - models.nav_sys - INFO - Created new NavSys item: NS456, brand: COW
+2025-01-18 00:23:31 - models.stock_item - INFO - Created new stock item: NS789
+2025-01-18 00:23:31 - models.nav_sys - INFO - Created new NavSys item: NS789, brand: GeoVision
+2025-01-18 00:23:31 - models.stock_item - INFO - Created new stock item: NS333
+2025-01-18 00:23:31 - models.nav_sys - INFO - Created new NavSys item: NS333, brand: AlphaTech
+2025-01-18 00:23:31 - models.stock_item - INFO - Created new stock item: NS112
+2025-01-18 00:23:31 - models.nav_sys - INFO - Created new NavSys item: NS112, brand: GeoVision
+2025-01-18 00:23:31 - models.stock_item - INFO - Created new stock item: NS567
+2025-01-18 00:23:31 - models.nav_sys - INFO - Created new NavSys item: NS567, brand: COW
+2025-01-18 00:23:31 - models.stock_item - INFO - Created new stock item: NS678
+2025-01-18 00:23:31 - models.nav_sys - INFO - Created new NavSys item: NS678, brand: GeoVision
+2025-01-18 00:23:31 - models.stock_item - INFO - Created new stock item: NS890
+2025-01-18 00:23:31 - models.nav_sys - INFO - Created new NavSys item: NS890, brand: AlphaTech
+2025-01-18 00:23:31 - models.stock_item - INFO - Created new stock item: NS124
+2025-01-18 00:23:31 - models.nav_sys - INFO - Created new NavSys item: NS124, brand: COW
+2025-01-18 00:23:31 - models.stock_item - INFO - Created new stock item: NS234A
+2025-01-18 00:23:31 - models.nav_sys - INFO - Created new NavSys item: NS234A, brand: COW
+2025-01-18 00:23:31 - models.stock_item - INFO - Created new stock item: NS345
+2025-01-18 00:23:31 - models.nav_sys - INFO - Created new NavSys item: NS345, brand: COW
+2025-01-18 00:23:31 - models.stock_item - INFO - Created new stock item: NS555
+2025-01-18 00:23:31 - models.nav_sys - INFO - Created new NavSys item: NS555, brand: AlphaTech
+2025-01-18 00:23:31 - models.stock_item - INFO - Created new stock item: NS910
+2025-01-18 00:23:31 - models.nav_sys - INFO - Created new NavSys item: NS910, brand: COW
+2025-01-18 00:23:31 - models.stock_item - INFO - Created new stock item: NS321
+2025-01-18 00:23:31 - models.nav_sys - INFO - Created new NavSys item: NS321, brand: AlphaTech
+2025-01-18 00:23:31 - models.stock_item - INFO - Created new stock item: NS876
+2025-01-18 00:23:31 - models.nav_sys - INFO - Created new NavSys item: NS876, brand: COW
+2025-01-18 00:23:31 - models.stock_item - INFO - Created new stock item: NS445
+2025-01-18 00:23:31 - models.nav_sys - INFO - Created new NavSys item: NS445, brand: AlphaTech
+2025-01-18 00:23:31 - models.stock_item - INFO - Created new stock item: NS290
+2025-01-18 00:23:31 - models.nav_sys - INFO - Created new NavSys item: NS290, brand: COW
+2025-01-18 00:23:31 - models.stock_item - INFO - Created new stock item: NS302
+2025-01-18 00:23:31 - models.nav_sys - INFO - Created new NavSys item: NS302, brand: AlphaTech
+2025-01-18 00:23:31 - models.stock_item - INFO - Created new stock item: NS650
+2025-01-18 00:23:31 - models.nav_sys - INFO - Created new NavSys item: NS650, brand: GeoVision
+2025-01-18 00:23:31 - models.stock_item - INFO - Created new stock item: NS890A
+2025-01-18 00:23:31 - models.nav_sys - INFO - Created new NavSys item: NS890A, brand: AlphaTech
+2025-01-18 00:23:31 - models.stock_item - INFO - Created new stock item: NS554
+2025-01-18 00:23:31 - models.nav_sys - INFO - Created new NavSys item: NS554, brand: COW
+2025-01-18 00:23:31 - models.stock_item - INFO - Created new stock item: NS765
+2025-01-18 00:23:31 - models.nav_sys - INFO - Created new NavSys item: NS765, brand: GeoVision
+2025-01-18 00:23:31 - models.stock_item - INFO - Created new stock item: NS456B
+2025-01-18 00:23:31 - models.nav_sys - INFO - Created new NavSys item: NS456B, brand: COW
+2025-01-18 00:23:31 - models.stock_item - INFO - Created new stock item: NS644
+2025-01-18 00:23:31 - models.nav_sys - INFO - Created new NavSys item: NS644, brand: GeoVision
+2025-01-18 00:23:31 - models.stock_item - INFO - Created new stock item: NS199
+2025-01-18 00:23:31 - models.nav_sys - INFO - Created new NavSys item: NS199, brand: COW
+2025-01-18 00:23:31 - models.stock_item - INFO - Created new stock item: NS543
+2025-01-18 00:23:31 - models.nav_sys - INFO - Created new NavSys item: NS543, brand: TomTom
+2025-01-18 00:23:31 - models.stock_item - INFO - Created new stock item: NS123
+2025-01-18 00:23:31 - models.nav_sys - INFO - Created new NavSys item: NS123, brand: COW
+2025-01-18 00:23:31 - utils.file_handler - INFO - Updated existing item: NS112
+2025-01-18 00:23:31 - utils.file_handler - ERROR - Error saving item: 'charmap' codec can't encode characters in position 22-25: character maps to <undefined>
+2025-01-18 00:23:31 - __main__ - ERROR - Error updating item: Failed to save item: 'charmap' codec can't encode characters in position 22-25: character maps to <undefined>
+2025-01-18 00:23:31 - werkzeug - INFO - 127.0.0.1 - - [18/Jan/2025 00:23:31] "[31m[1mPUT /api/items/NS112 HTTP/1.1[0m" 400 -
+2025-01-18 00:25:43 - werkzeug - INFO -  * Detected change in 'D:\\POP Final project\\car_parts_shop\\backend\\app.py', reloading
+2025-01-18 00:25:44 - werkzeug - INFO -  * Restarting with stat
+2025-01-18 00:25:44 - root - INFO - Logger initialized. Log file: logs\app_20250118.log
+2025-01-18 00:25:44 - utils - INFO - Utils package initialized
+2025-01-18 00:25:44 - werkzeug - WARNING -  * Debugger is active!
+2025-01-18 00:25:44 - werkzeug - INFO -  * Debugger PIN: 354-027-627
+2025-01-18 00:25:47 - werkzeug - INFO -  * Detected change in 'D:\\POP Final project\\car_parts_shop\\backend\\app.py', reloading
+2025-01-18 00:25:47 - werkzeug - INFO -  * Restarting with stat
+2025-01-18 00:25:47 - root - INFO - Logger initialized. Log file: logs\app_20250118.log
+2025-01-18 00:25:47 - utils - INFO - Utils package initialized
+2025-01-18 00:25:47 - werkzeug - WARNING -  * Debugger is active!
+2025-01-18 00:25:47 - werkzeug - INFO -  * Debugger PIN: 354-027-627
+2025-01-18 00:25:50 - werkzeug - INFO -  * Detected change in 'D:\\POP Final project\\car_parts_shop\\backend\\app.py', reloading
+2025-01-18 00:25:50 - werkzeug - INFO -  * Restarting with stat
+2025-01-18 00:25:51 - root - INFO - Logger initialized. Log file: logs\app_20250118.log
+2025-01-18 00:25:51 - utils - INFO - Utils package initialized
+2025-01-18 00:25:51 - werkzeug - WARNING -  * Debugger is active!
+2025-01-18 00:25:51 - werkzeug - INFO -  * Debugger PIN: 354-027-627
+2025-01-18 00:28:16 - werkzeug - INFO -  * Detected change in 'D:\\POP Final project\\car_parts_shop\\backend\\app.py', reloading
+2025-01-18 00:28:16 - werkzeug - INFO -  * Restarting with stat
+2025-01-18 00:28:17 - root - INFO - Logger initialized. Log file: logs\app_20250118.log
+2025-01-18 00:28:17 - utils - INFO - Utils package initialized
+2025-01-18 00:28:17 - werkzeug - WARNING -  * Debugger is active!
+2025-01-18 00:28:17 - werkzeug - INFO -  * Debugger PIN: 354-027-627
+2025-01-18 00:28:19 - werkzeug - INFO -  * Detected change in 'D:\\POP Final project\\car_parts_shop\\backend\\app.py', reloading
+2025-01-18 00:28:19 - werkzeug - INFO -  * Restarting with stat
+2025-01-18 00:28:19 - root - INFO - Logger initialized. Log file: logs\app_20250118.log
+2025-01-18 00:28:19 - utils - INFO - Utils package initialized
+2025-01-18 00:28:19 - werkzeug - WARNING -  * Debugger is active!
+2025-01-18 00:28:19 - werkzeug - INFO -  * Debugger PIN: 354-027-627
+2025-01-18 00:29:11 - werkzeug - INFO -  * Detected change in 'D:\\POP Final project\\car_parts_shop\\backend\\app.py', reloading
+2025-01-18 00:29:11 - werkzeug - INFO -  * Restarting with stat
+2025-01-18 00:29:12 - root - INFO - Logger initialized. Log file: logs\app_20250118.log
+2025-01-18 00:29:12 - utils - INFO - Utils package initialized
+2025-01-18 00:29:12 - werkzeug - WARNING -  * Debugger is active!
+2025-01-18 00:29:12 - werkzeug - INFO -  * Debugger PIN: 354-027-627
+2025-01-18 00:29:14 - werkzeug - INFO -  * Detected change in 'D:\\POP Final project\\car_parts_shop\\backend\\app.py', reloading
+2025-01-18 00:29:14 - werkzeug - INFO -  * Restarting with stat
+2025-01-18 00:29:14 - root - INFO - Logger initialized. Log file: logs\app_20250118.log
+2025-01-18 00:29:14 - utils - INFO - Utils package initialized
+2025-01-18 00:29:14 - werkzeug - WARNING -  * Debugger is active!
+2025-01-18 00:29:14 - werkzeug - INFO -  * Debugger PIN: 354-027-627
+2025-01-18 00:29:15 - werkzeug - INFO -  * Detected change in 'D:\\POP Final project\\car_parts_shop\\backend\\app.py', reloading
+2025-01-18 00:29:15 - werkzeug - INFO -  * Restarting with stat
+2025-01-18 00:29:16 - root - INFO - Logger initialized. Log file: logs\app_20250118.log
+2025-01-18 00:29:16 - utils - INFO - Utils package initialized
+2025-01-18 00:29:16 - werkzeug - WARNING -  * Debugger is active!
+2025-01-18 00:29:16 - werkzeug - INFO -  * Debugger PIN: 354-027-627
+2025-01-18 00:30:17 - werkzeug - INFO -  * Detected change in 'D:\\POP Final project\\car_parts_shop\\backend\\app.py', reloading
+2025-01-18 00:30:17 - werkzeug - INFO -  * Restarting with stat
+2025-01-18 00:30:18 - root - INFO - Logger initialized. Log file: logs\app_20250118.log
+2025-01-18 00:30:18 - utils - INFO - Utils package initialized
+2025-01-18 00:30:18 - werkzeug - WARNING -  * Debugger is active!
+2025-01-18 00:30:18 - werkzeug - INFO -  * Debugger PIN: 354-027-627
+2025-01-18 00:30:34 - werkzeug - INFO -  * Detected change in 'D:\\POP Final project\\car_parts_shop\\backend\\app.py', reloading
+2025-01-18 00:30:34 - werkzeug - INFO -  * Restarting with stat
+2025-01-18 00:30:34 - root - INFO - Logger initialized. Log file: logs\app_20250118.log
+2025-01-18 00:30:34 - utils - INFO - Utils package initialized
+2025-01-18 00:30:34 - werkzeug - WARNING -  * Debugger is active!
+2025-01-18 00:30:34 - werkzeug - INFO -  * Debugger PIN: 354-027-627
+2025-01-18 00:30:38 - werkzeug - INFO -  * Detected change in 'D:\\POP Final project\\car_parts_shop\\backend\\app.py', reloading
+2025-01-18 00:30:38 - werkzeug - INFO -  * Restarting with stat
+2025-01-18 00:30:39 - root - INFO - Logger initialized. Log file: logs\app_20250118.log
+2025-01-18 00:30:39 - utils - INFO - Utils package initialized
+2025-01-18 00:30:39 - werkzeug - WARNING -  * Debugger is active!
+2025-01-18 00:30:39 - werkzeug - INFO -  * Debugger PIN: 354-027-627
+2025-01-18 00:32:43 - werkzeug - INFO -  * Detected change in 'D:\\POP Final project\\car_parts_shop\\backend\\utils\\file_handler.py', reloading
+2025-01-18 00:32:43 - werkzeug - INFO -  * Restarting with stat
+2025-01-18 00:32:43 - root - INFO - Logger initialized. Log file: logs\app_20250118.log
+2025-01-18 00:32:43 - utils - INFO - Utils package initialized
+2025-01-18 00:32:43 - werkzeug - WARNING -  * Debugger is active!
+2025-01-18 00:32:43 - werkzeug - INFO -  * Debugger PIN: 354-027-627
+2025-01-18 00:32:53 - werkzeug - INFO -  * Detected change in 'D:\\POP Final project\\car_parts_shop\\backend\\utils\\file_handler.py', reloading
+2025-01-18 00:32:53 - werkzeug - INFO -  * Restarting with stat
+2025-01-18 00:32:53 - root - INFO - Logger initialized. Log file: logs\app_20250118.log
+2025-01-18 00:32:53 - utils - INFO - Utils package initialized
+2025-01-18 00:32:53 - werkzeug - WARNING -  * Debugger is active!
+2025-01-18 00:32:53 - werkzeug - INFO -  * Debugger PIN: 354-027-627
+2025-01-18 00:33:06 - werkzeug - INFO -  * Detected change in 'D:\\POP Final project\\car_parts_shop\\backend\\utils\\file_handler.py', reloading
+2025-01-18 00:33:06 - werkzeug - INFO -  * Restarting with stat
+2025-01-18 00:33:06 - root - INFO - Logger initialized. Log file: logs\app_20250118.log
+2025-01-18 00:33:06 - utils - INFO - Utils package initialized
+2025-01-18 00:33:06 - werkzeug - WARNING -  * Debugger is active!
+2025-01-18 00:33:06 - werkzeug - INFO -  * Debugger PIN: 354-027-627
+2025-01-18 00:34:16 - werkzeug - INFO -  * Detected change in 'D:\\POP Final project\\car_parts_shop\\backend\\models\\nav_sys.py', reloading
+2025-01-18 00:34:16 - werkzeug - INFO -  * Restarting with stat
+2025-01-18 00:34:17 - root - INFO - Logger initialized. Log file: logs\app_20250118.log
+2025-01-18 00:34:17 - utils - INFO - Utils package initialized
+2025-01-18 00:34:17 - werkzeug - WARNING -  * Debugger is active!
+2025-01-18 00:34:17 - werkzeug - INFO -  * Debugger PIN: 354-027-627
+2025-01-18 00:34:28 - models.stock_item - INFO - Created new stock item: NS456
+2025-01-18 00:34:28 - models.nav_sys - INFO - Created new NavSys item: NS456, brand: COW
+2025-01-18 00:34:28 - models.stock_item - INFO - Created new stock item: NS789
+2025-01-18 00:34:28 - models.nav_sys - INFO - Created new NavSys item: NS789, brand: GeoVision
+2025-01-18 00:34:28 - models.stock_item - INFO - Created new stock item: NS333
+2025-01-18 00:34:28 - models.nav_sys - INFO - Created new NavSys item: NS333, brand: AlphaTech
+2025-01-18 00:34:28 - werkzeug - INFO - 127.0.0.1 - - [18/Jan/2025 00:34:28] "GET /api/items?search=&brand=&sort_by=stock_code&sort_order=asc&page=1&per_page=6 HTTP/1.1" 200 -
+2025-01-18 00:34:28 - models.stock_item - INFO - Created new stock item: NS456
+2025-01-18 00:34:28 - models.nav_sys - INFO - Created new NavSys item: NS456, brand: COW
+2025-01-18 00:34:28 - models.stock_item - INFO - Created new stock item: NS789
+2025-01-18 00:34:28 - models.nav_sys - INFO - Created new NavSys item: NS789, brand: GeoVision
+2025-01-18 00:34:28 - models.stock_item - INFO - Created new stock item: NS333
+2025-01-18 00:34:28 - models.nav_sys - INFO - Created new NavSys item: NS333, brand: AlphaTech
+2025-01-18 00:34:28 - werkzeug - INFO - 127.0.0.1 - - [18/Jan/2025 00:34:28] "GET /api/items?search=&brand=&sort_by=stock_code&sort_order=asc&page=1&per_page=6 HTTP/1.1" 200 -
+2025-01-18 00:34:38 - werkzeug - INFO - 127.0.0.1 - - [18/Jan/2025 00:34:38] "OPTIONS /api/items/NS333 HTTP/1.1" 200 -
+2025-01-18 00:34:39 - models.stock_item - INFO - Created new stock item: NS456
+2025-01-18 00:34:39 - models.nav_sys - INFO - Created new NavSys item: NS456, brand: COW
+2025-01-18 00:34:39 - models.stock_item - INFO - Created new stock item: NS789
+2025-01-18 00:34:39 - models.nav_sys - INFO - Created new NavSys item: NS789, brand: GeoVision
+2025-01-18 00:34:39 - models.stock_item - INFO - Created new stock item: NS333
+2025-01-18 00:34:39 - models.nav_sys - INFO - Created new NavSys item: NS333, brand: AlphaTech
+2025-01-18 00:34:39 - utils.file_handler - INFO - Updated existing item: NS333
+2025-01-18 00:34:39 - werkzeug - INFO - 127.0.0.1 - - [18/Jan/2025 00:34:39] "PUT /api/items/NS333 HTTP/1.1" 200 -
+2025-01-18 00:34:39 - models.stock_item - INFO - Created new stock item: NS456
+2025-01-18 00:34:39 - models.nav_sys - INFO - Created new NavSys item: NS456, brand: COW
+2025-01-18 00:34:39 - models.stock_item - INFO - Created new stock item: NS789
+2025-01-18 00:34:39 - models.nav_sys - INFO - Created new NavSys item: NS789, brand: GeoVision
+2025-01-18 00:34:39 - models.stock_item - INFO - Created new stock item: NS333
+2025-01-18 00:34:39 - werkzeug - INFO - 127.0.0.1 - - [18/Jan/2025 00:34:39] "GET /api/items?search=&brand=&sort_by=stock_code&sort_order=asc&page=1&per_page=6 HTTP/1.1" 200 -

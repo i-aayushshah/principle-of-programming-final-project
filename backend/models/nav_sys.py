@@ -20,10 +20,15 @@ class NavSys(StockItem):
             logger.error(f"Error setting brand: {str(e)}")
             raise StockError(f"Invalid brand: {str(e)}")
 
-    def _validate_brand(self, brand: str):
+    def _validate_brand(self, brand: str) -> None:
         """Validate brand parameter."""
-        if not isinstance(brand, str) or not brand:
+        if not isinstance(brand, str) or not brand.strip():
             raise StockError("Brand must be a non-empty string")
+        try:
+            # Validate that the brand can be properly encoded/decoded
+            brand.encode('utf-8').decode('utf-8')
+        except UnicodeError:
+            raise StockError("Invalid brand name encoding")
 
     @property
     def brand(self) -> str:

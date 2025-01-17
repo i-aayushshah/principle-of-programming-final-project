@@ -12,6 +12,7 @@ from utils.sale_handler import SalesHandler
 
 app = Flask(__name__)
 app.config.from_object(DevelopmentConfig)
+app.config['JSON_AS_ASCII'] = False # Ensure UTF-8 encoding
 CORS(app)
 
 logger = setup_logger(__name__)
@@ -206,10 +207,15 @@ def update_item(stock_code):
                 return jsonify({'error': str(e)}), 400
 
         if 'brand' in data:
-            if not data['brand'].strip():
-                return jsonify({'error': 'Brand cannot be empty'}), 400
-            item._brand = data['brand']
-            logger.info(f"Updated brand for {stock_code} to {data['brand']}")
+            try:
+                if not data['brand'].strip():
+                    return jsonify({'error': 'Brand cannot be empty'}), 400
+                # Handle UTF-8 encoding for brand
+                brand = data['brand'].encode('utf-8').decode('utf-8')
+                item._brand = brand
+                logger.info(f"Updated brand for {stock_code} to {brand}")
+            except UnicodeError:
+                return jsonify({'error': 'Invalid brand format. Please use valid characters.'}), 400
 
         file_handler.save_item(item)
         return jsonify({
