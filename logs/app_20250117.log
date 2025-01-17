@@ -1,0 +1,306 @@
+2025-01-17 15:24:46 - root - INFO - Logger initialized. Log file: logs\app_20250117.log
+2025-01-17 15:24:46 - utils - INFO - Utils package initialized
+2025-01-17 15:24:46 - models.stock_item - INFO - Created new stock item: NS101
+2025-01-17 15:24:46 - models.nav_sys - INFO - Created new NavSys item: NS101, brand: TomTom
+2025-01-17 15:24:46 - models.stock_item - INFO - Created new stock item: NS102
+2025-01-17 15:24:46 - models.nav_sys - INFO - Created new NavSys item: NS102, brand: Garmin
+2025-01-17 15:24:46 - utils.file_handler - INFO - Updated existing item: NS101
+2025-01-17 15:24:46 - utils.file_handler - INFO - Updated existing item: NS102
+2025-01-17 15:24:46 - models.stock_item - INFO - Created new stock item: NS104
+2025-01-17 15:24:46 - models.nav_sys - INFO - Created new NavSys item: NS104, brand: Magellan
+2025-01-17 15:24:46 - models.stock_item - INFO - Created new stock item: NS105
+2025-01-17 15:24:46 - models.nav_sys - INFO - Created new NavSys item: NS105, brand: Garmin
+2025-01-17 15:24:46 - models.stock_item - INFO - Created new stock item: NS101
+2025-01-17 15:24:46 - models.nav_sys - INFO - Created new NavSys item: NS101, brand: TomTom
+2025-01-17 15:24:46 - models.stock_item - INFO - Created new stock item: NS102
+2025-01-17 15:24:46 - models.nav_sys - INFO - Created new NavSys item: NS102, brand: Garmin
+2025-01-17 15:24:46 - __main__ - INFO - Loaded 4 items
+2025-01-17 15:24:46 - models.stock_item - INFO - Increased stock for NS101 by 5
+2025-01-17 15:24:46 - models.stock_item - INFO - Sold 3 units of NS101
+2025-01-17 15:24:46 - models.stock_item - INFO - Updated price to 249.99
+2025-01-17 15:24:46 - utils.file_handler - INFO - Updated existing item: NS101
+2025-01-17 15:24:46 - __main__ - INFO - Basic operations test completed successfully
+2025-01-17 15:24:46 - models.stock_item - ERROR - Error creating stock item: Stock code must be a non-empty string
+2025-01-17 15:24:46 - __main__ - INFO - Successfully caught invalid creation: Invalid parameters: Stock code must be a non-empty string
+2025-01-17 15:24:46 - models.stock_item - INFO - Created new stock item: NS103
+2025-01-17 15:24:46 - models.nav_sys - INFO - Created new NavSys item: NS103, brand: GeoVision
+2025-01-17 15:24:46 - models.stock_item - ERROR - Error increasing stock: Increased item must be greater than or equal to one
+2025-01-17 15:24:46 - __main__ - INFO - Successfully caught invalid stock increase: The error was: Increased item must be greater than or equal to one
+2025-01-17 15:24:46 - models.stock_item - ERROR - Error increasing stock: Stock cannot exceed 100 items
+2025-01-17 15:24:46 - __main__ - INFO - Successfully caught stock limit exceed: The error was: Stock cannot exceed 100 items
+2025-01-17 15:24:46 - models.stock_item - ERROR - Invalid price value: Price must be greater than 0
+2025-01-17 15:24:46 - __main__ - INFO - Successfully caught invalid price: Invalid price value: Price must be greater than 0
+2025-01-17 15:24:46 - __main__ - INFO - Error scenarios test completed successfully
+2025-01-17 15:26:36 - root - INFO - Logger initialized. Log file: logs\app_20250117.log
+2025-01-17 15:26:36 - utils - INFO - Utils package initialized
+2025-01-17 15:26:36 - models.stock_item - INFO - Created new stock item: A123
+2025-01-17 15:26:36 - models.stock_item - INFO - Increased stock for A123 by 5
+2025-01-17 15:26:36 - models.stock_item - INFO - Created new stock item: A123
+2025-01-17 15:26:36 - models.stock_item - ERROR - Error increasing stock: Increased item must be greater than or equal to one
+2025-01-17 15:26:36 - models.stock_item - ERROR - Error increasing stock: Stock cannot exceed 100 items
+2025-01-17 15:26:36 - models.stock_item - INFO - Created new stock item: A123
+2025-01-17 15:26:36 - models.stock_item - INFO - Created new stock item: A123
+2025-01-17 15:26:36 - models.stock_item - ERROR - Error creating stock item: Stock code must be a non-empty string
+2025-01-17 15:26:36 - models.stock_item - ERROR - Error creating stock item: Quantity must be a non-negative integer
+2025-01-17 15:26:36 - models.stock_item - ERROR - Error creating stock item: Price must be a non-negative number
+2025-01-17 15:26:36 - models.stock_item - INFO - Created new stock item: A123
+2025-01-17 15:26:36 - models.stock_item - ERROR - Invalid price value: Price must be greater than 0
+2025-01-17 15:26:36 - models.stock_item - INFO - Created new stock item: A123
+2025-01-17 15:26:36 - models.stock_item - INFO - Sold 5 units of A123
+2025-01-17 15:26:36 - models.stock_item - INFO - Created new stock item: A123
+2025-01-17 15:26:36 - models.stock_item - INFO - Created new stock item: A123
+2025-01-17 15:26:36 - models.stock_item - INFO - Created new stock item: A123
+2025-01-17 15:26:36 - models.stock_item - INFO - Updated price to 150.0
+2025-01-17 15:29:34 - root - INFO - Logger initialized. Log file: logs\app_20250117.log
+2025-01-17 15:29:34 - utils - INFO - Utils package initialized
+2025-01-17 15:29:34 - models.stock_item - INFO - Created new stock item: A123
+2025-01-17 15:29:34 - models.stock_item - INFO - Created new stock item: A123
+2025-01-17 15:29:34 - models.stock_item - INFO - Created new stock item: A123
+2025-01-17 15:29:34 - models.stock_item - INFO - Increased stock for A123 by 5
+2025-01-17 15:29:34 - models.stock_item - INFO - Created new stock item: A123
+2025-01-17 15:29:34 - models.stock_item - ERROR - Error increasing stock: Stock cannot exceed 100 items
+2025-01-17 15:29:34 - models.stock_item - INFO - Created new stock item: A123
+2025-01-17 15:29:34 - models.stock_item - ERROR - Error increasing stock: Increased item must be greater than or equal to one
+2025-01-17 15:29:34 - models.stock_item - INFO - Created new stock item: A123
+2025-01-17 15:29:34 - models.stock_item - ERROR - Error creating stock item: Price must be a non-negative number
+2025-01-17 15:29:34 - models.stock_item - INFO - Created new stock item: A123
+2025-01-17 15:29:34 - models.stock_item - ERROR - Error creating stock item: Quantity must be a non-negative integer
+2025-01-17 15:29:34 - models.stock_item - INFO - Created new stock item: A123
+2025-01-17 15:29:34 - models.stock_item - ERROR - Error creating stock item: Stock code must be a non-empty string
+2025-01-17 15:29:34 - models.stock_item - INFO - Created new stock item: A123
+2025-01-17 15:29:34 - models.stock_item - INFO - Sold 5 units of A123
+2025-01-17 15:29:34 - models.stock_item - INFO - Created new stock item: A123
+2025-01-17 15:29:34 - models.stock_item - INFO - Created new stock item: A123
+2025-01-17 15:29:34 - models.stock_item - INFO - Created new stock item: A123
+2025-01-17 15:29:34 - models.stock_item - INFO - Updated price to 150.0
+2025-01-17 15:31:01 - root - INFO - Logger initialized. Log file: logs\app_20250117.log
+2025-01-17 15:31:01 - utils - INFO - Utils package initialized
+2025-01-17 15:31:01 - stock_item - INFO - Created new stock item: A123
+2025-01-17 15:31:01 - stock_item - INFO - Created new stock item: A123
+2025-01-17 15:31:01 - stock_item - INFO - Created new stock item: A123
+2025-01-17 15:31:01 - stock_item - INFO - Increased stock for A123 by 5
+2025-01-17 15:31:01 - stock_item - INFO - Created new stock item: A123
+2025-01-17 15:31:01 - stock_item - ERROR - Error increasing stock: Stock cannot exceed 100 items
+2025-01-17 15:31:01 - stock_item - INFO - Created new stock item: A123
+2025-01-17 15:31:01 - stock_item - ERROR - Error increasing stock: Increased item must be greater than or equal to one
+2025-01-17 15:31:01 - stock_item - INFO - Created new stock item: A123
+2025-01-17 15:31:01 - stock_item - ERROR - Error creating stock item: Price must be a non-negative number
+2025-01-17 15:31:01 - stock_item - INFO - Created new stock item: A123
+2025-01-17 15:31:01 - stock_item - ERROR - Error creating stock item: Quantity must be a non-negative integer
+2025-01-17 15:31:01 - stock_item - INFO - Created new stock item: A123
+2025-01-17 15:31:01 - stock_item - ERROR - Error creating stock item: Stock code must be a non-empty string
+2025-01-17 15:31:01 - stock_item - INFO - Created new stock item: A123
+2025-01-17 15:31:01 - stock_item - INFO - Sold 5 units of A123
+2025-01-17 15:31:01 - stock_item - INFO - Created new stock item: A123
+2025-01-17 15:31:01 - stock_item - INFO - Created new stock item: A123
+2025-01-17 15:31:01 - stock_item - INFO - Created new stock item: A123
+2025-01-17 15:31:01 - stock_item - INFO - Updated price to 150.0
+2025-01-17 15:31:29 - root - INFO - Logger initialized. Log file: logs\app_20250117.log
+2025-01-17 15:31:29 - utils - INFO - Utils package initialized
+2025-01-17 15:31:29 - models.stock_item - INFO - Created new stock item: A123
+2025-01-17 15:31:29 - models.stock_item - INFO - Created new stock item: A123
+2025-01-17 15:31:29 - models.stock_item - INFO - Created new stock item: A123
+2025-01-17 15:31:29 - models.stock_item - INFO - Increased stock for A123 by 5
+2025-01-17 15:31:29 - models.stock_item - INFO - Created new stock item: A123
+2025-01-17 15:31:29 - models.stock_item - ERROR - Error increasing stock: Stock cannot exceed 100 items
+2025-01-17 15:31:29 - models.stock_item - INFO - Created new stock item: A123
+2025-01-17 15:31:29 - models.stock_item - ERROR - Error increasing stock: Increased item must be greater than or equal to one
+2025-01-17 15:31:29 - models.stock_item - INFO - Created new stock item: A123
+2025-01-17 15:31:29 - models.stock_item - ERROR - Error creating stock item: Price must be a non-negative number
+2025-01-17 15:31:29 - models.stock_item - INFO - Created new stock item: A123
+2025-01-17 15:31:29 - models.stock_item - ERROR - Error creating stock item: Quantity must be a non-negative integer
+2025-01-17 15:31:29 - models.stock_item - INFO - Created new stock item: A123
+2025-01-17 15:31:29 - models.stock_item - ERROR - Error creating stock item: Stock code must be a non-empty string
+2025-01-17 15:31:29 - models.stock_item - INFO - Created new stock item: A123
+2025-01-17 15:31:29 - models.stock_item - INFO - Sold 5 units of A123
+2025-01-17 15:31:29 - models.stock_item - INFO - Created new stock item: A123
+2025-01-17 15:31:29 - models.stock_item - INFO - Created new stock item: A123
+2025-01-17 15:31:29 - models.stock_item - INFO - Created new stock item: A123
+2025-01-17 15:31:29 - models.stock_item - INFO - Updated price to 150.0
+2025-01-17 15:31:50 - root - INFO - Logger initialized. Log file: logs\app_20250117.log
+2025-01-17 15:31:50 - utils - INFO - Utils package initialized
+2025-01-17 15:31:50 - models.stock_item - INFO - Created new stock item: A123
+2025-01-17 15:31:50 - models.stock_item - INFO - Created new stock item: A123
+2025-01-17 15:31:50 - models.stock_item - INFO - Created new stock item: A123
+2025-01-17 15:31:50 - models.stock_item - INFO - Increased stock for A123 by 5
+2025-01-17 15:31:50 - models.stock_item - INFO - Created new stock item: A123
+2025-01-17 15:31:50 - models.stock_item - ERROR - Error increasing stock: Stock cannot exceed 100 items
+2025-01-17 15:31:50 - models.stock_item - INFO - Created new stock item: A123
+2025-01-17 15:31:50 - models.stock_item - ERROR - Error increasing stock: Increased item must be greater than or equal to one
+2025-01-17 15:31:50 - models.stock_item - INFO - Created new stock item: A123
+2025-01-17 15:31:50 - models.stock_item - ERROR - Error creating stock item: Price must be a non-negative number
+2025-01-17 15:31:50 - models.stock_item - INFO - Created new stock item: A123
+2025-01-17 15:31:50 - models.stock_item - ERROR - Error creating stock item: Quantity must be a non-negative integer
+2025-01-17 15:31:50 - models.stock_item - INFO - Created new stock item: A123
+2025-01-17 15:31:50 - models.stock_item - ERROR - Error creating stock item: Stock code must be a non-empty string
+2025-01-17 15:31:50 - models.stock_item - INFO - Created new stock item: A123
+2025-01-17 15:31:50 - models.stock_item - INFO - Sold 5 units of A123
+2025-01-17 15:31:50 - models.stock_item - INFO - Created new stock item: A123
+2025-01-17 15:31:50 - models.stock_item - INFO - Created new stock item: A123
+2025-01-17 15:31:50 - models.stock_item - INFO - Created new stock item: A123
+2025-01-17 15:31:50 - models.stock_item - INFO - Updated price to 150.0
+2025-01-17 15:34:05 - root - INFO - Logger initialized. Log file: logs\app_20250117.log
+2025-01-17 15:34:05 - utils - INFO - Utils package initialized
+2025-01-17 15:34:05 - models.stock_item - INFO - Created new stock item: A123
+2025-01-17 15:34:05 - models.stock_item - INFO - Created new stock item: A123
+2025-01-17 15:34:05 - models.stock_item - INFO - Created new stock item: A123
+2025-01-17 15:34:05 - models.stock_item - INFO - Increased stock for A123 by 5
+2025-01-17 15:34:05 - models.stock_item - INFO - Created new stock item: A123
+2025-01-17 15:34:05 - models.stock_item - ERROR - Error increasing stock: Stock cannot exceed 100 items
+2025-01-17 15:34:05 - models.stock_item - INFO - Created new stock item: A123
+2025-01-17 15:34:05 - models.stock_item - ERROR - Error increasing stock: Increased item must be greater than or equal to one
+2025-01-17 15:34:05 - models.stock_item - INFO - Created new stock item: A123
+2025-01-17 15:34:05 - models.stock_item - ERROR - Error creating stock item: Price must be a non-negative number
+2025-01-17 15:34:05 - models.stock_item - INFO - Created new stock item: A123
+2025-01-17 15:34:05 - models.stock_item - ERROR - Error creating stock item: Quantity must be a non-negative integer
+2025-01-17 15:34:05 - models.stock_item - INFO - Created new stock item: A123
+2025-01-17 15:34:05 - models.stock_item - ERROR - Error creating stock item: Stock code must be a non-empty string
+2025-01-17 15:34:05 - models.stock_item - INFO - Created new stock item: A123
+2025-01-17 15:34:05 - models.stock_item - INFO - Sold 5 units of A123
+2025-01-17 15:34:05 - models.stock_item - INFO - Created new stock item: A123
+2025-01-17 15:34:05 - models.stock_item - INFO - Created new stock item: A123
+2025-01-17 15:34:05 - models.stock_item - INFO - Created new stock item: A123
+2025-01-17 15:34:05 - models.stock_item - INFO - Updated price to 150.0
+2025-01-17 15:45:27 - root - INFO - Logger initialized. Log file: logs\app_20250117.log
+2025-01-17 15:45:27 - utils - INFO - Utils package initialized
+2025-01-17 15:45:27 - __main__ - ERROR - Test failed: StockItem.__init__() takes 4 positional arguments but 5 were given
+2025-01-17 15:45:40 - root - INFO - Logger initialized. Log file: logs\app_20250117.log
+2025-01-17 15:45:40 - utils - INFO - Utils package initialized
+2025-01-17 15:45:40 - models.stock_item - INFO - Created new stock item: NS101
+2025-01-17 15:45:40 - models.nav_sys - INFO - Created new NavSys item: NS101, brand: TomTom
+2025-01-17 15:45:40 - models.stock_item - INFO - Created new stock item: NS102
+2025-01-17 15:45:40 - models.nav_sys - INFO - Created new NavSys item: NS102, brand: Garmin
+2025-01-17 15:45:40 - utils.file_handler - INFO - Updated existing item: NS101
+2025-01-17 15:45:40 - utils.file_handler - INFO - Updated existing item: NS102
+2025-01-17 15:45:40 - models.stock_item - INFO - Created new stock item: NS104
+2025-01-17 15:45:40 - models.nav_sys - INFO - Created new NavSys item: NS104, brand: Magellan
+2025-01-17 15:45:40 - models.stock_item - INFO - Created new stock item: NS105
+2025-01-17 15:45:40 - models.nav_sys - INFO - Created new NavSys item: NS105, brand: Garmin
+2025-01-17 15:45:40 - models.stock_item - INFO - Created new stock item: NS101
+2025-01-17 15:45:40 - models.nav_sys - INFO - Created new NavSys item: NS101, brand: TomTom
+2025-01-17 15:45:40 - models.stock_item - INFO - Created new stock item: NS102
+2025-01-17 15:45:40 - models.nav_sys - INFO - Created new NavSys item: NS102, brand: Garmin
+2025-01-17 15:45:40 - __main__ - INFO - Loaded 4 items
+2025-01-17 15:45:40 - models.stock_item - INFO - Increased stock for NS101 by 5
+2025-01-17 15:45:40 - models.stock_item - INFO - Sold 3 units of NS101
+2025-01-17 15:45:40 - models.stock_item - INFO - Updated price to 249.99
+2025-01-17 15:45:40 - utils.file_handler - INFO - Updated existing item: NS101
+2025-01-17 15:45:40 - __main__ - INFO - Basic operations test completed successfully
+2025-01-17 15:45:40 - models.stock_item - ERROR - Error creating stock item: Stock code must be a non-empty string
+2025-01-17 15:45:40 - __main__ - INFO - Successfully caught invalid creation: Invalid parameters: Stock code must be a non-empty string
+2025-01-17 15:45:40 - models.stock_item - INFO - Created new stock item: NS103
+2025-01-17 15:45:40 - models.nav_sys - INFO - Created new NavSys item: NS103, brand: GeoVision
+2025-01-17 15:45:40 - models.stock_item - ERROR - Error increasing stock: Increased item must be greater than or equal to one
+2025-01-17 15:45:40 - __main__ - INFO - Successfully caught invalid stock increase: The error was: Increased item must be greater than or equal to one
+2025-01-17 15:45:40 - models.stock_item - ERROR - Error increasing stock: Stock cannot exceed 100 items
+2025-01-17 15:45:40 - __main__ - INFO - Successfully caught stock limit exceed: The error was: Stock cannot exceed 100 items
+2025-01-17 15:45:40 - models.stock_item - ERROR - Invalid price value: Price must be greater than 0
+2025-01-17 15:45:40 - __main__ - INFO - Successfully caught invalid price: Invalid price value: Price must be greater than 0
+2025-01-17 15:45:40 - __main__ - INFO - Error scenarios test completed successfully
+2025-01-17 15:45:59 - root - INFO - Logger initialized. Log file: logs\app_20250117.log
+2025-01-17 15:45:59 - utils - INFO - Utils package initialized
+2025-01-17 15:45:59 - __main__ - ERROR - Test failed: StockItem.__init__() takes 4 positional arguments but 5 were given
+2025-01-17 15:50:53 - root - INFO - Logger initialized. Log file: logs\app_20250117.log
+2025-01-17 15:50:53 - utils - INFO - Utils package initialized
+2025-01-17 15:50:53 - models.stock_item - INFO - Created new stock item: SI101
+2025-01-17 15:50:53 - models.stock_item - INFO - Created new stock item: SI102
+2025-01-17 15:50:53 - tests.test_stock_item - INFO - Created item1: Stock Category: Car accessories
+Stock Type: Unknown Stock Name
+Description: Unknown Stock Description
+StockCode: SI101
+PriceWithoutVAT: 59.99
+PriceWithVAT: 70.49
+Total unit in stock: 25
+2025-01-17 15:50:53 - tests.test_stock_item - INFO - Created item2: Stock Category: Car accessories
+Stock Type: Unknown Stock Name
+Description: Unknown Stock Description
+StockCode: SI102
+PriceWithoutVAT: 89.99
+PriceWithVAT: 105.74
+Total unit in stock: 40
+2025-01-17 15:50:53 - models.stock_item - INFO - Increased stock for SI101 by 10
+2025-01-17 15:50:53 - models.stock_item - INFO - Sold 5 units of SI101
+2025-01-17 15:50:53 - models.stock_item - INFO - Updated price to 69.99
+2025-01-17 15:50:53 - tests.test_stock_item - INFO - Price with VAT: 82.23825
+2025-01-17 15:50:53 - tests.test_stock_item - INFO - Item1 String Representation: Stock Category: Car accessories
+Stock Type: Unknown Stock Name
+Description: Unknown Stock Description
+StockCode: SI101
+PriceWithoutVAT: 69.99
+PriceWithVAT: 82.24
+Total unit in stock: 30
+2025-01-17 15:50:53 - tests.test_stock_item - INFO - Basic stock item operations test completed successfully
+2025-01-17 15:50:53 - models.stock_item - ERROR - Error creating stock item: Quantity must be a non-negative integer
+2025-01-17 15:50:53 - tests.test_stock_item - ERROR - Test failed: name 'StockError' is not defined
+2025-01-17 15:54:36 - root - INFO - Logger initialized. Log file: logs\app_20250117.log
+2025-01-17 15:54:36 - utils - INFO - Utils package initialized
+2025-01-17 15:54:36 - models.stock_item - INFO - Created new stock item: SI101
+2025-01-17 15:54:36 - models.stock_item - INFO - Created new stock item: SI102
+2025-01-17 15:54:36 - tests.test_stock_item - INFO - Created item1: Stock Category: Car accessories
+Stock Type: Unknown Stock Name
+Description: Unknown Stock Description
+StockCode: SI101
+PriceWithoutVAT: 59.99
+PriceWithVAT: 70.49
+Total unit in stock: 25
+2025-01-17 15:54:36 - tests.test_stock_item - INFO - Created item2: Stock Category: Car accessories
+Stock Type: Unknown Stock Name
+Description: Unknown Stock Description
+StockCode: SI102
+PriceWithoutVAT: 89.99
+PriceWithVAT: 105.74
+Total unit in stock: 40
+2025-01-17 15:54:36 - models.stock_item - INFO - Increased stock for SI101 by 10
+2025-01-17 15:54:36 - models.stock_item - INFO - Sold 5 units of SI101
+2025-01-17 15:54:36 - models.stock_item - INFO - Updated price to 69.99
+2025-01-17 15:54:36 - tests.test_stock_item - INFO - Price with VAT: 82.23825
+2025-01-17 15:54:36 - tests.test_stock_item - INFO - Item1 String Representation: Stock Category: Car accessories
+Stock Type: Unknown Stock Name
+Description: Unknown Stock Description
+StockCode: SI101
+PriceWithoutVAT: 69.99
+PriceWithVAT: 82.24
+Total unit in stock: 30
+2025-01-17 15:54:36 - tests.test_stock_item - INFO - Basic stock item operations test completed successfully
+2025-01-17 15:54:36 - models.stock_item - ERROR - Error creating stock item: Quantity must be a non-negative integer
+2025-01-17 15:54:36 - tests.test_stock_item - ERROR - Test failed: name 'StockError' is not defined
+2025-01-17 17:46:58 - root - INFO - Logger initialized. Log file: logs\app_20250117.log
+2025-01-17 17:46:58 - utils - INFO - Utils package initialized
+2025-01-17 18:11:18 - root - INFO - Logger initialized. Log file: logs\app_20250117.log
+2025-01-17 18:11:18 - utils - INFO - Utils package initialized
+2025-01-17 18:11:18 - models.stock_item - INFO - Created new stock item: W101
+2025-01-17 18:11:18 - models.stock_item - INFO - Increased stock for W101 by 5
+2025-01-17 18:11:18 - models.stock_item - INFO - Sold 3 units of W101
+2025-01-17 18:11:18 - __main__ - INFO - StockItem operations test completed successfully
+2025-01-17 18:11:18 - models.stock_item - INFO - Created new stock item: NS101
+2025-01-17 18:11:18 - models.nav_sys - INFO - Created new NavSys item: NS101, brand: TomTom
+2025-01-17 18:11:18 - models.stock_item - INFO - Created new stock item: NS102
+2025-01-17 18:11:18 - models.nav_sys - INFO - Created new NavSys item: NS102, brand: Garmin
+2025-01-17 18:11:18 - utils.file_handler - INFO - Updated existing item: NS101
+2025-01-17 18:11:18 - utils.file_handler - INFO - Updated existing item: NS102
+2025-01-17 18:11:18 - models.stock_item - INFO - Created new stock item: NS104
+2025-01-17 18:11:18 - models.nav_sys - INFO - Created new NavSys item: NS104, brand: Magellan
+2025-01-17 18:11:18 - models.stock_item - INFO - Created new stock item: NS105
+2025-01-17 18:11:18 - models.nav_sys - INFO - Created new NavSys item: NS105, brand: Garmin
+2025-01-17 18:11:18 - models.stock_item - INFO - Created new stock item: NS101
+2025-01-17 18:11:18 - models.nav_sys - INFO - Created new NavSys item: NS101, brand: TomTom
+2025-01-17 18:11:18 - models.stock_item - INFO - Created new stock item: NS102
+2025-01-17 18:11:18 - models.nav_sys - INFO - Created new NavSys item: NS102, brand: Garmin
+2025-01-17 18:11:18 - __main__ - INFO - Loaded 4 items
+2025-01-17 18:11:18 - models.stock_item - INFO - Increased stock for NS101 by 5
+2025-01-17 18:11:18 - models.stock_item - INFO - Sold 3 units of NS101
+2025-01-17 18:11:18 - models.stock_item - INFO - Updated price to 249.99
+2025-01-17 18:11:18 - models.nav_sys - INFO - Updated brand for NS101 to Garmin
+2025-01-17 18:11:18 - utils.file_handler - INFO - Updated existing item: NS101
+2025-01-17 18:11:18 - __main__ - INFO - NavSys operations test completed successfully
+2025-01-17 18:11:18 - models.stock_item - ERROR - Error creating stock item: Stock code must be a non-empty string
+2025-01-17 18:11:18 - __main__ - INFO - Successfully caught invalid creation: Invalid parameters: Stock code must be a non-empty string
+2025-01-17 18:11:18 - models.stock_item - INFO - Created new stock item: NS103
+2025-01-17 18:11:18 - models.nav_sys - INFO - Created new NavSys item: NS103, brand: GeoVision
+2025-01-17 18:11:18 - models.stock_item - ERROR - Error increasing stock: Increased item must be greater than or equal to one
+2025-01-17 18:11:18 - __main__ - INFO - Successfully caught invalid stock increase: The error was: Increased item must be greater than or equal to one
+2025-01-17 18:11:18 - models.stock_item - ERROR - Error increasing stock: Stock cannot exceed 100 items
+2025-01-17 18:11:18 - __main__ - INFO - Successfully caught stock limit exceed: The error was: Stock cannot exceed 100 items
+2025-01-17 18:11:18 - models.stock_item - ERROR - Invalid price value: Price must be greater than 0
+2025-01-17 18:11:18 - __main__ - INFO - Successfully caught invalid price: Invalid price value: Price must be greater than 0
+2025-01-17 18:11:18 - __main__ - ERROR - Error scenarios test failed: Brand must be a non-empty string

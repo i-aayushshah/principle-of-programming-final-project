@@ -30,18 +30,29 @@ def get_items():
         sort_by = request.args.get('sort_by', 'stock_code')
         sort_order = request.args.get('sort_order', 'asc')
 
-        # Load all items
-        items = file_handler.load_items()
+        # Load all items first
+        all_items = file_handler.load_items()
 
-        # Apply filters
-        filtered_items = items
+        # Get all available brands
+        all_brands = sorted(list(set(
+            item.brand for item in all_items
+            if hasattr(item, 'brand') and item.brand and item.brand.strip()
+        )))
+
+        # Apply filters before pagination
+        filtered_items = all_items
+
+        # Apply search filter
         if search:
             filtered_items = [
                 item for item in filtered_items
                 if search in item.stock_code.lower() or
-                search in item.get_stock_name().lower()
+                   search in item.get_stock_name().lower() or
+                   search in getattr(item, 'brand', '').lower() or
+                   search in item.get_stock_description().lower()
             ]
 
+        # Apply brand filter
         if brand_filter:
             filtered_items = [
                 item for item in filtered_items
@@ -50,10 +61,10 @@ def get_items():
 
         # Calculate statistics
         stats = {
-            'total_items': len(items),
-            'total_value': sum(item.price * item.quantity for item in items),
-            'total_value_vat': sum(item.get_price_with_VAT() * item.quantity for item in items),
-            'low_stock_items': sum(1 for item in items if item.quantity < 10)
+            'total_items': len(filtered_items),
+            'total_value': sum(item.price * item.quantity for item in filtered_items),
+            'total_value_vat': sum(item.get_price_with_VAT() * item.quantity for item in filtered_items),
+            'low_stock_items': sum(1 for item in filtered_items if item.quantity < 10)
         }
 
         # Sort items
@@ -62,7 +73,7 @@ def get_items():
             reverse=sort_order == 'desc'
         )
 
-        # Paginate
+        # Paginate after filtering
         total_items = len(filtered_items)
         total_pages = (total_items + per_page - 1) // per_page
         start_idx = (page - 1) * per_page
@@ -77,7 +88,8 @@ def get_items():
                 'total_items': total_items,
                 'per_page': per_page
             },
-            'statistics': stats
+            'statistics': stats,
+            'available_brands': all_brands
         })
 
     except Exception as e:
