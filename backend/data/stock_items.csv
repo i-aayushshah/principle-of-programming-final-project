@@ -1,10 +1,8 @@
 item_type,stock_code,quantity,price,brand
-NavSys,NS235,10,15.0,COW
 NavSys,NS456,46,345.0,COW
-NavSys,NS234,22,542.96,TomTom
 NavSys,NS789,20,100.0,GeoVision
 NavSys,NS333,25,50.5,AlphaTech
-NavSys,NS112,18,320.75,GeoVision
+NavSys,NS112,0,320.75,GeoVision
 NavSys,NS567,73,123.0,COW
 NavSys,NS678,15,135.5,GeoVision
 NavSys,NS890,22,400.0,AlphaTech
@@ -15,7 +13,6 @@ NavSys,NS555,16,120.0,AlphaTech
 NavSys,NS910,10,95.0,COW
 NavSys,NS321,28,175.25,AlphaTech
 NavSys,NS876,19,300.5,COW
-NavSys,NS223,73,85.0,GeoVision
 NavSys,NS445,9,450.0,AlphaTech
 NavSys,NS290,26,350.5,COW
 NavSys,NS302,11,155.0,AlphaTech
@@ -27,10 +24,10 @@ NavSys,NS456B,10,160.0,COW
 NavSys,NS644,8,495.0,GeoVision
 NavSys,NS199,54,567.0,COW
 NavSys,NS543,54,135.0,TomTom
-NavSys,NS050,84,800.0,COW
 NavSys,NS123,79,125.0,COW
-NavSys,NS101,10,199.99,TomTom
-NavSys,NS102,15,299.99,Garmin
-NavSys,NS001,79,144.99,GeoVision
-NavSys,NS105,14,300.13,GeoVision
-NavSys,NS709,64,346.9,COW
+NavSys,NS067,10,66.97,COW
+NavSys,NS105,10,199.99,TomTom
+NavSys,NS101,15,219.98900000000003,TomTom
+NavSys,NS102,20,329.98900000000003,Garmin
+NavSys,NS103,25,274.98900000000003,GeoVision
+NavSys,NS301,100,999999.99,TomTom

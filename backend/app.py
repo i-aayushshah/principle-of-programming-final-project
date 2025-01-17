@@ -176,23 +176,46 @@ def update_item(stock_code):
 
         if 'price' in data:
             # Validate price
-            new_price = float(data['price'])
-            if new_price <= 0:
-                return jsonify({'error': 'Price must be greater than 0'}), 400
-            item.price = new_price
-            logger.info(f"Updated price for {stock_code} to {new_price}")
+            try:
+                new_price = float(data['price'])
+                if new_price <= 0:
+                    return jsonify({'error': 'Price must be greater than 0'}), 400
+                item.price = new_price
+                logger.info(f"Updated price for {stock_code} to {new_price}")
+            except ValueError:
+                return jsonify({'error': 'Invalid price format'}), 400
 
         if 'quantity' in data:
-            item.increase_stock(int(data['quantity']))
+            try:
+                new_quantity = int(data['quantity'])
+                if new_quantity <= 0:
+                    return jsonify({'error': 'Quantity must be greater than 0'}), 400
+
+                # Check if adding this quantity would exceed 100
+                total_quantity = item.quantity + new_quantity
+                if total_quantity > 100:
+                    return jsonify({
+                        'error': f'Cannot add {new_quantity} items. Total quantity ({total_quantity}) would exceed 100 items limit'
+                    }), 400
+
+                item.increase_stock(new_quantity)
+                logger.info(f"Updated quantity for {stock_code} by adding {new_quantity}")
+            except ValueError:
+                return jsonify({'error': 'Invalid quantity format'}), 400
+            except StockError as e:
+                return jsonify({'error': str(e)}), 400
+
+        if 'brand' in data:
+            if not data['brand'].strip():
+                return jsonify({'error': 'Brand cannot be empty'}), 400
+            item._brand = data['brand']
+            logger.info(f"Updated brand for {stock_code} to {data['brand']}")
 
         file_handler.save_item(item)
         return jsonify({
             'message': 'Item updated successfully',
             'item': item.to_dict()
         })
-    except ValueError as e:
-        logger.error(f"Invalid price value: {str(e)}")
-        return jsonify({'error': 'Invalid price value'}), 400
     except Exception as e:
         logger.error(f"Error updating item: {str(e)}")
         return jsonify({'error': str(e)}), 400
@@ -204,6 +227,9 @@ def sell_item(stock_code):
         data = request.json
         quantity = int(data['quantity'])
 
+        if quantity <= 0:
+            return jsonify({'error': 'Quantity must be greater than 0'}), 400
+
         items = file_handler.load_items()
         item = next((item for item in items if item.stock_code == stock_code), None)
 
@@ -211,7 +237,9 @@ def sell_item(stock_code):
             return jsonify({'error': 'Item not found'}), 404
 
         if quantity > item.quantity:
-            return jsonify({'error': 'Insufficient stock'}), 400
+            return jsonify({
+                'error': f'Cannot sell {quantity} items. Only {item.quantity} items available in stock'
+            }), 400
 
         if item.sell_stock(quantity):
             # Save updated inventory
@@ -230,7 +258,10 @@ def sell_item(stock_code):
                 'message': f'Successfully sold {quantity} units',
                 'item': item.to_dict()
             })
+
         return jsonify({'error': 'Failed to sell items'}), 400
+    except ValueError:
+        return jsonify({'error': 'Invalid quantity format'}), 400
     except Exception as e:
         logger.error(f"Error selling item: {str(e)}")
         return jsonify({'error': str(e)}), 400

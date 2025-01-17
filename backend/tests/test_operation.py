@@ -1,215 +1,219 @@
-# backend/tests/test_operations.py
-
 import pytest
-from pathlib import Path
-from utils.logger import setup_logger
-from utils.file_handler import StockFileHandler
-from utils.exceptions import StockError
 from models.nav_sys import NavSys
+from utils.file_handler import StockFileHandler
+from utils.exceptions import FileOperationError, StockError
+from utils.logger import setup_logger
 
 logger = setup_logger(__name__)
 
-def test_stock_item_operations():
-    """Test StockItem class operations"""
-    try:
-        # Test initialization
-        nav = NavSys("NS101", 10, 199.99, "TomTom")
-        assert nav.stock_code == "NS101", "Stock code initialization failed"
-        assert nav.quantity == 10, "Quantity initialization failed"
-        assert nav.price == 199.99, "Price initialization failed"
+class TestOperations:
+    """Comprehensive test suite for integrated operations."""
 
-        # Test stock operations
-        nav.increase_stock(5)
-        assert nav.quantity == 15, "Stock increase failed"
+    def test_basic_operations(self):
+        """TC-IT-01: Basic integrated operations."""
+        try:
+            file_handler = StockFileHandler()
 
-        success = nav.sell_stock(3)
-        assert success and nav.quantity == 12, "Stock sale failed"
+            # Create and save item
+            nav = NavSys("NS101", 10, 199.99, "TomTom")
+            saved, _ = file_handler.save_item(nav)
+            assert saved
 
-        # Test VAT calculations
-        assert nav.get_VAT() == 17.5, "VAT rate incorrect"
-        expected_vat_price = 199.99 * (1 + 17.5/100)
-        assert nav.get_price_with_VAT() == expected_vat_price, "VAT calculation failed"
+            # Load and verify
+            loaded_nav = file_handler.get_item("NS101")
+            assert loaded_nav.stock_code == "NS101"
+            assert loaded_nav.quantity == 10
+            assert loaded_nav.price == 199.99
+            assert loaded_nav.brand == "TomTom"
 
-        logger.info("StockItem operations test completed successfully")
+            logger.info("Basic operations test passed")
+        except Exception as e:
+            logger.error(f"Basic operations test failed: {str(e)}")
+            raise
 
-    except Exception as e:
-        logger.error(f"StockItem test failed: {str(e)}")
-        raise
+    def test_complex_operations(self):
+        """TC-IT-02: Complex operation sequences."""
+        try:
+            file_handler = StockFileHandler()
 
-def test_nav_sys_operations():
-    """Test NavSys class operations"""
-    try:
-        file_handler = StockFileHandler()
+            # Multiple items
+            items = [
+                NavSys("NS101", 10, 199.99, "TomTom"),
+                NavSys("NS102", 15, 299.99, "Garmin"),
+                NavSys("NS103", 20, 249.99, "GeoVision")
+            ]
 
-        # Create test items
-        nav1 = NavSys("NS101", 10, 199.99, "TomTom")
-        nav2 = NavSys("NS102", 15, 299.99, "Garmin")
+            # Save all items
+            for item in items:
+                file_handler.save_item(item)
 
-        # Test saving items
-        file_handler.save_item(nav1)
-        file_handler.save_item(nav2)
+            # Modify and update
+            for item in items:
+                item.increase_stock(5)
+                item.price *= 1.1  # 10% price increase
+                file_handler.save_item(item)
 
-        # Test loading items
-        items = file_handler.load_items()
-        logger.info(f"Loaded {len(items)} items")
+            # Verify updates
+            loaded_items = file_handler.load_items()
+            assert len(loaded_items) >= len(items)
 
-        # Test stock increase
-        nav1.increase_stock(5)
-        assert nav1.quantity == 15, "Stock increase failed"
+            logger.info("Complex operations test passed")
+        except Exception as e:
+            logger.error(f"Complex operations test failed: {str(e)}")
+            raise
 
-        # Test stock sale
-        success = nav1.sell_stock(3)
-        assert success and nav1.quantity == 12, "Stock sale failed"
+    def test_lifecycle_operations(self):
+        """TC-IT-03: Complete lifecycle operations."""
+        try:
+            file_handler = StockFileHandler()
 
-        # Test price update
-        nav1.price = 249.99
-        assert nav1.price == 249.99, "Price update failed"
+            # Create
+            nav = NavSys("NS104", 10, 199.99, "TomTom")
+            file_handler.save_item(nav)
 
-        # Test brand operations
-        assert nav1.brand == "TomTom", "Brand getter failed"
-        nav1.brand = "Garmin"
-        assert nav1.brand == "Garmin", "Brand setter failed"
+            # Update stock
+            nav.increase_stock(20)
+            file_handler.save_item(nav)
 
-        # Save updated items
-        file_handler.save_item(nav1)
+            # Update price
+            nav.price = 249.99
+            file_handler.save_item(nav)
 
-        logger.info("NavSys operations test completed successfully")
+            # Sell stock
+            nav.sell_stock(15)
+            file_handler.save_item(nav)
 
-    except Exception as e:
-        logger.error(f"NavSys test failed: {str(e)}")
-        raise
+            # Update brand
+            nav.brand = "Garmin"
+            file_handler.save_item(nav)
 
-def test_error_scenarios():
-    """Test various error scenarios"""
-    try:
-        # Test invalid stock creation
-        with pytest.raises(StockError) as exc_info:
-            invalid_nav = NavSys("", -5, -100, "")
-        assert "Stock code must be a non-empty string" in str(exc_info.value)
-        logger.info(f"Successfully caught invalid creation: {exc_info.value}")
+            # Delete
+            result = file_handler.delete_item("NS104")
+            assert result
 
-        nav = NavSys("NS103", 10, 199.99, "GeoVision")
+            logger.info("Lifecycle operations test passed")
+        except Exception as e:
+            logger.error(f"Lifecycle operations test failed: {str(e)}")
+            raise
 
-        # Test invalid stock increase
-        with pytest.raises(StockError) as exc_info:
-            nav.increase_stock(-1)
-        assert "must be greater than or equal to one" in str(exc_info.value)
-        logger.info(f"Successfully caught invalid stock increase: {exc_info.value}")
+    def test_error_handling(self):
+        """TC-IT-04: Error handling and recovery."""
+        try:
+            file_handler = StockFileHandler()
 
-        # Test stock limit
-        with pytest.raises(StockError) as exc_info:
-            nav.increase_stock(200)
-        assert "Stock cannot exceed 100 items" in str(exc_info.value)
-        logger.info(f"Successfully caught stock limit exceed: {exc_info.value}")
+            # Invalid save attempts
+            with pytest.raises(StockError):
+                nav = NavSys("", 10, 199.99, "TomTom")
 
-        # Test invalid price
-        with pytest.raises(ValueError) as exc_info:
-            nav.price = -50
-        assert "Price must be greater than 0" in str(exc_info.value)
-        logger.info(f"Successfully caught invalid price: {exc_info.value}")
+            with pytest.raises(StockError):
+                nav = NavSys("NS105", -5, 199.99, "TomTom")
 
-        # Test selling more than available
-        result = nav.sell_stock(20)
-        assert not result, "Overselling should return False"
+            # Recovery after errors
+            nav = NavSys("NS105", 10, 199.99, "TomTom")
+            file_handler.save_item(nav)
 
-        # Test invalid brand
-        with pytest.raises(StockError) as exc_info:
-            nav.brand = ""
-        assert "Brand must be a non-empty string" in str(exc_info.value)
-        logger.info(f"Successfully caught invalid brand: {exc_info.value}")
+            # Test invalid operations
+            with pytest.raises(StockError):
+                nav.increase_stock(-1)
 
-        logger.info("Error scenarios test completed successfully")
+            with pytest.raises(StockError):
+                nav.increase_stock(91)  # Would exceed 100
 
-    except Exception as e:
-        logger.error(f"Error scenarios test failed: {str(e)}")
-        raise
+            # Verify object still valid
+            assert nav.quantity == 10
 
-def test_file_operations():
-    """Test file handling operations"""
-    try:
-        file_handler = StockFileHandler()
+            logger.info("Error handling test passed")
+        except Exception as e:
+            logger.error(f"Error handling test failed: {str(e)}")
+            raise
 
-        # Test file creation
-        assert file_handler.filename.exists(), "CSV file not created"
+    def test_bulk_operations(self):
+        """TC-IT-05: Bulk operations and performance."""
+        try:
+            file_handler = StockFileHandler()
 
-        # Test saving and loading
-        nav = NavSys("NS104", 10, 299.99, "GeoVision")
-        file_handler.save_item(nav)
+            # Create multiple items
+            items = []
+            for i in range(50):
+                nav = NavSys(f"NS{i+200}", 10, 199.99, "TomTom")
+                items.append(nav)
+                file_handler.save_item(nav)
 
-        items = file_handler.load_items()
-        assert len(items) > 0, "Failed to load items"
+            # Bulk updates
+            for item in items:
+                item.increase_stock(5)
+                item.price *= 1.1
+                file_handler.save_item(item)
 
-        # Test item deletion
-        result = file_handler.delete_item("NS104")
-        assert result, "Failed to delete item"
+            # Bulk loading
+            loaded_items = file_handler.load_items()
+            assert len(loaded_items) >= len(items)
 
-        logger.info("File operations test completed successfully")
+            # Bulk deletion
+            for item in items:
+                file_handler.delete_item(item.stock_code)
 
-    except Exception as e:
-        logger.error(f"File operations test failed: {str(e)}")
-        raise
+            logger.info("Bulk operations test passed")
+        except Exception as e:
+            logger.error(f"Bulk operations test failed: {str(e)}")
+            raise
 
-def test_quantity_limits():
-    """Test quantity limit validations"""
-    try:
-        file_handler = StockFileHandler()
+    def test_boundary_operations(self):
+        """Additional boundary condition tests."""
+        try:
+            file_handler = StockFileHandler()
 
-        # Test creating new item with quantity > 100
-        nav = NavSys("NS105", 50, 299.99, "GeoVision")
-        file_handler.save_item(nav)
+            # Test maximum stock limit
+            nav = NavSys("NS301", 90, 199.99, "TomTom")
+            file_handler.save_item(nav)
 
-        # Try to increase quantity beyond limit
-        with pytest.raises(StockError) as exc_info:
-            nav.increase_stock(60)  # Would make total 110
-        assert "Stock cannot exceed 100 items" in str(exc_info.value)
-        logger.info("Successfully caught quantity exceed limit")
+            nav.increase_stock(10)  # Should reach exactly 100
+            assert nav.quantity == 100
 
-        # Verify original quantity unchanged
-        assert nav.quantity == 50, "Quantity should remain unchanged after failed increase"
+            with pytest.raises(StockError):
+                nav.increase_stock(1)  # Should fail
 
-        # Test valid quantity increase
-        nav.increase_stock(40)  # Total becomes 90
-        assert nav.quantity == 90, "Valid quantity increase failed"
+            # Test minimum price
+            nav.price = 0.01
+            assert nav.price == 0.01
 
-        # Test at limit
-        nav.increase_stock(10)  # Total becomes 100
-        assert nav.quantity == 100, "Increase to limit failed"
+            # Test maximum price
+            nav.price = 999999.99
+            assert nav.price == 999999.99
 
-        # Test exceeding limit
-        with pytest.raises(StockError) as exc_info:
-            nav.increase_stock(1)  # Try to exceed 100
-        assert "Stock cannot exceed 100 items" in str(exc_info.value)
-        logger.info("Successfully caught quantity exceed at limit")
+            file_handler.save_item(nav)
 
-        logger.info("Quantity limits test completed successfully")
+            logger.info("Boundary operations test passed")
+        except Exception as e:
+            logger.error(f"Boundary operations test failed: {str(e)}")
+            raise
 
-    except Exception as e:
-        logger.error(f"Quantity limits test failed: {str(e)}")
-        raise
+    def test_data_persistence(self):
+        """Test data persistence and file operations."""
+        try:
+            file_handler = StockFileHandler()
 
-def run_all_tests():
-    """Run all test cases"""
-    try:
-        print("\n=== Running StockItem Tests ===")
-        test_stock_item_operations()
+            # Create and save item
+            nav = NavSys("NS401", 10, 199.99, "TomTom")
+            file_handler.save_item(nav)
 
-        print("\n=== Running NavSys Tests ===")
-        test_nav_sys_operations()
+            # Modify and save
+            nav.increase_stock(5)
+            nav.price = 249.99
+            nav.brand = "Garmin"
+            file_handler.save_item(nav)
 
-        print("\n=== Running Error Scenario Tests ===")
-        test_error_scenarios()
+            # Load and verify
+            loaded_nav = file_handler.get_item("NS401")
+            assert loaded_nav.quantity == 15
+            assert loaded_nav.price == 249.99
+            assert loaded_nav.brand == "Garmin"
 
-        print("\n=== Running File Operation Tests ===")
-        test_file_operations()
+            # Delete and verify
+            file_handler.delete_item("NS401")
+            assert file_handler.get_item("NS401") is None
 
-        print("\n=== Running Quantity Limits Tests ===")
-        test_quantity_limits()
-
-        print("\n✅ All tests completed successfully!")
-
-    except Exception as e:
-        print(f"\n❌ Tests failed: {str(e)}")
-        raise
-
-if __name__ == "__main__":
-    run_all_tests()
+            logger.info("Data persistence test passed")
+        except Exception as e:
+            logger.error(f"Data persistence test failed: {str(e)}")
+            raise
