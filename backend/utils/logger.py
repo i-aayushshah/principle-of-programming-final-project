@@ -35,8 +35,8 @@ class LoggerSetup:
         # Clear any existing handlers
         logger.handlers.clear()
 
-        # Create file handler
-        file_handler = logging.FileHandler(log_file)
+        # Create file handler with UTF-8 encoding
+        file_handler = logging.FileHandler(log_file, encoding='utf-8')
         file_handler.setLevel(logging.INFO)
         file_format = logging.Formatter(
             '%(asctime)s - %(name)s - %(levelname)s - %(message)s',
@@ -45,8 +45,11 @@ class LoggerSetup:
         file_handler.setFormatter(file_format)
         logger.addHandler(file_handler)
 
-        # Create console handler
-        console_handler = logging.StreamHandler()
+        # Create console handler with UTF-8 encoding
+        import sys
+        console_handler = logging.StreamHandler(
+            stream=open(os.devnull, 'w') if not sys.stderr.encoding else sys.stderr
+        )
         console_handler.setLevel(logging.INFO)
         console_format = logging.Formatter(
             '%(levelname)s - %(message)s'

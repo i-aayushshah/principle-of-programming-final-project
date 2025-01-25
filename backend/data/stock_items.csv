@@ -1,9 +1,9 @@
 item_type,stock_code,quantity,price,brand
 NavSys,NS456,46,345.0,COW
-NavSys,NS789,20,100.0,GeoVision
+NavSys,NS789,34,456.0,TomTom
 NavSys,NS333,25,50.5,导航系统
 NavSys,NS101,15,219.98900000000003,TomTom
-NavSys,NS102,10,789.0,Garmin
+NavSys,NS102,20,329.98900000000003,Garmin
 NavSys,NS103,25,274.98900000000003,GeoVision
 NavSys,NS105,10,199.99,TomTom
 NavSys,NS301,100,999999.99,TomTom
